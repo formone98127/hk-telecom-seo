@@ -14,10 +14,13 @@ import { getCurrentMonthLabel, withBase } from '../../lib/utils';
 import { breadcrumbSchema, offerSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
-  const carrierPaths = mobileCarriers.map((c) => ({
-    params: { slug: c.slug },
-    props: { kind: 'carrier' as const, carrier: c, scenario: null },
-  }));
+  // 手機專頁以四大電訊商為主；HKBN 流動計劃仍會出現喺總表
+  const carrierPaths = mobileCarriers
+    .filter((c) => ['cmhk', '3hk', 'csl', 'smartone'].includes(c.id))
+    .map((c) => ({
+      params: { slug: c.slug },
+      props: { kind: 'carrier' as const, carrier: c, scenario: null },
+    }));
   const scenarioPaths = scenarios.map((s) => ({
     params: { slug: s.slug },
     props: { kind: 'scenario' as const, carrier: null, scenario: s },

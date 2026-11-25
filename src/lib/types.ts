@@ -1,4 +1,11 @@
-export type CarrierId = 'cmhk' | '3hk' | 'csl' | 'smartone' | 'hkbn' | 'netvigator';
+export type CarrierId =
+  | 'cmhk'
+  | '3hk'
+  | 'csl'
+  | 'smartone'
+  | 'hkbn'
+  | 'netvigator'
+  | 'hgc';
 
 export type NetworkType = '5G' | '4.5G' | '4G';
 

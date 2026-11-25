@@ -1,12 +1,19 @@
-## Weekly price research
+## Price data source (求Plan王)
 
-Every week, pull market reference prices from https://findplanking.com/ (求Plan王) and summarise into `data/weekly/YYYY-MM-DD.md`:
+Plan fees are based on https://findplanking.com/ (求Plan王) at **build time** via `src/lib/findplanking.ts`.
+
+Priority:
+1. Google Sheets CSV env vars (manual override)
+2. Live findplanking aggregation (default foundation)
+3. Tiny local fallback
+
+Weekly optional summary report:
 
 ```bash
 node scripts/summarize-findplanking.mjs
 ```
 
-Use the summary to refresh Google Sheets / mock plan fees. Do not copy sales listings verbatim — rewrite into our own plan rows.
+Do not copy sales listing copy verbatim — aggregate street prices into our own plan rows.
 
 ## Development
 

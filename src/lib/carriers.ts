@@ -5,13 +5,16 @@ export const mobileCarriers: CarrierMeta[] = [
   { id: '3hk', name: '3HK', shortName: '3HK', slug: '3hk' },
   { id: 'csl', name: 'csl.', shortName: 'csl.', slug: 'csl' },
   { id: 'smartone', name: 'SmarTone', shortName: 'SmarTone', slug: 'smartone' },
+  { id: 'hkbn', name: '香港寬頻 N-Mobile', shortName: 'HKBN', slug: 'hkbn' },
 ];
 
 export const broadbandCarriers: CarrierMeta[] = [
   { id: 'cmhk', name: '中國移動香港', shortName: 'CMHK', slug: 'cmhk' },
   { id: 'hkbn', name: '香港寬頻', shortName: 'HKBN', slug: 'hkbn' },
   { id: 'netvigator', name: '網上行', shortName: 'Netvigator', slug: 'netvigator' },
+  { id: 'hgc', name: 'HGC', shortName: 'HGC', slug: 'hgc' },
   { id: '3hk', name: '3HK 寬頻', shortName: '3HK', slug: '3hk' },
+  { id: 'smartone', name: 'SmarTone', shortName: 'SmarTone', slug: 'smartone' },
 ];
 
 export const scenarios: ScenarioMeta[] = [
@@ -49,4 +52,5 @@ export const carrierBadgeClass: Record<string, string> = {
   smartone: 'badge-smartone',
   hkbn: 'badge-hkbn',
   netvigator: 'badge-netvigator',
+  hgc: 'badge-hgc',
 };
