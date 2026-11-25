@@ -1,3 +1,13 @@
+## Weekly price research
+
+Every week, pull market reference prices from https://findplanking.com/ (求Plan王) and summarise into `data/weekly/YYYY-MM-DD.md`:
+
+```bash
+node scripts/summarize-findplanking.mjs
+```
+
+Use the summary to refresh Google Sheets / mock plan fees. Do not copy sales listings verbatim — rewrite into our own plan rows.
+
 ## Development
 
 When starting the dev server, use background mode:
