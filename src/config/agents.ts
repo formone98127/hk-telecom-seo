@@ -18,20 +18,20 @@ export const agents: Agent[] = [
   {
     id: 'main',
     name: '主線客服',
-    whatsapp: '85291234567',
-    weight: 80,
+    whatsapp: '85263300911',
+    weight: 100,
   },
   {
     id: 'ken',
     name: 'Ken',
-    whatsapp: '85291234568',
-    weight: 10,
+    whatsapp: '85263300911',
+    weight: 0,
   },
   {
     id: 'amy',
     name: 'Amy',
-    whatsapp: '85291234569',
-    weight: 10,
+    whatsapp: '85263300911',
+    weight: 0,
   },
 ];
 
