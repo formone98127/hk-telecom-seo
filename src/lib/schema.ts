@@ -1,6 +1,6 @@
 import { absoluteUrl } from './utils';
 
-const SITE = 'https://example.com';
+const SITE = 'https://formone98127.github.io/hk-telecom-seo';
 
 export function breadcrumbSchema(
   items: { name: string; path: string }[],

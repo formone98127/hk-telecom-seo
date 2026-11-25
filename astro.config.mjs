@@ -5,7 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://formone98127.github.io',
+  base: '/hk-telecom-seo',
   trailingSlash: 'always',
   vite: {
     plugins: [tailwindcss()],

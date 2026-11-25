@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import FaqSection from '../../components/FaqSection.astro';
-import { getCurrentMonthLabel } from '../../lib/utils';
+import { getCurrentMonthLabel, withBase } from '../../lib/utils';
 import { breadcrumbSchema, faqSchema } from '../../lib/schema';
 
 const monthLabel = getCurrentMonthLabel();
@@ -62,7 +62,7 @@ const steps = [
   <article>
     <header class="site-container pt-10 pb-8">
       <nav class="text-xs text-muted" aria-label="麵包屑">
-        <a href="/" class="hover:text-sea">首頁</a>
+        <a href={withBase('/')} class="hover:text-sea">首頁</a>
         <span class="mx-1.5">/</span>
         <span>攜號轉台教學</span>
       </nav>
@@ -135,7 +135,7 @@ const steps = [
         <h2 class="font-display text-xl font-bold text-ink">點樣揀更抵嘅新 Plan？</h2>
         <p class="mt-3">
           可以先睇本站
-          <a class="font-medium text-sea underline" href="/mobile-plan/">5G 月費總比較</a>
+          <a class="font-medium text-sea underline" href={withBase('/mobile-plan/')}>5G 月費總比較</a>
           ，特別係標記「編輯推介」嘅中國移動香港計劃，多數喺月費同大灣區數據之間較平衡。
         </p>
       </section>

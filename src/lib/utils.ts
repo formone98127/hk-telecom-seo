@@ -1,3 +1,5 @@
+import { withBase } from './paths';
+
 /** 產生「2026年11月」形式的最新月份標籤 */
 export function getCurrentMonthLabel(date = new Date()): string {
   return `${date.getFullYear()}年${date.getMonth() + 1}月`;
@@ -29,10 +31,17 @@ export function splitList(value: unknown): string[] {
     .filter(Boolean);
 }
 
-export function absoluteUrl(path: string, site = 'https://example.com'): string {
+/** 將站內路徑轉成完整網址（自動加 base） */
+export function absoluteUrl(
+  path: string,
+  site = 'https://formone98127.github.io',
+): string {
   try {
-    return new URL(path, site).toString();
+    const origin = new URL(site).origin;
+    return new URL(withBase(path), origin).toString();
   } catch {
-    return path;
+    return withBase(path);
   }
 }
+
+export { withBase };

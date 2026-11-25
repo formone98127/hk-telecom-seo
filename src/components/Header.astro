@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/paths';
+
 interface Props {
   monthLabel: string;
 }
@@ -7,16 +9,18 @@ const { monthLabel } = Astro.props;
 const path = Astro.url.pathname;
 
 const links = [
-  { href: '/mobile-plan/', label: '手機月費' },
-  { href: '/broadband/', label: '家居寬頻' },
-  { href: '/guides/mnp-transfer/', label: '攜號轉台' },
-  { href: '/share/', label: '推廣連結' },
+  { href: withBase('/mobile-plan/'), label: '手機月費' },
+  { href: withBase('/broadband/'), label: '家居寬頻' },
+  { href: withBase('/guides/mnp-transfer/'), label: '攜號轉台' },
+  { href: withBase('/share/'), label: '推廣連結' },
 ];
+
+const homeHref = withBase('/');
 ---
 
 <header class="sticky top-0 z-40 border-b border-line/80 bg-white/85 backdrop-blur-md">
   <div class="site-container flex h-14 items-center justify-between gap-4 sm:h-16">
-    <a href="/" class="group flex items-baseline gap-2 no-underline">
+    <a href={homeHref} class="group flex items-baseline gap-2 no-underline">
       <span class="font-display text-lg font-bold tracking-tight text-sea sm:text-xl">
         電訊格價通
       </span>

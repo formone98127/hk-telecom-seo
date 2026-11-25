@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PlanCard from '../../../components/PlanCard.astro';
 import CtaBanner from '../../../components/CtaBanner.astro';
 import { getBroadbandPlans, getEstates } from '../../../lib/sheets';
-import { getCurrentMonthLabel, splitList } from '../../../lib/utils';
+import { getCurrentMonthLabel, splitList, withBase } from '../../../lib/utils';
 import { breadcrumbSchema, offerSchema } from '../../../lib/schema';
 
 export async function getStaticPaths() {
@@ -62,9 +62,9 @@ const description =
 >
   <section class="site-container pt-10 pb-8">
     <nav class="text-xs text-muted" aria-label="麵包屑">
-      <a href="/" class="hover:text-sea">首頁</a>
+      <a href={withBase('/')} class="hover:text-sea">首頁</a>
       <span class="mx-1.5">/</span>
-      <a href="/broadband/" class="hover:text-sea">家居寬頻</a>
+      <a href={withBase('/broadband/')} class="hover:text-sea">家居寬頻</a>
       <span class="mx-1.5">/</span>
       <span>{estate.name}</span>
     </nav>

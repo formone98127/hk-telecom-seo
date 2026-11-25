@@ -6,7 +6,7 @@ import FaqSection from '../../components/FaqSection.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getBroadbandPlans, getEstates } from '../../lib/sheets';
 import { broadbandCarriers } from '../../lib/carriers';
-import { getCurrentMonthLabel } from '../../lib/utils';
+import { getCurrentMonthLabel, withBase } from '../../lib/utils';
 import { breadcrumbSchema, faqSchema, offerSchema } from '../../lib/schema';
 
 const monthLabel = getCurrentMonthLabel();
@@ -57,7 +57,7 @@ const schema = [
 >
   <section class="site-container pt-10 pb-6">
     <nav class="text-xs text-muted" aria-label="麵包屑">
-      <a href="/" class="hover:text-sea">首頁</a>
+      <a href={withBase('/')} class="hover:text-sea">首頁</a>
       <span class="mx-1.5">/</span>
       <span>家居寬頻</span>
     </nav>
@@ -83,7 +83,7 @@ const schema = [
         estates.map((e) => (
           <li>
             <a
-              href={`/broadband/estate/${e.slug}/`}
+              href={withBase(`/broadband/estate/${e.slug}/`)}
               class="block rounded-xl border border-line bg-white/90 px-4 py-4 transition hover:border-sea-bright"
             >
               <span class="font-semibold text-ink">{e.name}</span>

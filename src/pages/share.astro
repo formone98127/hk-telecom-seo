@@ -3,7 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { agents } from '../config/agents';
 import { breadcrumbSchema } from '../lib/schema';
 
-const site = Astro.site?.toString() || 'https://example.com';
+const site = Astro.site?.toString() || 'https://formone98127.github.io';
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 
 const pages = [
   { path: '/', label: '首頁' },
@@ -97,7 +98,7 @@ const schema = breadcrumbSchema(
   </section>
 </BaseLayout>
 
-<script define:vars={{ site }}>
+<script define:vars={{ site, basePath }}>
   const agentSelect = document.getElementById('agent-select');
   const pageSelect = document.getElementById('page-select');
   const urlInput = document.getElementById('share-url');
@@ -112,9 +113,10 @@ const schema = breadcrumbSchema(
       urlInput.value = '';
       return '';
     }
-    const base = String(site).replace(/\/$/, '');
+    const origin = String(site).replace(/\/$/, '');
     const path = page.startsWith('/') ? page : `/${page}`;
-    const url = `${base}${path}${path.includes('?') ? '&' : '?'}ref=${encodeURIComponent(agent)}`;
+    const fullPath = `${basePath}${path}`;
+    const url = `${origin}${fullPath}${fullPath.includes('?') ? '&' : '?'}ref=${encodeURIComponent(agent)}`;
     urlInput.value = url;
     const shareText = `睇下呢個香港電訊格價比較：${url}`;
     waShareBtn.href = `https://wa.me/?text=${encodeURIComponent(shareText)}`;

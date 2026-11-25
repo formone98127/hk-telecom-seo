@@ -6,7 +6,7 @@ import FaqSection from '../../components/FaqSection.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { getMobilePlans } from '../../lib/sheets';
 import { mobileCarriers, scenarios } from '../../lib/carriers';
-import { getCurrentMonthLabel } from '../../lib/utils';
+import { getCurrentMonthLabel, withBase } from '../../lib/utils';
 import { breadcrumbSchema, faqSchema, offerSchema } from '../../lib/schema';
 
 const monthLabel = getCurrentMonthLabel();
@@ -56,7 +56,7 @@ const schema = [
 >
   <section class="site-container pt-10 pb-6">
     <nav class="text-xs text-muted" aria-label="麵包屑">
-      <a href="/" class="hover:text-sea">首頁</a>
+      <a href={withBase('/')} class="hover:text-sea">首頁</a>
       <span class="mx-1.5">/</span>
       <span>手機月費</span>
     </nav>
@@ -69,14 +69,14 @@ const schema = [
     <div class="mt-5 flex flex-wrap gap-2">
       {
         mobileCarriers.map((c) => (
-          <a href={`/mobile-plan/${c.slug}/`} class="btn-ghost !py-2 text-sm">
+          <a href={withBase(`/mobile-plan/${c.slug}/`)} class="btn-ghost !py-2 text-sm">
             {c.shortName}
           </a>
         ))
       }
       {
         scenarios.map((s) => (
-          <a href={`/mobile-plan/${s.slug}/`} class="btn-ghost !py-2 text-sm">
+          <a href={withBase(`/mobile-plan/${s.slug}/`)} class="btn-ghost !py-2 text-sm">
             {s.name}
           </a>
         ))
