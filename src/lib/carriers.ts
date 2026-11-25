@@ -57,5 +57,21 @@ export const carrierBadgeClass: Record<string, string> = {
   cuniq: 'badge-csl',
   imobile: 'badge-3hk',
   icable: 'badge-hkbn',
-  other: 'bg-foam text-sea',
+  other: 'bg-slate-100 text-slate-600',
+};
+
+/** PlanCard 頂部 4px 品牌色條 */
+export const carrierBrandBarClass: Record<string, string> = {
+  cmhk: 'brand-bar-cmhk',
+  '3hk': 'brand-bar-3hk',
+  csl: 'brand-bar-csl',
+  smartone: 'brand-bar-smartone',
+  hkbn: 'brand-bar-hkbn',
+  netvigator: 'brand-bar-netvigator',
+  hgc: 'brand-bar-hgc',
+  gba: 'brand-bar-gba',
+  cuniq: 'brand-bar-csl',
+  imobile: 'brand-bar-3hk',
+  icable: 'brand-bar-hkbn',
+  other: 'brand-bar-other',
 };

@@ -1,4 +1,6 @@
 ---
+import { Plus } from '@lucide/astro';
+
 export interface FaqItem {
   question: string;
   answer: string;
@@ -14,20 +16,24 @@ const { title = '常見問題', items } = Astro.props;
 
 <section class="section-pad" aria-labelledby="faq-heading">
   <div class="site-container max-w-3xl">
-    <h2 id="faq-heading" class="font-display text-2xl font-bold text-ink sm:text-3xl">
+    <h2 id="faq-heading" class="font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
       {title}
     </h2>
-    <div class="mt-6 divide-y divide-line rounded-2xl border border-line bg-white/90">
+    <div class="prose prose-slate mt-6 max-w-none divide-y divide-slate-200/80 rounded-2xl border border-slate-200/80 bg-white shadow-sm">
       {
         items.map((item) => (
-          <details class="group px-4 py-3 sm:px-5">
-            <summary class="cursor-pointer list-none font-semibold text-ink marker:content-none">
+          <details class="group px-4 py-3.5 sm:px-5">
+            <summary class="cursor-pointer list-none font-semibold text-slate-900 marker:content-none">
               <span class="flex items-center justify-between gap-3">
-                {item.question}
-                <span class="text-sea transition group-open:rotate-45" aria-hidden="true">+</span>
+                <span>{item.question}</span>
+                <Plus
+                  class="h-4 w-4 shrink-0 text-blue-600 transition group-open:rotate-45"
+                  stroke-width={2}
+                  aria-hidden="true"
+                />
               </span>
             </summary>
-            <p class="mt-2 pb-2 text-sm leading-relaxed text-ink-soft">{item.answer}</p>
+            <p class="mt-2 pb-1 text-sm leading-relaxed text-slate-600 not-prose">{item.answer}</p>
           </details>
         ))
       }

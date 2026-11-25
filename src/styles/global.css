@@ -1,22 +1,24 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
-  --font-sans: "Noto Sans TC", "Segoe UI", sans-serif;
-  --font-display: "Sora", "Noto Sans TC", sans-serif;
+  --font-sans: "Noto Sans TC", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
 
-  --color-ink: #071926;
-  --color-ink-soft: #1a3344;
-  --color-sea: #0a4d68;
-  --color-sea-bright: #0e7490;
-  --color-foam: #e8f4f8;
-  --color-mist: #f3f8fa;
-  --color-sand: #f7fafc;
-  --color-coral: #e85d04;
-  --color-coral-dark: #c44d03;
-  --color-wa: #1fa855;
-  --color-wa-dark: #18964a;
-  --color-line: #d5e3ea;
-  --color-muted: #5a7383;
+  /* Fintech Clean tokens（兼容現有 class 名） */
+  --color-ink: #0f172a; /* slate-900 */
+  --color-ink-soft: #334155; /* slate-700 */
+  --color-sea: #0f172a;
+  --color-sea-bright: #2563eb; /* blue-600 */
+  --color-foam: #eff6ff; /* blue-50 */
+  --color-mist: #f8fafc; /* slate-50 */
+  --color-sand: #ffffff;
+  --color-coral: #2563eb;
+  --color-coral-dark: #1d4ed8;
+  --color-wa: #059669; /* emerald-600 */
+  --color-wa-dark: #047857; /* emerald-700 */
+  --color-line: #e2e8f0; /* slate-200 */
+  --color-muted: #64748b; /* slate-500 */
 }
 
 @layer base {
@@ -25,17 +27,21 @@
   }
 
   body {
-    @apply bg-mist text-ink font-sans antialiased;
-    background-image:
-      radial-gradient(ellipse 120% 80% at 10% -10%, rgba(14, 116, 144, 0.12), transparent 50%),
-      radial-gradient(ellipse 80% 60% at 100% 0%, rgba(232, 93, 4, 0.06), transparent 45%),
-      linear-gradient(180deg, #f3f8fa 0%, #eef5f8 40%, #f7fafc 100%);
-    background-attachment: fixed;
+    @apply bg-slate-50 font-sans text-slate-900 antialiased;
     min-height: 100dvh;
   }
 
+  /* 全站數字等寬對齊 */
+  .tabular-nums,
+  .font-display,
+  [data-price],
+  .plan-card .text-2xl,
+  td.font-bold {
+    font-variant-numeric: tabular-nums;
+  }
+
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-sea-bright;
+    @apply outline-2 outline-offset-2 outline-blue-600;
   }
 }
 
@@ -49,45 +55,78 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-coral px-5 py-3 text-sm font-semibold text-white transition hover:bg-coral-dark active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-blue-700 hover:shadow-md active:scale-[0.98];
   }
 
   .btn-wa {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-wa px-5 py-3 text-sm font-semibold text-white transition hover:bg-wa-dark active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md active:scale-[0.98];
   }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-white/70 px-5 py-3 text-sm font-semibold text-sea transition hover:border-sea-bright hover:bg-white;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200/80 bg-white px-5 py-3 text-sm font-semibold text-slate-900 shadow-sm transition-all hover:border-slate-300 hover:bg-slate-50 hover:shadow-md;
+  }
+
+  .bento-card {
+    @apply rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm transition-all hover:shadow-md;
   }
 
   .badge-cmhk {
-    @apply bg-[#e6f7ef] text-[#0b6b45];
+    @apply bg-blue-50 text-blue-700;
   }
   .badge-3hk {
-    @apply bg-[#fce8e6] text-[#b42318];
+    @apply bg-emerald-50 text-emerald-700;
   }
   .badge-csl {
-    @apply bg-[#eef0ff] text-[#3b3fc4];
+    @apply bg-orange-50 text-orange-700;
   }
   .badge-smartone {
-    @apply bg-[#fff3e0] text-[#b54708];
+    @apply bg-red-50 text-red-700;
   }
   .badge-hkbn {
-    @apply bg-[#e8f1ff] text-[#175cd3];
+    @apply bg-violet-50 text-violet-700;
   }
   .badge-netvigator {
-    @apply bg-[#f3e8ff] text-[#6941c6];
+    @apply bg-indigo-50 text-indigo-700;
   }
   .badge-hgc {
-    @apply bg-[#e8f8f5] text-[#0f766e];
+    @apply bg-teal-50 text-teal-700;
+  }
+
+  /* 電訊商品牌頂色條 */
+  .brand-bar-cmhk {
+    @apply bg-blue-600;
+  }
+  .brand-bar-3hk {
+    @apply bg-emerald-600;
+  }
+  .brand-bar-csl {
+    @apply bg-orange-500;
+  }
+  .brand-bar-smartone {
+    @apply bg-red-600;
+  }
+  .brand-bar-hkbn {
+    @apply bg-violet-600;
+  }
+  .brand-bar-netvigator {
+    @apply bg-indigo-600;
+  }
+  .brand-bar-hgc {
+    @apply bg-teal-600;
+  }
+  .brand-bar-gba {
+    @apply bg-blue-500;
+  }
+  .brand-bar-other {
+    @apply bg-slate-400;
   }
 
   .plan-card {
-    @apply relative flex flex-col rounded-2xl border border-line bg-white/90 p-4 shadow-[0_8px_30px_rgba(7,25,38,0.04)] backdrop-blur-sm transition hover:-translate-y-0.5 hover:shadow-[0_12px_36px_rgba(7,25,38,0.08)] sm:p-5;
+    @apply relative flex flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-4 pt-5 shadow-sm transition-all hover:shadow-md sm:p-5 sm:pt-6;
   }
 
   .plan-card.is-recommended {
-    @apply border-sea-bright/40 ring-1 ring-sea-bright/20;
+    @apply border-blue-200 ring-2 ring-blue-500/30;
   }
 
   .sticky-col {
@@ -95,7 +134,7 @@
     left: 0;
     z-index: 2;
     background: white;
-    box-shadow: 4px 0 12px -8px rgba(7, 25, 38, 0.35);
+    box-shadow: 4px 0 12px -8px rgba(15, 23, 42, 0.25);
   }
 
   .compare-scroll {
@@ -104,22 +143,26 @@
   }
 
   .fade-up {
-    animation: fadeUp 0.6s ease both;
+    animation: fadeUp 0.55s ease both;
   }
 
   .fade-up-delay-1 {
-    animation: fadeUp 0.6s ease 0.1s both;
+    animation: fadeUp 0.55s ease 0.08s both;
   }
 
   .fade-up-delay-2 {
-    animation: fadeUp 0.6s ease 0.2s both;
+    animation: fadeUp 0.55s ease 0.16s both;
+  }
+
+  .prose-guide {
+    @apply prose prose-slate max-w-none prose-headings:font-display prose-headings:tracking-tight prose-a:text-blue-600 prose-strong:text-slate-900;
   }
 }
 
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
