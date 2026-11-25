@@ -1,28 +1,85 @@
 ---
+import { withBase } from '../lib/paths';
+
 interface Props {
   mode?: 'mobile' | 'broadband';
   carriers: { id: string; name: string }[];
+  /** 預先揀好電訊商（例如由品牌專頁帶入） */
+  initialCarrier?: string;
+  /** 預先揀好場景 */
+  initialScenario?: string;
+  /** 預先揀好物業類型 */
+  initialHousing?: string;
+  /** 鎖死電訊商（專頁已選定，唔使再揀） */
+  lockCarrier?: boolean;
+  /** 鎖死場景 */
+  lockScenario?: boolean;
 }
 
-const { mode = 'mobile', carriers } = Astro.props;
+const {
+  mode = 'mobile',
+  carriers,
+  initialCarrier = '',
+  initialScenario = '',
+  initialHousing = '',
+  lockCarrier = false,
+  lockScenario = false,
+} = Astro.props;
+
+const lockedCarrierName =
+  lockCarrier && initialCarrier
+    ? carriers.find((c) => c.id === initialCarrier)?.name || initialCarrier
+    : '';
+
+const browseAllHref =
+  mode === 'mobile' ? withBase('/mobile-plan/') : withBase('/broadband/');
 ---
 
 <section
   class="rounded-2xl border border-line bg-white/90 p-4 shadow-sm sm:p-5"
   data-plan-filter={mode}
+  data-initial-carrier={initialCarrier}
+  data-initial-scenario={initialScenario}
+  data-initial-housing={initialHousing}
+  data-lock-carrier={lockCarrier ? '1' : '0'}
+  data-lock-scenario={lockScenario ? '1' : '0'}
   aria-label="計劃篩選"
 >
+  {
+    lockedCarrierName && (
+      <p class="mb-3 text-sm text-ink-soft">
+        已選擇：<span class="font-semibold text-sea">{lockedCarrierName}</span>
+        <a href={browseAllHref} class="ml-2 text-sea underline">
+          改睇其他電訊商
+        </a>
+      </p>
+    )
+  }
+
   <div class="flex flex-wrap items-end gap-4">
-    <label class="flex min-w-[140px] flex-1 flex-col gap-1.5 text-sm">
-      <span class="font-medium text-ink-soft">電訊商</span>
-      <select
-        data-filter="carrier"
-        class="rounded-lg border border-line bg-white px-3 py-2.5 text-sm"
-      >
-        <option value="">全部</option>
-        {carriers.map((c) => <option value={c.id}>{c.name}</option>)}
-      </select>
-    </label>
+    {
+      !lockCarrier && (
+        <label class="flex min-w-[140px] flex-1 flex-col gap-1.5 text-sm">
+          <span class="font-medium text-ink-soft">電訊商</span>
+          <select
+            data-filter="carrier"
+            class="rounded-lg border border-line bg-white px-3 py-2.5 text-sm"
+          >
+            <option value="">全部</option>
+            {carriers.map((c) => (
+              <option value={c.id} selected={c.id === initialCarrier}>
+                {c.name}
+              </option>
+            ))}
+          </select>
+        </label>
+      )
+    }
+    {
+      lockCarrier && (
+        <input type="hidden" data-filter="carrier" value={initialCarrier} />
+      )
+    }
 
     <label class="flex min-w-[140px] flex-1 flex-col gap-1.5 text-sm">
       <span class="font-medium text-ink-soft">月費預算</span>
@@ -37,18 +94,28 @@ const { mode = 'mobile', carriers } = Astro.props;
 
     {
       mode === 'mobile' ? (
-        <label class="flex min-w-[140px] flex-1 flex-col gap-1.5 text-sm">
-          <span class="font-medium text-ink-soft">場景</span>
-          <select
-            data-filter="scenario"
-            class="rounded-lg border border-line bg-white px-3 py-2.5 text-sm"
-          >
-            <option value="">全部場景</option>
-            <option value="gba">大灣區／一卡兩號</option>
-            <option value="student">學生 Plan</option>
-            <option value="cheap4g">平價 4.5G</option>
-          </select>
-        </label>
+        !lockScenario ? (
+          <label class="flex min-w-[140px] flex-1 flex-col gap-1.5 text-sm">
+            <span class="font-medium text-ink-soft">場景</span>
+            <select
+              data-filter="scenario"
+              class="rounded-lg border border-line bg-white px-3 py-2.5 text-sm"
+            >
+              <option value="">全部場景</option>
+              <option value="gba" selected={initialScenario === 'gba'}>
+                大灣區／一卡兩號
+              </option>
+              <option value="student" selected={initialScenario === 'student'}>
+                學生 Plan
+              </option>
+              <option value="cheap4g" selected={initialScenario === 'cheap4g'}>
+                平價 4.5G
+              </option>
+            </select>
+          </label>
+        ) : (
+          <input type="hidden" data-filter="scenario" value={initialScenario} />
+        )
       ) : (
         <label class="flex min-w-[140px] flex-1 flex-col gap-1.5 text-sm">
           <span class="font-medium text-ink-soft">物業類型</span>
@@ -57,9 +124,15 @@ const { mode = 'mobile', carriers } = Astro.props;
             class="rounded-lg border border-line bg-white px-3 py-2.5 text-sm"
           >
             <option value="">全部</option>
-            <option value="公屋">公屋</option>
-            <option value="居屋">居屋</option>
-            <option value="私樓">私樓</option>
+            <option value="公屋" selected={initialHousing === '公屋'}>
+              公屋
+            </option>
+            <option value="居屋" selected={initialHousing === '居屋'}>
+              居屋
+            </option>
+            <option value="私樓" selected={initialHousing === '私樓'}>
+              私樓
+            </option>
           </select>
         </label>
       )
@@ -77,21 +150,58 @@ const { mode = 'mobile', carriers } = Astro.props;
 <script>
   function initFilters() {
     document.querySelectorAll<HTMLElement>('[data-plan-filter]').forEach((root) => {
+      if (root.dataset.filterReady === '1') return;
+      root.dataset.filterReady = '1';
+
       const mode = root.getAttribute('data-plan-filter');
-      const scope =
-        root.closest('section')?.parentElement ?? document;
+      const lockCarrier = root.dataset.lockCarrier === '1';
+      const lockScenario = root.dataset.lockScenario === '1';
+      const scope = root.closest('section')?.parentElement ?? document;
       const cards = () =>
         Array.from(scope.querySelectorAll<HTMLElement>('.plan-card, tr[data-carrier]'));
       const countEl = root.querySelector('[data-filter-count]');
 
-      const apply = () => {
-        const carrier = (root.querySelector('[data-filter="carrier"]') as HTMLSelectElement)?.value;
-        const budget = (root.querySelector('[data-filter="budget"]') as HTMLSelectElement)?.value;
-        const scenario = (root.querySelector('[data-filter="scenario"]') as HTMLSelectElement)
-          ?.value;
-        const housing = (root.querySelector('[data-filter="housing"]') as HTMLSelectElement)?.value;
+      const carrierEl = root.querySelector('[data-filter="carrier"]') as
+        | HTMLSelectElement
+        | HTMLInputElement
+        | null;
+      const scenarioEl = root.querySelector('[data-filter="scenario"]') as
+        | HTMLSelectElement
+        | HTMLInputElement
+        | null;
+      const housingEl = root.querySelector('[data-filter="housing"]') as HTMLSelectElement | null;
+      const budgetEl = root.querySelector('[data-filter="budget"]') as HTMLSelectElement | null;
 
-        let visible = 0;
+      // URL ?carrier= / ?scenario= / ?housing= 優先（總比較頁用）
+      const params = new URLSearchParams(window.location.search);
+      const urlCarrier = params.get('carrier')?.trim() || '';
+      const urlScenario = params.get('scenario')?.trim() || '';
+      const urlHousing = params.get('housing')?.trim() || '';
+      const urlBudget = params.get('budget')?.trim() || '';
+
+      if (carrierEl && !lockCarrier) {
+        const fromData = root.dataset.initialCarrier || '';
+        const next = urlCarrier || fromData;
+        if (next) carrierEl.value = next;
+      }
+      if (scenarioEl && !lockScenario) {
+        const fromData = root.dataset.initialScenario || '';
+        const next = urlScenario || fromData;
+        if (next) scenarioEl.value = next;
+      }
+      if (housingEl) {
+        const fromData = root.dataset.initialHousing || '';
+        const next = urlHousing || fromData;
+        if (next) housingEl.value = next;
+      }
+      if (budgetEl && urlBudget) budgetEl.value = urlBudget;
+
+      const apply = () => {
+        const carrier = carrierEl?.value || '';
+        const budget = budgetEl?.value || '';
+        const scenario = scenarioEl?.value || '';
+        const housing = housingEl?.value || '';
+
         cards().forEach((el) => {
           const fee = Number(el.dataset.fee || 0);
           const elCarrier = el.dataset.carrier || '';
@@ -116,21 +226,23 @@ const { mode = 'mobile', carriers } = Astro.props;
           }
 
           el.style.display = ok ? '' : 'none';
-          if (ok && el.classList.contains('plan-card')) visible += 1;
         });
 
-        // Count only plan cards for the counter (table rows mirror cards)
         const cardVisible = cards().filter(
           (el) => el.classList.contains('plan-card') && el.style.display !== 'none',
         ).length;
-        if (countEl) countEl.textContent = String(cardVisible || visible);
+        if (countEl) countEl.textContent = String(cardVisible);
       };
 
       root.querySelectorAll('select').forEach((sel) => sel.addEventListener('change', apply));
       root.querySelector('[data-filter-reset]')?.addEventListener('click', () => {
         root.querySelectorAll('select').forEach((sel) => {
-          (sel as HTMLSelectElement).value = '';
+          const s = sel as HTMLSelectElement;
+          if (lockCarrier && s.dataset.filter === 'carrier') return;
+          if (lockScenario && s.dataset.filter === 'scenario') return;
+          s.value = '';
         });
+        // 鎖死嘅 hidden input 保持
         apply();
       });
 

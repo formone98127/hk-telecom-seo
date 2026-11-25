@@ -73,6 +73,26 @@ const schema = [
           <a href={withBase('/mobile-plan/')} class="btn-primary">比較 5G 月費</a>
           <a href={withBase('/broadband/')} class="btn-ghost">比較家居寬頻</a>
         </div>
+        <div class="mt-4 flex flex-wrap gap-2">
+          <a
+            href={`${withBase('/mobile-plan/')}?carrier=cmhk`}
+            class="btn-ghost !py-2 text-sm"
+          >
+            中國移動香港
+          </a>
+          <a href={`${withBase('/mobile-plan/')}?carrier=3hk`} class="btn-ghost !py-2 text-sm">
+            3HK
+          </a>
+          <a href={`${withBase('/mobile-plan/')}?carrier=csl`} class="btn-ghost !py-2 text-sm">
+            csl.
+          </a>
+          <a
+            href={`${withBase('/mobile-plan/')}?carrier=smartone`}
+            class="btn-ghost !py-2 text-sm"
+          >
+            SmarTone
+          </a>
+        </div>
       </div>
       <div class="fade-up-delay-1 relative min-h-[220px] sm:min-h-[320px]" aria-hidden="true">
         <svg

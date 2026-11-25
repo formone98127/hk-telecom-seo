@@ -110,11 +110,21 @@ const schema = [
   <section class="site-container pb-4">
     <PlanFilter
       mode="mobile"
-      carriers={
-        kind === 'carrier' && carrier
-          ? [{ id: carrier.id, name: carrier.name }]
-          : mobileCarriers
+      carriers={mobileCarriers}
+      initialCarrier={kind === 'carrier' && carrier ? carrier.id : ''}
+      initialScenario={
+        kind === 'scenario' && scenario
+          ? scenario.id === 'gba-roaming'
+            ? 'gba'
+            : scenario.id === 'student'
+              ? 'student'
+              : scenario.id === 'cheap-4g'
+                ? 'cheap4g'
+                : ''
+          : ''
       }
+      lockCarrier={kind === 'carrier'}
+      lockScenario={kind === 'scenario'}
     />
   </section>
 

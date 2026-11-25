@@ -70,17 +70,28 @@ const schema = [
     <div class="mt-5 flex flex-wrap gap-2">
       {
         mobileCarriers.map((c) => (
-          <a href={withBase(`/mobile-plan/${c.slug}/`)} class="btn-ghost !py-2 text-sm">
+          <a
+            href={`${withBase('/mobile-plan/')}?carrier=${c.id}`}
+            class="btn-ghost !py-2 text-sm"
+            data-quick-carrier={c.id}
+          >
             {c.shortName}
           </a>
         ))
       }
       {
-        scenarios.map((s) => (
-          <a href={withBase(`/mobile-plan/${s.slug}/`)} class="btn-ghost !py-2 text-sm">
-            {s.name}
-          </a>
-        ))
+        scenarios.map((s) => {
+          const scenarioKey =
+            s.id === 'gba-roaming' ? 'gba' : s.id === 'student' ? 'student' : 'cheap4g';
+          return (
+            <a
+              href={`${withBase('/mobile-plan/')}?scenario=${scenarioKey}`}
+              class="btn-ghost !py-2 text-sm"
+            >
+              {s.name}
+            </a>
+          );
+        })
       }
     </div>
   </section>
