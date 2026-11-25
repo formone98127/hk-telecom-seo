@@ -7,7 +7,15 @@ Priority:
 2. Live findplanking aggregation (default foundation)
 3. Tiny local fallback
 
-Weekly optional summary report:
+### Monthly auto-update
+
+GitHub Actions (`.github/workflows/deploy.yml`) runs on the **1st of each month** (`cron: 0 2 1 * *`, ~10:00 HKT):
+
+1. Rebuilds the site (fresh findplanking prices + current month labels)
+2. Saves a snapshot under `data/weekly/`
+3. Redeploys to GitHub Pages
+
+Manual run: GitHub → Actions → Deploy to GitHub Pages → Run workflow
 
 ```bash
 node scripts/summarize-findplanking.mjs

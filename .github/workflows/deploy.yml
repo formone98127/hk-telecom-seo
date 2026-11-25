@@ -3,10 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [master]
+  # 每月 1 號香港時間約早上 10 點自動更新價錢同內容
+  schedule:
+    - cron: '0 2 1 * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,10 +24,40 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
 
-      - name: Install, build, and upload your site
-        uses: withastro/action@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Build 時會即時抓求Plan王市況，並更新標題月份標籤
+      - name: Build site
+        run: npm run build
+
+      - name: Save monthly price snapshot
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node scripts/summarize-findplanking.mjs
+
+      - name: Commit price snapshot
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/weekly || true
+          if git diff --staged --quiet; then
+            echo "No snapshot changes"
+          else
+            git commit -m "chore: monthly price snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
   deploy:
     needs: build
