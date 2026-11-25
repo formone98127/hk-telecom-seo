@@ -1,4 +1,5 @@
 import Papa from 'papaparse';
+import cmhkCuratedJson from '../../data/cmhk/mobile-plans.json';
 import type { BroadbandPlan, Estate, MobilePlan } from './types';
 import { parseBool, parseNumber } from './utils';
 import {
@@ -139,6 +140,14 @@ const FALLBACK_ESTATES: Estate[] = [
   },
 ];
 
+/* -------------------------------------------------------------------------- */
+/* 中國移動人手維護清單（data/cmhk/mobile-plans.json）                        */
+/* -------------------------------------------------------------------------- */
+
+function loadCmhkCuratedPlans(): MobilePlan[] {
+  return (cmhkCuratedJson as unknown as MobilePlan[]).filter((p) => p?.id && p?.planName);
+}
+
 function mapMobileRow(row: Record<string, unknown>): MobilePlan {
   return {
     id: String(row.id ?? ''),
@@ -211,21 +220,30 @@ function sortBroadband(items: BroadbandPlan[]): BroadbandPlan[] {
  * 1) Google Sheets CSV（人手覆寫）
  * 2) 求Plan王即時市況（計劃內容基礎）
  * 3) 本地兜底
+ * 4) data/cmhk/mobile-plans.json —— 中國移動人手維護清單，永遠覆蓋 CMHK 手機計劃
  */
 export async function getMobilePlans(): Promise<MobilePlan[]> {
   const rows = await fetchSheetData<Record<string, unknown>>(
     import.meta.env.MOBILE_PLANS_CSV_URL,
   );
+  let base: MobilePlan[];
   if (rows?.length) {
-    return sortMobile(rows.map(mapMobileRow).filter((p) => p.id && p.planName));
+    base = rows.map(mapMobileRow).filter((p) => p.id && p.planName);
+  } else {
+    try {
+      base = await getFindplankingMobilePlans();
+    } catch (err) {
+      console.warn('[sheets] findplanking mobile failed, using fallback:', err);
+      base = FALLBACK_MOBILE;
+    }
   }
 
-  try {
-    return sortMobile(await getFindplankingMobilePlans());
-  } catch (err) {
-    console.warn('[sheets] findplanking mobile failed, using fallback:', err);
-    return FALLBACK_MOBILE;
+  const curated = loadCmhkCuratedPlans();
+  if (curated.length) {
+    // 中國移動以人手維護清單為準，其他台沿用原有資料
+    return sortMobile([...curated, ...base.filter((p) => p.carrier !== 'cmhk')]);
   }
+  return sortMobile(base);
 }
 
 export async function getBroadbandPlans(): Promise<BroadbandPlan[]> {
