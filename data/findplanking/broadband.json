@@ -1,219 +1,15 @@
 {
-  "fetchedAt": "2026-11-25T06:52:58.362Z",
+  "fetchedAt": "2026-11-25T06:55:34.731Z",
   "source": "https://findplanking.com/broadband",
   "count": 98,
   "data": [
     {
-      "planId": "1416",
+      "planId": "1977",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_139-04.png",
+      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-3.jpg",
       "intros": [
-        "📣$62 1000M $98 2x1000M全港同價🌟",
-        "私樓|公居屋|村屋|單棟樓",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": 79
-        },
-        "fiveG": {
-          "price": 78
-        }
-      },
-      "pos": 3,
-      "provider": "hkbn",
-      "sales": {
-        "broadband": {
-          "planId": "1416"
-        },
-        "email": "ming90_11@hotmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1417"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "57612407",
-        "salesId": "3BIXdz58DfaZnYjd1ehsq9B4Wts1",
-        "telegram": "https://t.me/HKBN_Solutions",
-        "whatsapp": "57612407"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "11月25日｜香港寬頻🛜報價🚀 ",
-      "type": "sales",
-      "updatedAt": "2026-11-24T18:54:23.274Z"
-    },
-    {
-      "planId": "1134",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1134-01.jpeg",
-      "intros": [
-        "限量快閃❣️公屋 居屋 1000M $75",
-        "2500M⏳$139 送WiFi7 Router",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 75
-        },
-        "mb100": {
-          "price": 69
-        },
-        "fiveG": {
-          "price": 138
-        }
-      },
-      "pos": 3,
-      "provider": "hgc",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "11月25日🎖️HGC 月費$75 1000M",
-      "type": "sales",
-      "updatedAt": "2026-11-24T23:46:58.764Z",
-      "sales": {
-        "broadband": {
-          "planId": "1134"
-        },
-        "email": "Jon5320@icloud.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1991"
-        },
-        "businessBroadband": {
-          "planId": "1990"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "69292190",
-        "salesId": "I1XlDuUyCfZJWbh2ra4vEgkQVMx2",
-        "telegram": "https://t.me/HGC01",
-        "whatsapp": "69292190"
-      }
-    },
-    {
-      "planId": "-NEifN_wvC3kVXlc35aL",
-      "image": "https://images.findplanking.com/poster/sales_251-01-a.jpg",
-      "intros": [
-        "網上行光纖1000mb快閃價$108",
-        "💥💓 Netvigator 最新5G家居寛頻💓💥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 3,
-      "provider": "netvigator",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "Hkt 網上行 雙11快閃優惠",
-      "updatedAt": "2026-11-04T17:49:24.158Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "salesId": "hGoAc9jpp6YdWxVOMuLCPoC2qL33",
-        "broadband": {
-          "planId": "-NEifN_wvC3kVXlc35aL"
-        },
-        "mobile": {
-          "planId": "-N9VHglHERil0vXv_WWr"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "Adenwong8998@gmail.com",
-        "isVerified": true,
-        "whatsapp": "66535019",
-        "telegram": "https://t.me/cslAdenWong",
-        "phone": "66535019"
-      }
-    },
-    {
-      "planId": "1575",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_161-02-b.jpeg",
-      "intros": [
-        "🔥家居寬頻 / 5G無線寬頻🔥",
-        "🔥限時送myTV SUPER🔥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 3,
-      "provider": "cmhk",
-      "sales": {
-        "salesId": "cdDL4dxV2aVtiRgBKTuZ2CGQ7cS2",
-        "broadband": {
-          "planId": "1575"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "cmhk.dlin@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1855"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "22117125",
-        "telegram": "https://t.me/findplanking",
-        "whatsapp": "51258888"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔥中國移動2026最新優惠 🔥",
-      "type": "sales",
-      "updatedAt": "2026-11-25T05:00:05.981Z"
-    },
-    {
-      "planId": "1976",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-1.jpg",
-      "intros": [
-        "1️⃣內有詳盡計劃✨2️⃣協助解決技術疑難",
-        "3️⃣多元化電訊組合💫4️⃣速度高達10Gbps",
+        "1000M  $108💁🏻‍♂️ 送✨多項增值服務",
+        "2500M 低至$148 🎁 搵我即刻送禮品",
         null
       ],
       "networks": {
@@ -230,14 +26,14 @@
       "pos": 3,
       "provider": "netvigator",
       "sales": {
-        "salesId": "t30MK0BpHiVToV4tvJg8FBq7mPv2",
+        "salesId": "v4DKzWqa0NfMdDwoQYFmOZOsqir1",
         "broadband": {
-          "planId": "1976"
+          "planId": "1977"
         },
         "businessBroadband": {
           "planId": null
         },
-        "email": "jonccf1311@gmail.com",
+        "email": "jonho111000@gmail.com",
         "isVerified": true,
         "mobile": {
           "planId": null
@@ -246,619 +42,7 @@
           "planId": null
         },
         "phone": "53209271",
-        "telegram": "https://t.me/0000000",
-        "whatsapp": "53209271"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "11月25🔓解鎖【網上行】終極優惠💁🏻‍♂️月費低至$108",
-      "type": "sales",
-      "updatedAt": "2026-11-24T23:51:13.058Z"
-    },
-    {
-      "planId": "1955",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1955-02.jpeg",
-      "intros": [
-        "2500M 🏎️公居屋$148 / 私樓$168",
-        "另有Now TV / CSL / 家居電話組合",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 3,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "xBKsyzHCadaY3ExObw3pxFrwxWF3",
-        "broadband": {
-          "planId": "1955"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "asachan20060101@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "00000000",
-        "telegram": "https://t.me/000000",
-        "whatsapp": "96556900"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "11月25⭐️HKT網上行 『唔洗$108』",
-      "type": "sales",
-      "updatedAt": "2026-11-24T23:41:20.035Z"
-    },
-    {
-      "planId": "-MbFA78Cn9ifngx9NVSA",
-      "image": "https://images.findplanking.com/poster/plan_MbFA-01.jpeg",
-      "intros": [
-        "1000M光纖｜$89❕2500M光纖｜$130",
-        "歡迎查詢 🎁優惠最多 🤑",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 99
-        },
-        "mb100": {
-          "price": 79
-        },
-        "fiveG": {
-          "price": 78
-        }
-      },
-      "pos": 3,
-      "provider": "hkbn",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "香港寬頻 11月份 精選計劃🔥",
-      "updatedAt": "2026-11-01T03:33:16.447Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "salesId": "Q0HtDOkKysOLn9cz23lakgyebCz1",
-        "broadband": {
-          "planId": "-MbFA78Cn9ifngx9NVSA"
-        },
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "aklolo6531@gmail.com",
-        "isVerified": true,
-        "whatsapp": "57111157",
-        "telegram": "https://t.me/hkbn_sales",
-        "phone": "57111157"
-      }
-    },
-    {
-      "planId": "1932",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1932-02.jpeg",
-      "intros": [
-        "1000M 月費$108 ⏳今日再減月費",
-        "送  📺Now App ☎️電話線",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 3,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1932"
-        },
-        "email": "jonchong1028@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "00000000",
-        "salesId": "kWwYmtybxmTQL9RvO4H6HSevAPh2",
         "telegram": "https://t.me/00000000",
-        "whatsapp": "96556900"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "11月25⚡️網上行Netvigator光纖入屋寬頻",
-      "type": "sales",
-      "updatedAt": "2026-11-24T23:43:38.798Z"
-    },
-    {
-      "planId": "1161",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_176-41.png",
-      "intros": [
-        "🛜5G寬頻$88任用🤩$138真無限包Wi-Fi 6 Router",
-        "🚀$168真無限🎁送Wi-Fi 7 Router",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 75
-        },
-        "mb100": {
-          "price": 69
-        },
-        "fiveG": {
-          "price": 88
-        }
-      },
-      "pos": 3,
-      "provider": "3hk",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "3HK寬頻優惠🛜5G寬頻$88任用👍5G $88 60GB+4GB中澳數據🎁任用15大影片及社交App🚀4.5G $106全速任用+10GB中澳數據✨精選新號碼靚號碼",
-      "type": "sales",
-      "updatedAt": "2026-11-24T00:45:34.280Z",
-      "sales": {
-        "broadband": {
-          "planId": "1161"
-        },
-        "email": "kwokhiuhoi@hotmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1036"
-        },
-        "businessBroadband": {
-          "planId": "1127"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "98886545",
-        "salesId": "JWJ0UQEHD4YIL876MN2bSGYP2hI2",
-        "telegram": "https://t.me/SalesMrKwok",
-        "whatsapp": "98886545"
-      }
-    },
-    {
-      "planId": "1699",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1699-01.jpeg",
-      "intros": [
-        "1000M $89 送Router及家居電話｜只限3天",
-        "✨5G家居寬頻計劃 📲 ￼超平手機數據計劃",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 75
-        },
-        "mb100": {
-          "price": 69
-        },
-        "fiveG": {
-          "price": 148
-        }
-      },
-      "pos": 3,
-      "provider": "hgc",
-      "sales": {
-        "salesId": "VhQHj9PKzKQXu4ZKDHdJ3tdvhtn2",
-        "broadband": {
-          "planId": "1699"
-        },
-        "businessBroadband": {
-          "planId": "1956"
-        },
-        "email": "donchong1028@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1958"
-        },
-        "paytv": {
-          "planId": "1957"
-        },
-        "phone": "57444180",
-        "telegram": "https://t.me/HGC001",
-        "whatsapp": "57444180"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "HGC•11月25快閃‼️公居屋$75 1000M",
-      "type": "sales",
-      "updatedAt": "2026-11-24T23:50:46.438Z"
-    },
-    {
-      "planId": "1812",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_229-16.png",
-      "intros": [
-        "2500M $129🛜送Wi-Fi 7🎁送家居電話+IDD 0030☎️",
-        "雙重保證💪🏻速度保證🚀低時延保證🕒",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 0
-        },
-        "mb100": {
-          "price": 99
-        },
-        "fiveG": {
-          "price": 89
-        }
-      },
-      "pos": 3,
-      "provider": "hkbn",
-      "sales": {
-        "salesId": "u93FWKjuS4grtlZGXa6WVEtLk3I3",
-        "broadband": {
-          "planId": "1812"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "kwokhiuhoi3301988@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "63484808",
-        "telegram": "https://t.me/HKBNSales",
-        "whatsapp": "63484808"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "HKBN寬頻優惠🛜1000M $89送Wi-Fi 7🖥️2500M $129🎁送Wi-Fi 7☎️送家居電話",
-      "type": "sales",
-      "updatedAt": "2026-11-24T00:45:26.978Z"
-    },
-    {
-      "planId": "1710",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "✅ 包埋 Wi-Fi 6/7 Router！全屋覆蓋，打機唔爆炸！🚀",
-        "✅ 超級超大超一位即刻搵我即刻搵我",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 3,
-      "provider": "smartone",
-      "sales": {
-        "broadband": {
-          "planId": "1710"
-        },
-        "email": "Tracybabys@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1709"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "61713288",
-        "salesId": "0BXz2OUae6SEmKx5tJr5cQzex6u2",
-        "telegram": "https://t.me/smartonewing",
-        "whatsapp": "61713288"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": false
-      },
-      "title": "📳smartone 5g $121家居寬頻📡 —— 下載、直播、睇片乜都爽！",
-      "type": "sales",
-      "updatedAt": "2026-11-04T11:16:29.034Z"
-    },
-    {
-      "planId": "-NAsJnbWPQ4ElmKVEX9w",
-      "image": "https://images.findplanking.com/poster/post_NAsJ-01.jpeg",
-      "intros": [
-        "保證最平🙋🏻‍♂️如果有人平過我歡迎質詢",
-        "全港唯一☝️擁有速度保證✨網絡商",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": 98
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 3,
-      "provider": "hkbn",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "11月25🌐 HKBN 2x1000M $98",
-      "updatedAt": "2026-11-24T23:33:24.515Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "broadband": {
-          "planId": "-NAsJnbWPQ4ElmKVEX9w"
-        },
-        "email": "jonchong1100@yahoo.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1993"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "60177419",
-        "salesId": "yXLrnUD8suPkNAwjQaNozrckFhi2",
-        "telegram": "https://t.me/0000000000",
-        "whatsapp": "60177419"
-      }
-    },
-    {
-      "planId": "1950",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan_1950-02.jpeg",
-      "intros": [
-        "$108 1000M",
-        "$148 2500M+Wifi 7 Router指定地區",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 3,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "KkGICANVekVv9aujkZIfkYjZf4y1",
-        "broadband": {
-          "planId": "1950"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "tracy.sn.to@pccw.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1951"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "53209543",
-        "telegram": "https://t.me/tracypccw",
-        "whatsapp": "53209543"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "🧏‍♀️Tracy To HKT",
-      "type": "sales",
-      "updatedAt": "2026-11-17T07:19:44.416Z"
-    },
-    {
-      "planId": "1960",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-4.jpg",
-      "intros": [
-        "超詳盡計劃🥇2500M / Mobile / NowTv",
-        "網上行Netvigator最新光纖寬頻優惠",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 3,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1960"
-        },
-        "email": "ivanng2628@icloud.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-NG53jbwnJ7O3RCKGV_F"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "00000000",
-        "salesId": "BSySKVTwprXzweQy1HPlhV1lcUj2",
-        "telegram": "https://t.me/0000000",
-        "whatsapp": "96556900"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "11月25【網上行】唔使🙅🏻‍♂️$108 限時優惠1000Mbps",
-      "type": "sales",
-      "updatedAt": "2026-11-24T23:50:09.154Z"
-    },
-    {
-      "planId": "-Ma4eTavqkvwIHSFy5_i",
-      "image": "https://images.findplanking.com/poster/sales_16-01.jpeg",
-      "intros": [
-        "11月25日🫶🏻送Wi-Fi7🎁1GB低至$62🪄",
-        "新裝/轉台/續約 雙11優惠最多歡迎查詢🔅",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 62
-        },
-        "mb100": {
-          "price": 62
-        },
-        "fiveG": {
-          "price": 78
-        }
-      },
-      "pos": 3,
-      "provider": "hkbn",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔵香港寬頻🔵24小時極速專業報價🏪",
-      "updatedAt": "2026-11-24T16:02:16.442Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "broadband": {
-          "planId": "-Ma4eTavqkvwIHSFy5_i"
-        },
-        "email": "cming1117@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-MxtaEy0_nZYhQvr4PaH"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "92102220",
-        "salesId": "WC4lJnuT9iPFTcTktaVrnpoumKt2",
-        "telegram": "https://t.me/HKBNOnline",
-        "whatsapp": "92102220"
-      }
-    },
-    {
-      "planId": "1978",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-2.jpg",
-      "intros": [
-        "全港至強海外頻寬✨低延遲值✨F5G-A",
-        " 另￼有組合✅NowTv ✅CSL手機 ✅5G寬頻",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 3,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "59iGcY5hQVgUQiYwDspYSXBakA03",
-        "broadband": {
-          "planId": "1978"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "jonhiu1100@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "53209271",
-        "telegram": "https://t.me//0000000",
         "whatsapp": "53209271"
       },
       "tags": {
@@ -866,9 +50,9 @@
         "transfer": true,
         "renewContract": false
       },
-      "title": "11月25✨HKT網上行 2x1000M 平過$108",
+      "title": "11月25⚡️HKT網上行〔限時震撼價〕🙋🏻‍♂️月費低至$108",
       "type": "sales",
-      "updatedAt": "2026-11-24T23:52:15.912Z"
+      "updatedAt": "2026-11-24T23:51:49.031Z"
     },
     {
       "planId": "1806",
@@ -973,12 +157,12 @@
       "updatedAt": "2026-11-24T18:54:00.059Z"
     },
     {
-      "planId": "1834",
+      "planId": "1955",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_278-03.png",
+      "image": "https://images.findplanking.com/poster/post_1955-02.jpeg",
       "intros": [
-        "💥唔知揀邊個好😁入嚟睇吓月費低至$108💫",
-        "💥官方認證⚡️誠實可靠✨全城最抵✨",
+        "2500M 🏎️公居屋$148 / 私樓$168",
+        "另有Now TV / CSL / 家居電話組合",
         null
       ],
       "networks": {
@@ -995,14 +179,14 @@
       "pos": 3,
       "provider": "netvigator",
       "sales": {
-        "salesId": "KuIsFzUD0JYDqx35ERnTENU0cZn1",
+        "salesId": "xBKsyzHCadaY3ExObw3pxFrwxWF3",
         "broadband": {
-          "planId": "1834"
+          "planId": "1955"
         },
         "businessBroadband": {
           "planId": null
         },
-        "email": "lzhou8819@gmail.com",
+        "email": "asachan20060101@gmail.com",
         "isVerified": true,
         "mobile": {
           "planId": null
@@ -1010,18 +194,18 @@
         "paytv": {
           "planId": null
         },
-        "phone": "97860391",
-        "telegram": "https://t.me/@hktmrchan",
-        "whatsapp": "97860391"
+        "phone": "00000000",
+        "telegram": "https://t.me/000000",
+        "whatsapp": "96556900"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": false
       },
-      "title": "11月25日更新‼️HKT 家居寬頻｜官方認證快閃優惠",
+      "title": "11月25⭐️HKT網上行 『唔洗$108』",
       "type": "sales",
-      "updatedAt": "2026-11-24T17:47:16.906Z"
+      "updatedAt": "2026-11-24T23:41:20.035Z"
     },
     {
       "planId": "1559",
@@ -1075,6 +259,108 @@
       "updatedAt": "2026-11-24T23:48:05.789Z"
     },
     {
+      "planId": "1960",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-4.jpg",
+      "intros": [
+        "超詳盡計劃🥇2500M / Mobile / NowTv",
+        "網上行Netvigator最新光纖寬頻優惠",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 3,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1960"
+        },
+        "email": "ivanng2628@icloud.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "-NG53jbwnJ7O3RCKGV_F"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "00000000",
+        "salesId": "BSySKVTwprXzweQy1HPlhV1lcUj2",
+        "telegram": "https://t.me/0000000",
+        "whatsapp": "96556900"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "11月25【網上行】唔使🙅🏻‍♂️$108 限時優惠1000Mbps",
+      "type": "sales",
+      "updatedAt": "2026-11-24T23:50:09.154Z"
+    },
+    {
+      "planId": "1978",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-2.jpg",
+      "intros": [
+        "全港至強海外頻寬✨低延遲值✨F5G-A",
+        " 另￼有組合✅NowTv ✅CSL手機 ✅5G寬頻",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 3,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "59iGcY5hQVgUQiYwDspYSXBakA03",
+        "broadband": {
+          "planId": "1978"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "jonhiu1100@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "53209271",
+        "telegram": "https://t.me//0000000",
+        "whatsapp": "53209271"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "11月25✨HKT網上行 2x1000M 平過$108",
+      "type": "sales",
+      "updatedAt": "2026-11-24T23:52:15.912Z"
+    },
+    {
       "planId": "1959",
       "category": "broadband",
       "image": "https://images.findplanking.com/poster/post_1959-01.jpeg",
@@ -1126,12 +412,63 @@
       "updatedAt": "2026-11-24T23:34:00.073Z"
     },
     {
-      "planId": "1977",
+      "planId": "1812",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-3.jpg",
+      "image": "https://images.findplanking.com/poster/sales_229-16.png",
       "intros": [
-        "1000M  $108💁🏻‍♂️ 送✨多項增值服務",
-        "2500M 低至$148 🎁 搵我即刻送禮品",
+        "2500M $129🛜送Wi-Fi 7🎁送家居電話+IDD 0030☎️",
+        "雙重保證💪🏻速度保證🚀低時延保證🕒",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 0
+        },
+        "mb100": {
+          "price": 99
+        },
+        "fiveG": {
+          "price": 89
+        }
+      },
+      "pos": 3,
+      "provider": "hkbn",
+      "sales": {
+        "salesId": "u93FWKjuS4grtlZGXa6WVEtLk3I3",
+        "broadband": {
+          "planId": "1812"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "kwokhiuhoi3301988@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "63484808",
+        "telegram": "https://t.me/HKBNSales",
+        "whatsapp": "63484808"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "HKBN寬頻優惠🛜1000M $89送Wi-Fi 7🖥️2500M $129🎁送Wi-Fi 7☎️送家居電話",
+      "type": "sales",
+      "updatedAt": "2026-11-24T00:45:26.978Z"
+    },
+    {
+      "planId": "1950",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/plan_1950-02.jpeg",
+      "intros": [
+        "$108 1000M",
+        "$148 2500M+Wifi 7 Router指定地區",
         null
       ],
       "networks": {
@@ -1139,7 +476,7 @@
           "price": 108
         },
         "mb100": {
-          "price": 108
+          "price": null
         },
         "fiveG": {
           "price": 108
@@ -1148,33 +485,33 @@
       "pos": 3,
       "provider": "netvigator",
       "sales": {
-        "salesId": "v4DKzWqa0NfMdDwoQYFmOZOsqir1",
+        "salesId": "KkGICANVekVv9aujkZIfkYjZf4y1",
         "broadband": {
-          "planId": "1977"
+          "planId": "1950"
         },
         "businessBroadband": {
           "planId": null
         },
-        "email": "jonho111000@gmail.com",
+        "email": "tracy.sn.to@pccw.com",
         "isVerified": true,
         "mobile": {
-          "planId": null
+          "planId": "1951"
         },
         "paytv": {
           "planId": null
         },
-        "phone": "53209271",
-        "telegram": "https://t.me/00000000",
-        "whatsapp": "53209271"
+        "phone": "53209543",
+        "telegram": "https://t.me/tracypccw",
+        "whatsapp": "53209543"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": false
       },
-      "title": "11月25⚡️HKT網上行〔限時震撼價〕🙋🏻‍♂️月費低至$108",
+      "title": "🧏‍♀️Tracy To HKT",
       "type": "sales",
-      "updatedAt": "2026-11-24T23:51:49.031Z"
+      "updatedAt": "2026-11-17T07:19:44.416Z"
     },
     {
       "planId": "1174",
@@ -1228,12 +565,777 @@
       }
     },
     {
-      "planId": "1994",
+      "planId": "1710",
       "category": "broadband",
       "image": "",
       "intros": [
-        "自動轉賬額外送HKT.AI 40000 credit",
-        "送$1000搬遷服務，$10租wifi router",
+        "✅ 包埋 Wi-Fi 6/7 Router！全屋覆蓋，打機唔爆炸！🚀",
+        "✅ 超級超大超一位即刻搵我即刻搵我",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 3,
+      "provider": "smartone",
+      "sales": {
+        "broadband": {
+          "planId": "1710"
+        },
+        "email": "Tracybabys@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1709"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "61713288",
+        "salesId": "0BXz2OUae6SEmKx5tJr5cQzex6u2",
+        "telegram": "https://t.me/smartonewing",
+        "whatsapp": "61713288"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": false
+      },
+      "title": "📳smartone 5g $121家居寬頻📡 —— 下載、直播、睇片乜都爽！",
+      "type": "sales",
+      "updatedAt": "2026-11-04T11:16:29.034Z"
+    },
+    {
+      "planId": "-NAsJnbWPQ4ElmKVEX9w",
+      "image": "https://images.findplanking.com/poster/post_NAsJ-01.jpeg",
+      "intros": [
+        "保證最平🙋🏻‍♂️如果有人平過我歡迎質詢",
+        "全港唯一☝️擁有速度保證✨網絡商",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": 98
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 3,
+      "provider": "hkbn",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "11月25🌐 HKBN 2x1000M $98",
+      "updatedAt": "2026-11-24T23:33:24.515Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "broadband": {
+          "planId": "-NAsJnbWPQ4ElmKVEX9w"
+        },
+        "email": "jonchong1100@yahoo.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1993"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "60177419",
+        "salesId": "yXLrnUD8suPkNAwjQaNozrckFhi2",
+        "telegram": "https://t.me/0000000000",
+        "whatsapp": "60177419"
+      }
+    },
+    {
+      "planId": "1834",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_278-03.png",
+      "intros": [
+        "💥唔知揀邊個好😁入嚟睇吓月費低至$108💫",
+        "💥官方認證⚡️誠實可靠✨全城最抵✨",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 3,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "KuIsFzUD0JYDqx35ERnTENU0cZn1",
+        "broadband": {
+          "planId": "1834"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "lzhou8819@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "97860391",
+        "telegram": "https://t.me/@hktmrchan",
+        "whatsapp": "97860391"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "11月25日更新‼️HKT 家居寬頻｜官方認證快閃優惠",
+      "type": "sales",
+      "updatedAt": "2026-11-24T17:47:16.906Z"
+    },
+    {
+      "planId": "1976",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/2026-11-02-hkt-jon-1.jpg",
+      "intros": [
+        "1️⃣內有詳盡計劃✨2️⃣協助解決技術疑難",
+        "3️⃣多元化電訊組合💫4️⃣速度高達10Gbps",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 3,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "t30MK0BpHiVToV4tvJg8FBq7mPv2",
+        "broadband": {
+          "planId": "1976"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "jonccf1311@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "53209271",
+        "telegram": "https://t.me/0000000",
+        "whatsapp": "53209271"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "11月25🔓解鎖【網上行】終極優惠💁🏻‍♂️月費低至$108",
+      "type": "sales",
+      "updatedAt": "2026-11-24T23:51:13.058Z"
+    },
+    {
+      "planId": "-Ma4eTavqkvwIHSFy5_i",
+      "image": "https://images.findplanking.com/poster/sales_16-01.jpeg",
+      "intros": [
+        "11月25日🫶🏻送Wi-Fi7🎁1GB低至$62🪄",
+        "新裝/轉台/續約 雙11優惠最多歡迎查詢🔅",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 62
+        },
+        "mb100": {
+          "price": 62
+        },
+        "fiveG": {
+          "price": 78
+        }
+      },
+      "pos": 3,
+      "provider": "hkbn",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔵香港寬頻🔵24小時極速專業報價🏪",
+      "updatedAt": "2026-11-24T16:02:16.442Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "broadband": {
+          "planId": "-Ma4eTavqkvwIHSFy5_i"
+        },
+        "email": "cming1117@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "-MxtaEy0_nZYhQvr4PaH"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "92102220",
+        "salesId": "WC4lJnuT9iPFTcTktaVrnpoumKt2",
+        "telegram": "https://t.me/HKBNOnline",
+        "whatsapp": "92102220"
+      }
+    },
+    {
+      "planId": "1134",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/post_1134-01.jpeg",
+      "intros": [
+        "限量快閃❣️公屋 居屋 1000M $75",
+        "2500M⏳$139 送WiFi7 Router",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 75
+        },
+        "mb100": {
+          "price": 69
+        },
+        "fiveG": {
+          "price": 138
+        }
+      },
+      "pos": 3,
+      "provider": "hgc",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "11月25日🎖️HGC 月費$75 1000M",
+      "type": "sales",
+      "updatedAt": "2026-11-24T23:46:58.764Z",
+      "sales": {
+        "broadband": {
+          "planId": "1134"
+        },
+        "email": "Jon5320@icloud.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1991"
+        },
+        "businessBroadband": {
+          "planId": "1990"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "69292190",
+        "salesId": "I1XlDuUyCfZJWbh2ra4vEgkQVMx2",
+        "telegram": "https://t.me/HGC01",
+        "whatsapp": "69292190"
+      }
+    },
+    {
+      "planId": "-NEifN_wvC3kVXlc35aL",
+      "image": "https://images.findplanking.com/poster/sales_251-01-a.jpg",
+      "intros": [
+        "網上行光纖1000mb快閃價$108",
+        "💥💓 Netvigator 最新5G家居寛頻💓💥",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 3,
+      "provider": "netvigator",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "Hkt 網上行 雙11快閃優惠",
+      "updatedAt": "2026-11-04T17:49:24.158Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "salesId": "hGoAc9jpp6YdWxVOMuLCPoC2qL33",
+        "broadband": {
+          "planId": "-NEifN_wvC3kVXlc35aL"
+        },
+        "mobile": {
+          "planId": "-N9VHglHERil0vXv_WWr"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "Adenwong8998@gmail.com",
+        "isVerified": true,
+        "whatsapp": "66535019",
+        "telegram": "https://t.me/cslAdenWong",
+        "phone": "66535019"
+      }
+    },
+    {
+      "planId": "1699",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/post_1699-01.jpeg",
+      "intros": [
+        "1000M $89 送Router及家居電話｜只限3天",
+        "✨5G家居寬頻計劃 📲 ￼超平手機數據計劃",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 75
+        },
+        "mb100": {
+          "price": 69
+        },
+        "fiveG": {
+          "price": 148
+        }
+      },
+      "pos": 3,
+      "provider": "hgc",
+      "sales": {
+        "salesId": "VhQHj9PKzKQXu4ZKDHdJ3tdvhtn2",
+        "broadband": {
+          "planId": "1699"
+        },
+        "businessBroadband": {
+          "planId": "1956"
+        },
+        "email": "donchong1028@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1958"
+        },
+        "paytv": {
+          "planId": "1957"
+        },
+        "phone": "57444180",
+        "telegram": "https://t.me/HGC001",
+        "whatsapp": "57444180"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "HGC•11月25快閃‼️公居屋$75 1000M",
+      "type": "sales",
+      "updatedAt": "2026-11-24T23:50:46.438Z"
+    },
+    {
+      "planId": "1416",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_139-04.png",
+      "intros": [
+        "📣$62 1000M $98 2x1000M全港同價🌟",
+        "私樓|公居屋|村屋|單棟樓",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": 79
+        },
+        "fiveG": {
+          "price": 78
+        }
+      },
+      "pos": 3,
+      "provider": "hkbn",
+      "sales": {
+        "broadband": {
+          "planId": "1416"
+        },
+        "email": "ming90_11@hotmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1417"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "57612407",
+        "salesId": "3BIXdz58DfaZnYjd1ehsq9B4Wts1",
+        "telegram": "https://t.me/HKBN_Solutions",
+        "whatsapp": "57612407"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "11月25日｜香港寬頻🛜報價🚀 ",
+      "type": "sales",
+      "updatedAt": "2026-11-24T18:54:23.274Z"
+    },
+    {
+      "planId": "-MbFA78Cn9ifngx9NVSA",
+      "image": "https://images.findplanking.com/poster/plan_MbFA-01.jpeg",
+      "intros": [
+        "1000M光纖｜$89❕2500M光纖｜$130",
+        "歡迎查詢 🎁優惠最多 🤑",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 99
+        },
+        "mb100": {
+          "price": 79
+        },
+        "fiveG": {
+          "price": 78
+        }
+      },
+      "pos": 3,
+      "provider": "hkbn",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "香港寬頻 11月份 精選計劃🔥",
+      "updatedAt": "2026-11-01T03:33:16.447Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "salesId": "Q0HtDOkKysOLn9cz23lakgyebCz1",
+        "broadband": {
+          "planId": "-MbFA78Cn9ifngx9NVSA"
+        },
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "aklolo6531@gmail.com",
+        "isVerified": true,
+        "whatsapp": "57111157",
+        "telegram": "https://t.me/hkbn_sales",
+        "phone": "57111157"
+      }
+    },
+    {
+      "planId": "1575",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_161-02-b.jpeg",
+      "intros": [
+        "🔥家居寬頻 / 5G無線寬頻🔥",
+        "🔥限時送myTV SUPER🔥",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 3,
+      "provider": "cmhk",
+      "sales": {
+        "salesId": "cdDL4dxV2aVtiRgBKTuZ2CGQ7cS2",
+        "broadband": {
+          "planId": "1575"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "cmhk.dlin@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1855"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "22117125",
+        "telegram": "https://t.me/findplanking",
+        "whatsapp": "51258888"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中國移動2026最新優惠 🔥",
+      "type": "sales",
+      "updatedAt": "2026-11-25T05:00:05.981Z"
+    },
+    {
+      "planId": "1161",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_176-41.png",
+      "intros": [
+        "🛜5G寬頻$88任用🤩$138真無限包Wi-Fi 6 Router",
+        "🚀$168真無限🎁送Wi-Fi 7 Router",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 75
+        },
+        "mb100": {
+          "price": 69
+        },
+        "fiveG": {
+          "price": 88
+        }
+      },
+      "pos": 3,
+      "provider": "3hk",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "3HK寬頻優惠🛜5G寬頻$88任用👍5G $88 60GB+4GB中澳數據🎁任用15大影片及社交App🚀4.5G $106全速任用+10GB中澳數據✨精選新號碼靚號碼",
+      "type": "sales",
+      "updatedAt": "2026-11-24T00:45:34.280Z",
+      "sales": {
+        "broadband": {
+          "planId": "1161"
+        },
+        "email": "kwokhiuhoi@hotmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1036"
+        },
+        "businessBroadband": {
+          "planId": "1127"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "98886545",
+        "salesId": "JWJ0UQEHD4YIL876MN2bSGYP2hI2",
+        "telegram": "https://t.me/SalesMrKwok",
+        "whatsapp": "98886545"
+      }
+    },
+    {
+      "planId": "1932",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/post_1932-02.jpeg",
+      "intros": [
+        "1000M 月費$108 ⏳今日再減月費",
+        "送  📺Now App ☎️電話線",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 3,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1932"
+        },
+        "email": "jonchong1028@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "00000000",
+        "salesId": "kWwYmtybxmTQL9RvO4H6HSevAPh2",
+        "telegram": "https://t.me/00000000",
+        "whatsapp": "96556900"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "11月25⚡️網上行Netvigator光纖入屋寬頻",
+      "type": "sales",
+      "updatedAt": "2026-11-24T23:43:38.798Z"
+    },
+    {
+      "planId": "1499",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🔥5G最平$129/100Gb，$179/200Gb",
+        "🔥4G低至$38/6Gb，",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1499"
+        },
+        "email": "yong62717@gmail.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1132"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "XNtMsAiT1ReCSSiEWJB9Wl2y11F2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中移動最新月費計劃🔥全城熱賣🔥快啲入嚟睇下啦🔥",
+      "type": "sales",
+      "updatedAt": "2026-10-19T14:02:00.756Z"
+    },
+    {
+      "planId": "1706",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🏆$88 / 1000MB 光纖入屋 ",
+        "💸$88 / 1000MB＋WiFi 7路由路👍",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 88
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "salesId": "JMdohuePeaU9YYQh56rexdMI3TC2",
+        "broadband": {
+          "planId": "1706"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "kelseykelsey7884@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1702"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "67797884",
+        "telegram": "https://t.me/keslyestgswghwa",
+        "whatsapp": "67797884"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "中國移動CMHK🙋🏻‍♂️🙋🏻‍♂️寬頻,額外送電子劵",
+      "type": "sales",
+      "updatedAt": "2026-11-06T06:33:21.497Z"
+    },
+    {
+      "planId": "1768",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_203-07.png",
+      "intros": [
+        "光纖入屋1000M低至$108💢",
+        "公居屋✅私樓✅唐樓✅村屋✅",
         null
       ],
       "networks": {
@@ -1251,102 +1353,101 @@
       "provider": "netvigator",
       "sales": {
         "broadband": {
-          "planId": "1994"
+          "planId": "1768"
         },
-        "email": "noah20260202@outlook.com",
+        "email": "cslzuewong2@gmail.com",
         "isVerified": true,
         "mobile": {
-          "planId": "1996"
+          "planId": "1704"
         },
         "businessBroadband": {
-          "planId": null
+          "planId": "1705"
         },
         "paytv": {
-          "planId": "1995"
+          "planId": null
         },
-        "phone": "22398629",
-        "salesId": "HDv4L16xQNMSgEmzhB1l11R9AMl1",
-        "telegram": "https://t.me/Ken_Tongg",
-        "whatsapp": "59934528"
+        "phone": "54721974",
+        "salesId": "e3GeSOaW8pRXPUhi7bYjsR35arG3",
+        "telegram": "https://t.me/findplanking",
+        "whatsapp": "54740440"
       },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": true
-      },
-      "title": "1000M寬頻",
-      "type": "sales",
-      "updatedAt": "2026-10-21T04:43:47.979Z"
-    },
-    {
-      "planId": "-NFzEaJxu5jBHS4JfTC2",
-      "image": "",
-      "intros": [
-        "🔥$78蚊-1000M👉免安裝費,免搬遷費",
-        "✅$88蚊- 5G真無限➕Wi-Fi 7➕免租機",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 69
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 88
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": false
       },
-      "title": "⭕中國移動🔥查詢＆光纖💰再免月費💫",
-      "updatedAt": "2026-11-20T19:26:34.291Z",
-      "category": "broadband",
+      "title": "網上行‼️新客最新優惠‼️快啲查詢吓",
       "type": "sales",
-      "sales": {
-        "broadband": {
-          "planId": "-NFzEaJxu5jBHS4JfTC2"
-        },
-        "email": "aa33071188@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1707"
-        },
-        "businessBroadband": {
-          "planId": "2005"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "00000000",
-        "salesId": "jdo6X3lH7gdbGYWsjm4pmUjH3us1",
-        "telegram": "https://t.me/cmhk_offers1",
-        "whatsapp": "59879551"
-      }
+      "updatedAt": "2026-08-27T14:45:26.251Z"
     },
     {
-      "planId": "1015",
+      "planId": "1845",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
+      "image": "",
       "intros": [
-        "👍🏻7日免費試用期",
-        "🤑月費低至$98",
+        "1000M 上網 ",
+        "Now TV 睇劇睇戲🍿 🎁送HKT.AI40000credit😍送WiFi 6 Router",
         null
       ],
       "networks": {
         "mb1000": {
-          "price": 88
+          "price": 108
         },
         "mb100": {
-          "price": 78
+          "price": null
         },
         "fiveG": {
-          "price": 98
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "GdyX9tYemoV0fE7zTSR4epLrbWy2",
+        "broadband": {
+          "planId": "1845"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "michelle.hm.wai@pccw.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1844"
+        },
+        "paytv": {
+          "planId": "1846"
+        },
+        "phone": "22398051",
+        "telegram": "https://t.me/@AMiWai",
+        "whatsapp": "52472734"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "指定公居屋私樓",
+      "type": "sales",
+      "updatedAt": "2026-11-02T03:49:10.893Z"
+    },
+    {
+      "planId": "-M5VFKIbcL1HVM_E73CV",
+      "image": "https://firebasestorage.googleapis.com/v0/b/findplanking3321.appspot.com/o/Posters%2Fphoto_2021-03-24%2011.18.18.jpeg?alt=media&token=3fd7a0e0-4687-4bab-9db1-147d74387f2e",
+      "intros": [
+        "✅ ❤️🧡wifi 6低至 $98🥕🥕🥕🥕",
+        "✅ 🥕送月費💙💚💛❤️🧡",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 118
+        },
+        "mb100": {
+          "price": 118
+        },
+        "fiveG": {
+          "price": null
         }
       },
       "pos": 0,
@@ -1356,28 +1457,29 @@
         "transfer": true,
         "renewContract": true
       },
-      "title": "🔥數碼通 平爆價💣5G無線寬頻🚨",
+      "title": "🌈🥕smartone 5G $98村屋寬頻激低價🌈🌈",
+      "updatedAt": "2026-11-04T11:23:00.694Z",
+      "category": "broadband",
       "type": "sales",
-      "updatedAt": "2026-11-04T16:46:15.826Z",
       "sales": {
-        "salesId": "c02r5W6CCccGSmpG9GShLBoDNwH3",
         "broadband": {
-          "planId": "1015"
+          "planId": "-M5VFKIbcL1HVM_E73CV"
         },
+        "email": "wingsiu0420@hotmail.com",
+        "isVerified": true,
         "mobile": {
-          "planId": "-MtDbIeJjneiC8fAcgEy"
+          "planId": "-M5-hsV0HhHvOCTokw02"
+        },
+        "businessBroadband": {
+          "planId": "1099"
         },
         "paytv": {
           "planId": null
         },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "lizai5@yahoo.com.hk",
-        "isVerified": true,
-        "whatsapp": "97322959",
-        "telegram": "https://t.me/RoyFu",
-        "phone": "97322959"
+        "phone": "94339426",
+        "salesId": "pJt5Z62UolQC1M8PngXK06MnnUY2",
+        "telegram": "https://t.me/smartonewing",
+        "whatsapp": "94339426"
       }
     },
     {
@@ -1432,17 +1534,17 @@
       }
     },
     {
-      "planId": "1862",
+      "planId": "1639",
       "category": "broadband",
       "image": "",
       "intros": [
-        "🔥$78蚊- 1000M👉免安裝費,免搬遷費",
-        "✅$88蚊- 5G真無限➕Wi-Fi 7➕免租機",
+        "💲88 ➡️無限任用",
+        "免租機費及7日試用",
         null
       ],
       "networks": {
         "mb1000": {
-          "price": 68
+          "price": null
         },
         "mb100": {
           "price": null
@@ -1452,43 +1554,43 @@
         }
       },
       "pos": 0,
-      "provider": "cmhk",
+      "provider": "3hk",
       "sales": {
         "broadband": {
-          "planId": "1862"
+          "planId": "1639"
         },
-        "email": "aesopm91814@gmail.com",
-        "isVerified": true,
+        "email": "galaxy999hk@gmail.com",
+        "isVerified": false,
         "mobile": {
-          "planId": "1292"
+          "planId": "-MZ1kKifRiAcHDdAFCWG"
         },
         "businessBroadband": {
-          "planId": "2006"
+          "planId": "1640"
         },
         "paytv": {
           "planId": null
         },
-        "phone": "00000000",
-        "salesId": "B1GPmATa5xRLBEd7b1FDNlzZQO43",
-        "telegram": "https://t.me/cmhk_offers1",
-        "whatsapp": "59879551"
+        "phone": "91387234",
+        "salesId": "1uPHxGpRA3gQUNJJ924lE9AZW7I2",
+        "telegram": "https://t.me/threehongkong",
+        "whatsapp": "91387234"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
-        "renewContract": false
+        "renewContract": true
       },
-      "title": "⭕中國移動🔥查詢＆光纖💰再免月費💫",
+      "title": "5G 寬頻WiFi",
       "type": "sales",
-      "updatedAt": "2026-11-20T19:26:43.923Z"
+      "updatedAt": "2026-11-20T05:48:21.807Z"
     },
     {
-      "planId": "1497",
+      "planId": "1501",
       "category": "broadband",
       "image": "",
       "intros": [
-        "5G，$129/100Gb，送5Gb大陸數據",
-        "家居寬頻，低至$78/月，1000M寬頻，",
+        "🔥5G企業，$129/50Gb，$179/150Gb",
+        "🔥北上首選$159/50Gb中港共用",
         null
       ],
       "networks": {
@@ -1506,12 +1608,12 @@
       "provider": "cmhk",
       "sales": {
         "broadband": {
-          "planId": "1497"
+          "planId": "1501"
         },
-        "email": "yong62719@gmail.com",
-        "isVerified": true,
+        "email": "a297103618@163.com",
+        "isVerified": false,
         "mobile": {
-          "planId": "-NGjZ69wyNQqoShFhZ2Q"
+          "planId": "1190"
         },
         "businessBroadband": {
           "planId": null
@@ -1520,77 +1622,178 @@
           "planId": null
         },
         "phone": "66568866",
-        "salesId": "HSKZljTWDpWuHdHwSIXx6GuALpA2",
+        "salesId": "7tuwvpMKjxQzHdqdUekii7SRls32",
         "telegram": "https://t.me/WinMak",
-        "whatsapp": "51750688"
+        "whatsapp": "66568866"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": true
       },
-      "title": "🔥中國移動🔥轉台續約🔥獨家內部優惠🔥",
+      "title": "❤️‍🔥最新月費計劃❤️‍🔥中國移動❤️‍🔥轉台續約❤️‍🔥",
       "type": "sales",
-      "updatedAt": "2026-10-19T14:10:51.881Z"
+      "updatedAt": "2026-10-21T06:02:08.536Z"
     },
     {
-      "planId": "1893",
+      "planId": "1767",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_244-01.png",
+      "image": "",
       "intros": [
-        "1000M家居寬頻低至💰78.再免3個月月費",
-        "5G無線寬頻.💰198.500GB.再免3個月月費.包outer",
+        "📢 免安裝費 + 超多贈品！",
+        "1000M寬頻月費低至$98！",
         null
       ],
       "networks": {
         "mb1000": {
-          "price": 78
+          "price": 98
         },
         "mb100": {
-          "price": 88
+          "price": null
         },
         "fiveG": {
-          "price": null
+          "price": 78
         }
       },
       "pos": 0,
-      "provider": "cmhk",
+      "provider": "hkbn",
       "sales": {
-        "salesId": "TBxEXfkZLgbaqJLDxDFY2fxP56j2",
         "broadband": {
-          "planId": "1893"
+          "planId": "1767"
         },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "a793858631@gmail.com",
+        "email": "yiukit5200@gmail.com",
         "isVerified": true,
         "mobile": {
+          "planId": null
+        },
+        "businessBroadband": {
           "planId": null
         },
         "paytv": {
           "planId": null
         },
-        "phone": "92448877",
-        "telegram": "https://t.me/gavinlai1997",
-        "whatsapp": "92448877"
+        "phone": "46452071",
+        "salesId": "EqVvq3TF1Zg1dkaWaX45RnE52BL2",
+        "telegram": "https://t.me/joeyiu",
+        "whatsapp": "46452071"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": true
       },
-      "title": "中移動🏆 $78 / 1000MB 光纖入屋 \n💸 $88 / 1000MB + WiFi 7路由💪\n \n",
+      "title": "香港寬頻HKBN限時勁減🔥$98/月極速寬頻計劃🔥",
       "type": "sales",
-      "updatedAt": "2026-09-14T16:28:38.021Z"
+      "updatedAt": "2026-06-06T17:29:18.912Z"
     },
     {
-      "planId": "1982",
+      "planId": "2012",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan_1982-03-b.jpeg",
+      "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
       "intros": [
-        "2500M 低至$148/月 🔥想知自己係咪特選客戶？💁",
-        "HKT官方認證員工✅ 一站式為你服務📣",
+        "低至$98",
+        "即插即用，冇使用地址限制",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 88
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "sales": {
+        "broadband": {
+          "planId": "2012"
+        },
+        "email": "tomcat93682@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1997"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "97322959",
+        "salesId": "3gmBaRRQnoP8HUNBnBMPw8SbyuS2",
+        "telegram": "https://t.me/RoyFu",
+        "whatsapp": "97322959"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🚨最新數碼通📡無線寬頻優惠🈹",
+      "type": "sales",
+      "updatedAt": "2026-11-04T16:44:22.862Z"
+    },
+    {
+      "planId": "1438",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "⏰限時快閃⚡1000M $98",
+        "⏰2500M 公屋$130💥私樓$130",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 109
+        },
+        "mb100": {
+          "price": 99
+        },
+        "fiveG": {
+          "price": 118
+        }
+      },
+      "pos": 0,
+      "provider": "hkbn",
+      "sales": {
+        "broadband": {
+          "planId": "1438"
+        },
+        "email": "Netdc999@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1439"
+        },
+        "businessBroadband": {
+          "planId": "1440"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "62647284",
+        "salesId": "AKtXOJXSYZfTwyJBRZFhiSokIhq2",
+        "telegram": "https://t.me/hkbn1",
+        "whatsapp": "62647284"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🌈香港寬頻☀️2G光纖限時優惠",
+      "type": "sales",
+      "updatedAt": "2026-10-15T12:31:13.464Z"
+    },
+    {
+      "planId": "-MJQRHXmck0saIaGsaFv",
+      "image": "https://images.findplanking.com/poster/sales_109-03-h.jpeg",
+      "intros": [
+        "✨🌟官方🪪直銷團隊🌟✨",
+        "🥇至强海外頻寬🏆全港第一🏅",
         null
       ],
       "networks": {
@@ -1598,7 +1801,59 @@
           "price": 108
         },
         "mb100": {
+          "price": null
+        },
+        "fiveG": {
           "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "🌈11月🆕網上行🛜netvigator 特價站🌟",
+      "updatedAt": "2026-11-01T16:06:40.525Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "broadband": {
+          "planId": "-MJQRHXmck0saIaGsaFv"
+        },
+        "email": "bill2004bill2005@yahoo.com.hk",
+        "isVerified": true,
+        "mobile": {
+          "planId": "-N6qQUgZQ1q4aF2819Wr"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": "1005"
+        },
+        "phone": "60551460",
+        "salesId": "MsGFjxmxBvUwi38WWmkGiJD2InB3",
+        "telegram": "https://t.me/HKTBILL",
+        "whatsapp": "60551460"
+      }
+    },
+    {
+      "planId": "1985",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/plan-1985-01.jpg",
+      "intros": [
+        "🏠公居屋私樓全港覆蓋",
+        "👉🏻5G家居寬频低至$108",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": null
         },
         "fiveG": {
           "price": 108
@@ -1607,12 +1862,216 @@
       "pos": 0,
       "provider": "netvigator",
       "sales": {
-        "salesId": "Oa3zA6LU9EQG8bffsSAvfUT3N5z1",
+        "salesId": "xGxCgEpM9EXPMHnQQglr8lrgP1K2",
         "broadband": {
-          "planId": "1982"
+          "planId": "1985"
         },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "luckyad288@gmail.com",
+        "isVerified": true,
         "mobile": {
           "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "53209332",
+        "telegram": "https://t.me/netvigator_csl",
+        "whatsapp": "53209332"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "🔥1️⃣1️⃣月1000M唔駛$108🔸限時優惠🔸",
+      "type": "sales",
+      "updatedAt": "2026-11-02T08:51:16.476Z"
+    },
+    {
+      "planId": "1764",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🏆$88 / 1000MB 光纖入屋",
+        "💸$88 / 5G真無限＋350GB＋WiFi 7👍",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 88
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "salesId": "uN7uRp8ifORVu7NPQFufsKhDyvv2",
+        "broadband": {
+          "planId": "1764"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "aesopm110@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1763"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "67797884",
+        "telegram": "https://t.me/keslyestgswghwa",
+        "whatsapp": "67797884"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "中國移動CMHK🙋🏻‍♂️🙋🏻‍♂️寬頻,額外送電子劵",
+      "type": "sales",
+      "updatedAt": "2026-11-06T06:39:12.654Z"
+    },
+    {
+      "planId": "1965",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "2500M $149",
+        "5000M $249",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": 99
+        },
+        "fiveG": {
+          "price": 88
+        }
+      },
+      "pos": 0,
+      "provider": "hkbn",
+      "sales": {
+        "broadband": {
+          "planId": "1965"
+        },
+        "email": "anson98251149@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1964"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "98251149",
+        "salesId": "GBeji6rLpOYs2fA37j4Oa9B3ErG3",
+        "telegram": "https://t.me/anson_hkbn",
+        "whatsapp": "98251149"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🌅HKBN 香港寬頻 1000M $98 Wifi",
+      "type": "sales",
+      "updatedAt": "2026-06-08T10:01:11.367Z"
+    },
+    {
+      "planId": "1508",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "💗$108/30Gb",
+        "💗$129/50Gb",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1508"
+        },
+        "email": "f297103618@163.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1213"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "wOmTIuIwlFbf5fshgbslRyXlS1q2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": false
+      },
+      "title": "💗168/200Gb香港，40gb大陸澳門，❗️",
+      "type": "sales",
+      "updatedAt": "2026-10-21T06:08:43.167Z"
+    },
+    {
+      "planId": "2009",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "36個月合約送12mytv super 機頂盒",
+        "手機服務用緊再有每月$20折扣優惠",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 77
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "salesId": "P6MVfILZEAONkgRfkXX6zJEUWWy1",
+        "broadband": {
+          "planId": "2009"
+        },
+        "mobile": {
+          "planId": "1988"
         },
         "paytv": {
           "planId": null
@@ -1620,20 +2079,20 @@
         "businessBroadband": {
           "planId": null
         },
-        "email": "sunsum0410@gmail.com",
-        "isVerified": true,
-        "whatsapp": "52039135",
-        "telegram": "https://t.me/hkttay",
-        "phone": "52039135"
+        "email": "lodaledale25@gmail.com",
+        "isVerified": false,
+        "whatsapp": "70405850",
+        "telegram": "https://t.me/man",
+        "phone": "70405850"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
-        "renewContract": false
+        "renewContract": true
       },
-      "title": "8月HKT ❤️‍🔥限時優惠 短合約💥😻",
+      "title": "$77 1000m光纖入屋",
       "type": "sales",
-      "updatedAt": "2026-08-01T09:40:40.740Z"
+      "updatedAt": "2026-10-15T08:13:31.662Z"
     },
     {
       "planId": "-MN4Kp3tLVoWho0e6gK1",
@@ -1687,414 +2146,6 @@
       }
     },
     {
-      "planId": "1664",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "💓單棟、舊樓、村屋、唐樓首選💓",
-        "🌈淨sim月費低至$98🔥🔥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "sales": {
-        "broadband": {
-          "planId": "1664"
-        },
-        "email": "benng14160203@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1611"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "90170159",
-        "salesId": "PIBnQCb5ciNNk4R9ft9eHyPR6qz2",
-        "telegram": "https://t.me/BenNg123",
-        "whatsapp": "90170159"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": false
-      },
-      "title": "🌈數碼通全港No 1 無線寬頻🌈",
-      "type": "sales",
-      "updatedAt": "2026-11-04T11:38:19.487Z"
-    },
-    {
-      "planId": "1665",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_191-01.png",
-      "intros": [
-        "全新優惠 🔥1️⃣1000m $75 2️⃣2500m $139 送路由器 家居電話",
-        "先安裝後生效 免安裝費  專人回覆 歡迎查詢",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 75
-        },
-        "mb100": {
-          "price": 69
-        },
-        "fiveG": {
-          "price": 103
-        }
-      },
-      "pos": 0,
-      "provider": "hgc",
-      "sales": {
-        "salesId": "3ti0c6MGCcXfIESH6os4HZdqUpp1",
-        "broadband": {
-          "planId": "1665"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "kyourp@yahoo.com.hk",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1730"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "62820328",
-        "telegram": "https://t.me/@62820328",
-        "whatsapp": "62820328"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "💥快閃優惠 PM獲取隱藏優惠",
-      "type": "sales",
-      "updatedAt": "2026-07-04T03:48:22.515Z"
-    },
-    {
-      "planId": "1529",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🇭🇰全港獨家5G真無限任用,無需擔心鎖速度",
-        "$1️⃣0️⃣3️⃣✅️有試用✅️擺脫傳統拉線✅️",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 103
-        }
-      },
-      "pos": 0,
-      "provider": "3hk",
-      "sales": {
-        "broadband": {
-          "planId": "1529"
-        },
-        "email": "arming1988@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1528"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "51167873",
-        "salesId": "l47zl1DP0UQwEhixXZzXGZ0Dumd2",
-        "telegram": "https://t.me/mingwu3HK",
-        "whatsapp": "51167873"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "胡生💁5G寬頻計劃免拉線即插即用",
-      "type": "sales",
-      "updatedAt": "2026-11-04T12:11:14.991Z"
-    },
-    {
-      "planId": "1981",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan-1982-02.jpg",
-      "intros": [
-        "2500M 月費低至$146（特選屋苑）😆😆",
-        "手機轉台/NOWTV/寬頻🚀一站式服務🎉🎉",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "dhiwJTeqx9XveR6pljlTRA4WJ472",
-        "broadband": {
-          "planId": "1981"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "hokalin96@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "52039135",
-        "telegram": "https://t.me/hkttay",
-        "whatsapp": "52039135"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "108/月1000M（再平d) 🌊快啲查詢😍😍",
-      "type": "sales",
-      "updatedAt": "2026-07-20T06:36:31.747Z"
-    },
-    {
-      "planId": "1706",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🏆$88 / 1000MB 光纖入屋 ",
-        "💸$88 / 1000MB＋WiFi 7路由路👍",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 88
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "salesId": "JMdohuePeaU9YYQh56rexdMI3TC2",
-        "broadband": {
-          "planId": "1706"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "kelseykelsey7884@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1702"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "67797884",
-        "telegram": "https://t.me/keslyestgswghwa",
-        "whatsapp": "67797884"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "中國移動CMHK🙋🏻‍♂️🙋🏻‍♂️寬頻,額外送電子劵",
-      "type": "sales",
-      "updatedAt": "2026-11-06T06:33:21.497Z"
-    },
-    {
-      "planId": "1845",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "1000M 上網 ",
-        "Now TV 睇劇睇戲🍿 🎁送HKT.AI40000credit😍送WiFi 6 Router",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "GdyX9tYemoV0fE7zTSR4epLrbWy2",
-        "broadband": {
-          "planId": "1845"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "michelle.hm.wai@pccw.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1844"
-        },
-        "paytv": {
-          "planId": "1846"
-        },
-        "phone": "22398051",
-        "telegram": "https://t.me/@AMiWai",
-        "whatsapp": "52472734"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "指定公居屋私樓",
-      "type": "sales",
-      "updatedAt": "2026-11-02T03:49:10.893Z"
-    },
-    {
-      "planId": "1506",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "$78/36個月，1000M寬頻",
-        "$108/30Gb，5G計劃，送大陸數據",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1506"
-        },
-        "email": "c297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1196"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "V5DKnfB8mbOVnlJGlTkBoe4jrcF2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔥中國移動最新月費計劃🔥家居寬頻🔥",
-      "type": "sales",
-      "updatedAt": "2026-10-21T06:04:05.861Z"
-    },
-    {
-      "planId": "1987",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "5G 寬頻 WiFi 6 $115 WiFi 7 $159",
-        "光纖1000M 寬頻低至88蚊",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "sales": {
-        "salesId": "eQi1lPNc5rbIEYl63t58vxxW5th1",
-        "broadband": {
-          "planId": "1987"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "timtim19801108@hotmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1835"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "93874471",
-        "telegram": "https://t.me/@timlee0811",
-        "whatsapp": "93874471"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": false
-      },
-      "title": "Tim Lee SmarTone 專員 家居寬頻",
-      "type": "sales",
-      "updatedAt": "2026-10-13T04:59:27.615Z"
-    },
-    {
       "planId": "-Mm7UbH2tsGinJ28JKgW",
       "image": "https://images.findplanking.com/poster/sales_997-01-a.jpg\n\n",
       "intros": [
@@ -2146,16 +2197,272 @@
       }
     },
     {
-      "planId": "-M3BJAOM3LuMM4S3PYwu",
+      "planId": "1999",
+      "category": "broadband",
       "image": "",
       "intros": [
-        "$78/1000MB",
-        "$98/1000MB 連家居電話",
+        "1000M唔洗$108",
+        "2500M限定地區優惠，歡迎查詢",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1999"
+        },
+        "email": "meimeileung826@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "2000"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "60399555",
+        "salesId": "QikdEN12fFhEheDBkpNK5za7pPH2",
+        "telegram": "https://t.me/Leung May",
+        "whatsapp": "60399555"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "網上行家居寬頻限時優惠",
+      "type": "sales",
+      "updatedAt": "2026-09-04T05:38:17.467Z"
+    },
+    {
+      "planId": "1664",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "💓單棟、舊樓、村屋、唐樓首選💓",
+        "🌈淨sim月費低至$98🔥🔥",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "sales": {
+        "broadband": {
+          "planId": "1664"
+        },
+        "email": "benng14160203@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1611"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "90170159",
+        "salesId": "PIBnQCb5ciNNk4R9ft9eHyPR6qz2",
+        "telegram": "https://t.me/BenNg123",
+        "whatsapp": "90170159"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": false
+      },
+      "title": "🌈數碼通全港No 1 無線寬頻🌈",
+      "type": "sales",
+      "updatedAt": "2026-11-04T11:38:19.487Z"
+    },
+    {
+      "planId": "1975",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/plan_1975-02.jpg",
+      "intros": [
+        "2500M 月費低至$148😍 官方認證員工💯 信心保證",
+        "📣月費$108 5G寬頻 村屋 唐樓上網寬頻救世主",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "Abx8EcxIPCR3pwDon62o0nwlCz72",
+        "broadband": {
+          "planId": "1975"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "hkproductionwe@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1979"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "52039135",
+        "telegram": "https://t.me/hkttay",
+        "whatsapp": "52039135"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "8月HKT$108 /月起(再平d😆)光纖入屋",
+      "type": "sales",
+      "updatedAt": "2026-08-01T09:39:46.917Z"
+    },
+    {
+      "planId": "1893",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_244-01.png",
+      "intros": [
+        "1000M家居寬頻低至💰78.再免3個月月費",
+        "5G無線寬頻.💰198.500GB.再免3個月月費.包outer",
         null
       ],
       "networks": {
         "mb1000": {
           "price": 78
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "salesId": "TBxEXfkZLgbaqJLDxDFY2fxP56j2",
+        "broadband": {
+          "planId": "1893"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "a793858631@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "92448877",
+        "telegram": "https://t.me/gavinlai1997",
+        "whatsapp": "92448877"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "中移動🏆 $78 / 1000MB 光纖入屋 \n💸 $88 / 1000MB + WiFi 7路由💪\n \n",
+      "type": "sales",
+      "updatedAt": "2026-09-14T16:28:38.021Z"
+    },
+    {
+      "planId": "1015",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
+      "intros": [
+        "👍🏻7日免費試用期",
+        "🤑月費低至$98",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 88
+        },
+        "mb100": {
+          "price": 78
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥數碼通 平爆價💣5G無線寬頻🚨",
+      "type": "sales",
+      "updatedAt": "2026-11-04T16:46:15.826Z",
+      "sales": {
+        "salesId": "c02r5W6CCccGSmpG9GShLBoDNwH3",
+        "broadband": {
+          "planId": "1015"
+        },
+        "mobile": {
+          "planId": "-MtDbIeJjneiC8fAcgEy"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "lizai5@yahoo.com.hk",
+        "isVerified": true,
+        "whatsapp": "97322959",
+        "telegram": "https://t.me/RoyFu",
+        "phone": "97322959"
+      }
+    },
+    {
+      "planId": "1497",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "5G，$129/100Gb，送5Gb大陸數據",
+        "家居寬頻，低至$78/月，1000M寬頻，",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
         },
         "mb100": {
           "price": null
@@ -2166,23 +2473,14 @@
       },
       "pos": 0,
       "provider": "cmhk",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🟡🔴🟢cmhk 中國移動 🔵🟣🟠🎉 超筍優惠計劃😍",
-      "updatedAt": "2026-11-24T07:56:51.806Z",
-      "category": "broadband",
-      "type": "sales",
       "sales": {
         "broadband": {
-          "planId": "-M3BJAOM3LuMM4S3PYwu"
+          "planId": "1497"
         },
-        "email": "mosses228@gmail.com",
+        "email": "yong62719@gmail.com",
         "isVerified": true,
         "mobile": {
-          "planId": "-M3BLEyOZEsbEATbUIKW"
+          "planId": "-NGjZ69wyNQqoShFhZ2Q"
         },
         "businessBroadband": {
           "planId": null
@@ -2190,70 +2488,78 @@
         "paytv": {
           "planId": null
         },
-        "phone": "54399163",
-        "salesId": "605h4X5iZNTZREagArmCISTFLQs2",
-        "telegram": "https://t.me/~sam",
-        "whatsapp": "54399163"
-      }
+        "phone": "66568866",
+        "salesId": "HSKZljTWDpWuHdHwSIXx6GuALpA2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "51750688"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中國移動🔥轉台續約🔥獨家內部優惠🔥",
+      "type": "sales",
+      "updatedAt": "2026-10-19T14:10:51.881Z"
     },
     {
-      "planId": "1095",
+      "planId": "1050",
       "category": "broadband",
       "image": "",
       "intros": [
-        "搬屋上網神器 免拉線 入伙插電即用，固網死角救星 隨時加 靈活擺",
-        "寬頻獨市救星，唔再捱貴Plan",
+        "🌈💖村屋唐樓商鋪救星🌈💖",
+        "💥💥$88免安裝免拉線包router💥💥",
         null
       ],
       "networks": {
         "mb1000": {
-          "price": null
+          "price": 88
         },
         "mb100": {
-          "price": null
+          "price": 88
         },
         "fiveG": {
-          "price": 104
+          "price": 88
         }
       },
       "pos": 0,
-      "provider": "smartone",
+      "provider": "3hk",
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": true
       },
-      "title": "🕎SmarTone 5G寬頻優惠🕎",
+      "title": "11月💖追數大優惠💝",
       "type": "sales",
-      "updatedAt": "2026-10-13T04:22:23.749Z",
+      "updatedAt": "2026-11-19T15:51:22.928Z",
       "sales": {
         "broadband": {
-          "planId": "1095"
+          "planId": "1050"
         },
-        "email": "hon0305hon@hotmail.com",
+        "email": "hk62748871@gmail.com",
         "isVerified": true,
         "mobile": {
-          "planId": "1093"
+          "planId": "-LKPkl2AfZ3RmU-vrezH"
         },
         "businessBroadband": {
-          "planId": null
+          "planId": "1051"
         },
         "paytv": {
           "planId": null
         },
-        "phone": "66566305",
-        "salesId": "YCcZ7XzKHvV6k9Y76sdN3juVoqz2",
-        "telegram": "https://t.me/Chan_Daniel",
-        "whatsapp": "66566305"
+        "phone": "62748871",
+        "salesId": "HG62cbEKtyLdFeKG81Y9UdxP7pO2",
+        "telegram": "https://t.me/at3hk",
+        "whatsapp": "62748871"
       }
     },
     {
-      "planId": "1965",
+      "planId": "1602",
       "category": "broadband",
       "image": "",
       "intros": [
-        "2500M $149",
-        "5000M $249",
+        "💥2500m 寬頻 激抵價$149起💥- 💥另有精選娛樂組合選擇💥Disney+ 💥",
+        "💥iQIYI💥Wifi 7 Router💥",
         null
       ],
       "networks": {
@@ -2264,39 +2570,90 @@
           "price": 99
         },
         "fiveG": {
-          "price": 88
+          "price": 168
         }
       },
       "pos": 0,
       "provider": "hkbn",
       "sales": {
+        "salesId": "V1EbsucAUrToBaMrBTirQugn4ag2",
         "broadband": {
-          "planId": "1965"
-        },
-        "email": "anson98251149@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1964"
+          "planId": "1602"
         },
         "businessBroadband": {
+          "planId": null
+        },
+        "email": "Niclovewho@gmail.com",
+        "isVerified": false,
+        "mobile": {
           "planId": null
         },
         "paytv": {
           "planId": null
         },
-        "phone": "98251149",
-        "salesId": "GBeji6rLpOYs2fA37j4Oa9B3ErG3",
-        "telegram": "https://t.me/anson_hkbn",
-        "whatsapp": "98251149"
+        "phone": "98210711",
+        "telegram": "https://t.me/",
+        "whatsapp": "98210711"
       },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
-        "renewContract": true
+        "renewContract": false
       },
-      "title": "🌅HKBN 香港寬頻 1000M $98 Wifi",
+      "title": "‼️香港寬頻推廣優惠 ‼️",
       "type": "sales",
-      "updatedAt": "2026-06-08T10:01:11.367Z"
+      "updatedAt": "2026-08-07T02:48:33.564Z"
+    },
+    {
+      "planId": "1984",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/plan-1984-01.jpg",
+      "intros": [
+        "⚽英超西甲$228🏠5G家居寬頻 $108",
+        "💥網上行直屬認證員工 信心保証",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "GSJA0S20IrYWkgrTyvWyZ0PeaOi1",
+        "broadband": {
+          "planId": "1984"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "luckyad228@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "53209332",
+        "telegram": "https://t.me/Netvigator_csl",
+        "whatsapp": "53209332"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "🔥1000M公居屋私樓低過⬇️$108",
+      "type": "sales",
+      "updatedAt": "2026-11-02T08:52:13.224Z"
     },
     {
       "planId": "1246",
@@ -2401,12 +2758,12 @@
       "updatedAt": "2026-09-03T05:27:09.956Z"
     },
     {
-      "planId": "1975",
+      "planId": "1981",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan_1975-02.jpg",
+      "image": "https://images.findplanking.com/poster/plan-1982-02.jpg",
       "intros": [
-        "2500M 月費低至$148😍 官方認證員工💯 信心保證",
-        "📣月費$108 5G寬頻 村屋 唐樓上網寬頻救世主",
+        "2500M 月費低至$146（特選屋苑）😆😆",
+        "手機轉台/NOWTV/寬頻🚀一站式服務🎉🎉",
         null
       ],
       "networks": {
@@ -2423,17 +2780,17 @@
       "pos": 0,
       "provider": "netvigator",
       "sales": {
-        "salesId": "Abx8EcxIPCR3pwDon62o0nwlCz72",
+        "salesId": "dhiwJTeqx9XveR6pljlTRA4WJ472",
         "broadband": {
-          "planId": "1975"
+          "planId": "1981"
         },
         "businessBroadband": {
           "planId": null
         },
-        "email": "hkproductionwe@gmail.com",
+        "email": "hokalin96@gmail.com",
         "isVerified": true,
         "mobile": {
-          "planId": "1979"
+          "planId": null
         },
         "paytv": {
           "planId": null
@@ -2447,91 +2804,99 @@
         "transfer": true,
         "renewContract": false
       },
-      "title": "8月HKT$108 /月起(再平d😆)光纖入屋",
+      "title": "108/月1000M（再平d) 🌊快啲查詢😍😍",
       "type": "sales",
-      "updatedAt": "2026-08-01T09:39:46.917Z"
+      "updatedAt": "2026-07-20T06:36:31.747Z"
     },
     {
-      "planId": "1571",
+      "planId": "1968",
       "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
+      "image": "https://images.findplanking.com/poster/sales_203-09-a.jpeg",
       "intros": [
-        "月費低至$98",
-        "95%以上覆蓋，冇使用地址限制",
+        "「快閃」公屋/私樓/唐樓/舊樓/村屋",
+        "快啲入嚟查詢🤗🤝歡迎🤝",
         null
       ],
       "networks": {
         "mb1000": {
-          "price": 88
+          "price": 98
         },
         "mb100": {
-          "price": 78
+          "price": null
         },
         "fiveG": {
-          "price": 98
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "mTU1iAq0qKOitc0ibu7MaFwf4Hk1",
+        "broadband": {
+          "planId": "1968"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "cslzuewong3@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "54721974",
+        "telegram": "https://t.me/csl_netvigator",
+        "whatsapp": "54470440"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "網上行❗️本週限時❗️最抵優惠❗️",
+      "type": "sales",
+      "updatedAt": "2026-08-27T13:45:44.053Z"
+    },
+    {
+      "planId": "-M271yTrjOpLnUlJ-FUu",
+      "image": "https://firebasestorage.googleapis.com/v0/b/findplanking3321.appspot.com/o/Posters%2Fphoto_2022-12-12%2011.09.04.jpeg?alt=media&token=a0cb5a64-2abf-4557-86f5-c9ce48f878c8",
+      "intros": [
+        "🎉單棟式大廈、村屋、唐樓救星，從此擺脫龜速🎉",
+        "💥光纖寬頻月費低至$88⚡️",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 118
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": null
         }
       },
       "pos": 0,
       "provider": "smartone",
-      "sales": {
-        "salesId": "Nfh08Xw1VUUhq8uuqS0pWU7lXkw1",
-        "broadband": {
-          "planId": "1571"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "fuwailap716@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1442"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "97322959",
-        "telegram": "https://t.me/RoyFu",
-        "whatsapp": "97322959"
-      },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": true
       },
-      "title": "🚨數碼通 5G無線寬頻📡快閃⚡️優惠🈹",
-      "type": "sales",
-      "updatedAt": "2026-11-04T16:46:44.623Z"
-    },
-    {
-      "planId": "1767",
+      "title": "🌈SmarTone 5G寬頻計劃，村屋、唐樓首選👍🏻",
+      "updatedAt": "2026-11-04T11:43:13.858Z",
       "category": "broadband",
-      "image": "",
-      "intros": [
-        "📢 免安裝費 + 超多贈品！",
-        "1000M寬頻月費低至$98！",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 78
-        }
-      },
-      "pos": 0,
-      "provider": "hkbn",
+      "type": "sales",
       "sales": {
         "broadband": {
-          "planId": "1767"
+          "planId": "-M271yTrjOpLnUlJ-FUu"
         },
-        "email": "yiukit5200@gmail.com",
+        "email": "ngbenben89517@gmail.com",
         "isVerified": true,
         "mobile": {
-          "planId": null
+          "planId": "-M1ARjCzXJWa_wcmaJOE"
         },
         "businessBroadband": {
           "planId": null
@@ -2539,172 +2904,11 @@
         "paytv": {
           "planId": null
         },
-        "phone": "46452071",
-        "salesId": "EqVvq3TF1Zg1dkaWaX45RnE52BL2",
-        "telegram": "https://t.me/joeyiu",
-        "whatsapp": "46452071"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "香港寬頻HKBN限時勁減🔥$98/月極速寬頻計劃🔥",
-      "type": "sales",
-      "updatedAt": "2026-06-06T17:29:18.912Z"
-    },
-    {
-      "planId": "1985",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan-1985-01.jpg",
-      "intros": [
-        "🏠公居屋私樓全港覆蓋",
-        "👉🏻5G家居寬频低至$108",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "xGxCgEpM9EXPMHnQQglr8lrgP1K2",
-        "broadband": {
-          "planId": "1985"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "luckyad288@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "53209332",
-        "telegram": "https://t.me/netvigator_csl",
-        "whatsapp": "53209332"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "🔥1️⃣1️⃣月1000M唔駛$108🔸限時優惠🔸",
-      "type": "sales",
-      "updatedAt": "2026-11-02T08:51:16.476Z"
-    },
-    {
-      "planId": "1819",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "1000M 公居屋/私樓：低至 $108/月   - 限時加推：公居屋 $108/ 私樓 $10",
-        "🎁 獨家送 WiFi 7 Router   🎁 新客戶安裝即送禮物  ",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1819"
-        },
-        "email": "lokyee623623@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1818"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": "1820"
-        },
-        "phone": "22398033",
-        "salesId": "4sfBOTm0MOMmb5AAsY2aS4Q6tNq1",
-        "telegram": "https://t.me/pccwpccw",
-        "whatsapp": "54366609"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "【HKT 網上行 + CSL 家居寬頻優惠】1000M低至$108／送WiFi7路由器／NowTV睇英超",
-      "type": "sales",
-      "updatedAt": "2026-08-26T23:57:20.869Z"
-    },
-    {
-      "planId": "1831",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🎁免安裝費 + 送家居電話 + Now TV節目 + 免搬遷費！",
-        "官方認證WhatsApp✅54359992 ",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 100
-        },
-        "mb100": {
-          "price": 118
-        },
-        "fiveG": {
-          "price": 156
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "7O1SXzkNylbQYDGDt2wUDqCa7Gh1",
-        "broadband": {
-          "planId": "1831"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "bobo.sy.law@pccw.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "22398189",
-        "telegram": "https://t.me/@HKTBOBO",
-        "whatsapp": "54359992"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "【網上行2026驚喜價！】",
-      "type": "sales",
-      "updatedAt": "2026-07-09T12:18:15.922Z"
+        "phone": "90170159",
+        "salesId": "x88G3KTlKzMIqKnDaRz0W0qThdK2",
+        "telegram": "https://t.me/BenNg123",
+        "whatsapp": "90170159"
+      }
     },
     {
       "planId": "1565",
@@ -2758,11 +2962,1490 @@
       "updatedAt": "2026-06-17T07:53:33.191Z"
     },
     {
-      "planId": "-M271yTrjOpLnUlJ-FUu",
-      "image": "https://firebasestorage.googleapis.com/v0/b/findplanking3321.appspot.com/o/Posters%2Fphoto_2022-12-12%2011.09.04.jpeg?alt=media&token=a0cb5a64-2abf-4557-86f5-c9ce48f878c8",
+      "planId": "1862",
+      "category": "broadband",
+      "image": "",
       "intros": [
-        "🎉單棟式大廈、村屋、唐樓救星，從此擺脫龜速🎉",
+        "🔥$78蚊- 1000M👉免安裝費,免搬遷費",
+        "✅$88蚊- 5G真無限➕Wi-Fi 7➕免租機",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 88
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1862"
+        },
+        "email": "aesopm91814@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1292"
+        },
+        "businessBroadband": {
+          "planId": "2006"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "00000000",
+        "salesId": "B1GPmATa5xRLBEd7b1FDNlzZQO43",
+        "telegram": "https://t.me/cmhk_offers1",
+        "whatsapp": "59879551"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "⭕中國移動🔥查詢＆光纖💰再免月費💫",
+      "type": "sales",
+      "updatedAt": "2026-11-20T19:26:43.923Z"
+    },
+    {
+      "planId": "1529",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🇭🇰全港獨家5G真無限任用,無需擔心鎖速度",
+        "$1️⃣0️⃣3️⃣✅️有試用✅️擺脫傳統拉線✅️",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 103
+        }
+      },
+      "pos": 0,
+      "provider": "3hk",
+      "sales": {
+        "broadband": {
+          "planId": "1529"
+        },
+        "email": "arming1988@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1528"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "51167873",
+        "salesId": "l47zl1DP0UQwEhixXZzXGZ0Dumd2",
+        "telegram": "https://t.me/mingwu3HK",
+        "whatsapp": "51167873"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "胡生💁5G寬頻計劃免拉線即插即用",
+      "type": "sales",
+      "updatedAt": "2026-11-04T12:11:14.991Z"
+    },
+    {
+      "planId": "1510",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "$88/36個月，1000M家居寬頻",
+        "$129/50Gb，$179/200Gb",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1510"
+        },
+        "email": "h297103618@163.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1253"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "8lWrGu1cQ4dB4qDBy9lozYAI2c72",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "💥中國移動💥獨家內部優惠💥轉台續約💥",
+      "type": "sales",
+      "updatedAt": "2026-06-17T07:52:28.746Z"
+    },
+    {
+      "planId": "1819",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "1000M 公居屋/私樓：低至 $108/月   - 限時加推：公居屋 $108/ 私樓 $10",
+        "🎁 獨家送 WiFi 7 Router   🎁 新客戶安裝即送禮物  ",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1819"
+        },
+        "email": "lokyee623623@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1818"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": "1820"
+        },
+        "phone": "22398033",
+        "salesId": "4sfBOTm0MOMmb5AAsY2aS4Q6tNq1",
+        "telegram": "https://t.me/pccwpccw",
+        "whatsapp": "54366609"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "【HKT 網上行 + CSL 家居寬頻優惠】1000M低至$108／送WiFi7路由器／NowTV睇英超",
+      "type": "sales",
+      "updatedAt": "2026-08-26T23:57:20.869Z"
+    },
+    {
+      "planId": "1822",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "最快2000M極速光纖$118",
+        "限時新優惠新客戶成功登記送$150享用12個月任用5G 計劃🥰 ",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "icable",
+      "sales": {
+        "broadband": {
+          "planId": "1822"
+        },
+        "email": "Awe123438@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1821"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "95604527",
+        "salesId": "lSyC18L9hXS42HaZ6YPPzJlPN1p2",
+        "telegram": "https://t.me/@maxpp88",
+        "whatsapp": "95614253"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "極速光纖上網@最平靓正1000M$68/月",
+      "type": "sales",
+      "updatedAt": "2026-11-02T15:48:40.782Z"
+    },
+    {
+      "planId": "1987",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "5G 寬頻 WiFi 6 $115 WiFi 7 $159",
+        "光纖1000M 寬頻低至88蚊",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "sales": {
+        "salesId": "eQi1lPNc5rbIEYl63t58vxxW5th1",
+        "broadband": {
+          "planId": "1987"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "timtim19801108@hotmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1835"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "93874471",
+        "telegram": "https://t.me/@timlee0811",
+        "whatsapp": "93874471"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": false
+      },
+      "title": "Tim Lee SmarTone 專員 家居寬頻",
+      "type": "sales",
+      "updatedAt": "2026-10-13T04:59:27.615Z"
+    },
+    {
+      "planId": "-M6nVdXtSwYqkmRz3nfb",
+      "image": "https://firebasestorage.googleapis.com/v0/b/findplanking3321.appspot.com/o/Posters%2Fphoto_2020-05-25%2012.30.33.jpeg?alt=media&token=b2e2fe9f-53ef-46aa-84d7-9941f2f55944",
+      "intros": [
+        "商業寬頻$138 商業電話$40 電話系統 $99",
+        "商業WI-FI方案 ",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 228
+        },
+        "mb100": {
+          "price": 99
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "hkbn",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "商業寬頻🔥商業電話🌟500M $138",
+      "updatedAt": "2026-11-17T09:40:19.704Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "broadband": {
+          "planId": "-M6nVdXtSwYqkmRz3nfb"
+        },
+        "email": "donald_or@hotmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1494"
+        },
+        "businessBroadband": {
+          "planId": "1045"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "61192215",
+        "salesId": "JAhTKVzo67Oxfdz1vBv31GXKqbR2",
+        "telegram": "https://t.me/HKBNES",
+        "whatsapp": "61192215"
+      }
+    },
+    {
+      "planId": "1495",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "$78/月，家居1000M寬頻",
+        "$88/月，家居電話，WiFi",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 100
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1495"
+        },
+        "email": "297103618@qq.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1180"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "7MI5zP227BObl5D0VV8IklMw7l72",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "💥中國移動💥轉台續約💥揾我有優惠💥",
+      "type": "sales",
+      "updatedAt": "2026-10-19T14:07:52.519Z"
+    },
+    {
+      "planId": "1498",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🔥家居寬頻現客低至$78/月",
+        "🔥最平月費低至$38",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1498"
+        },
+        "email": "yong62718@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1119"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "lFX6lAoePEVbseMcKlJZrQwsAZT2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中國移動🔥轉台續約🔥全港最平🔥🇭🇰",
+      "type": "sales",
+      "updatedAt": "2026-10-19T14:09:26.405Z"
+    },
+    {
+      "planId": "1665",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_191-01.png",
+      "intros": [
+        "全新優惠 🔥1️⃣1000m $75 2️⃣2500m $139 送路由器 家居電話",
+        "先安裝後生效 免安裝費  專人回覆 歡迎查詢",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 75
+        },
+        "mb100": {
+          "price": 69
+        },
+        "fiveG": {
+          "price": 103
+        }
+      },
+      "pos": 0,
+      "provider": "hgc",
+      "sales": {
+        "salesId": "3ti0c6MGCcXfIESH6os4HZdqUpp1",
+        "broadband": {
+          "planId": "1665"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "kyourp@yahoo.com.hk",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1730"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "62820328",
+        "telegram": "https://t.me/@62820328",
+        "whatsapp": "62820328"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "💥快閃優惠 PM獲取隱藏優惠",
+      "type": "sales",
+      "updatedAt": "2026-07-04T03:48:22.515Z"
+    },
+    {
+      "planId": "1636",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_186-03.png",
+      "intros": [
+        "✨最新三合一 組合優惠 $89/1000m  ",
+        "✨1000m低至$75起",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 75
+        },
+        "mb100": {
+          "price": 69
+        },
+        "fiveG": {
+          "price": 0
+        }
+      },
+      "pos": 0,
+      "provider": "hgc",
+      "sales": {
+        "salesId": "LsU8kzW03UZd4lSPFgZPyBQYtcK2",
+        "broadband": {
+          "planId": "1636"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "mowaskits@owleyes.ch",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": "1637"
+        },
+        "phone": "55969753",
+        "telegram": "https://t.me/@hgcmomoko",
+        "whatsapp": "55969753"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "🌟公居屋/私樓同價 光纖寬頻優惠計劃📡",
+      "type": "sales",
+      "updatedAt": "2026-11-21T13:50:39.651Z"
+    },
+    {
+      "planId": "-NFzEaJxu5jBHS4JfTC2",
+      "image": "",
+      "intros": [
+        "🔥$78蚊-1000M👉免安裝費,免搬遷費",
+        "✅$88蚊- 5G真無限➕Wi-Fi 7➕免租機",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 69
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 88
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "⭕中國移動🔥查詢＆光纖💰再免月費💫",
+      "updatedAt": "2026-11-20T19:26:34.291Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "broadband": {
+          "planId": "-NFzEaJxu5jBHS4JfTC2"
+        },
+        "email": "aa33071188@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1707"
+        },
+        "businessBroadband": {
+          "planId": "2005"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "00000000",
+        "salesId": "jdo6X3lH7gdbGYWsjm4pmUjH3us1",
+        "telegram": "https://t.me/cmhk_offers1",
+        "whatsapp": "59879551"
+      }
+    },
+    {
+      "planId": "1574",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "❤️單棟、舊樓、村屋、唐樓首選❤️",
+        "💥光纖寬頻月費低至$88💥",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "sales": {
+        "broadband": {
+          "planId": "1574"
+        },
+        "email": "mandychan69116@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1474"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "90170159",
+        "salesId": "vMq4xhxiybThw7MBSpOElIfM5rd2",
+        "telegram": "https://t.me/BenNg123",
+        "whatsapp": "90170159"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🌈數碼通全港No 1無線寬頻🌈",
+      "type": "sales",
+      "updatedAt": "2026-11-04T11:45:54.477Z"
+    },
+    {
+      "planId": "1982",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/plan_1982-03-b.jpeg",
+      "intros": [
+        "2500M 低至$148/月 🔥想知自己係咪特選客戶？💁",
+        "HKT官方認證員工✅ 一站式為你服務📣",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "Oa3zA6LU9EQG8bffsSAvfUT3N5z1",
+        "broadband": {
+          "planId": "1982"
+        },
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "sunsum0410@gmail.com",
+        "isVerified": true,
+        "whatsapp": "52039135",
+        "telegram": "https://t.me/hkttay",
+        "phone": "52039135"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "8月HKT ❤️‍🔥限時優惠 短合約💥😻",
+      "type": "sales",
+      "updatedAt": "2026-08-01T09:40:40.740Z"
+    },
+    {
+      "planId": "1843",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🤩送漫遊數據年卡連12個月旅保！🤩",
+        "🫡免安裝、搬遷費！24小時技術支援",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1843"
+        },
+        "email": "jim.ht.jim@pccw.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "2007"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "92533913",
+        "salesId": "GBiyz79SrjcPFvReq8GnjskkkPG2",
+        "telegram": "https://t.me/jimhoitung",
+        "whatsapp": "59214161"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "🚩獨立光纖入屋1000M服務🚩",
+      "type": "sales",
+      "updatedAt": "2026-09-26T05:26:49.062Z"
+    },
+    {
+      "planId": "1135",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "單棟式大廈、村屋、唐樓救星，從此擺脫龜速上網🎉",
         "💥光纖寬頻月費低至$88⚡️",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 88
+        },
+        "mb100": {
+          "price": 88
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🌈SmarTone 5G寬頻計劃，村屋、唐樓首選💯",
+      "type": "sales",
+      "updatedAt": "2026-11-04T11:42:10.138Z",
+      "sales": {
+        "broadband": {
+          "planId": "1135"
+        },
+        "email": "ngbenben88517@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1098"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "90170159",
+        "salesId": "Ay2JygrlhwOp6Jaoj1f2pWOirfW2",
+        "telegram": "https://t.me/BenNg123",
+        "whatsapp": "90170159"
+      }
+    },
+    {
+      "planId": "1983",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/plan-1983-01.jpg",
+      "intros": [
+        "👉🏻HKT 官方認證直屬員工",
+        "🔥2500M 公居屋私樓$148 起",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "L3fXFEVeQqOS8BVmmbOxq7Sp0ci2",
+        "broadband": {
+          "planId": "1983"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "luckyad222@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "53209332",
+        "telegram": "https://t.me/Netvigator_csl",
+        "whatsapp": "53209332"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "1️⃣1️⃣月终極優惠1G寬频低過$108",
+      "type": "sales",
+      "updatedAt": "2026-11-02T08:52:54.856Z"
+    },
+    {
+      "planId": "1831",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🎁免安裝費 + 送家居電話 + Now TV節目 + 免搬遷費！",
+        "官方認證WhatsApp✅54359992 ",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 100
+        },
+        "mb100": {
+          "price": 118
+        },
+        "fiveG": {
+          "price": 156
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "7O1SXzkNylbQYDGDt2wUDqCa7Gh1",
+        "broadband": {
+          "planId": "1831"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "bobo.sy.law@pccw.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "22398189",
+        "telegram": "https://t.me/@HKTBOBO",
+        "whatsapp": "54359992"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "【網上行2026驚喜價！】",
+      "type": "sales",
+      "updatedAt": "2026-07-09T12:18:15.922Z"
+    },
+    {
+      "planId": "1994",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "自動轉賬額外送HKT.AI 40000 credit",
+        "送$1000搬遷服務，$10租wifi router",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1994"
+        },
+        "email": "noah20260202@outlook.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1996"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": "1995"
+        },
+        "phone": "22398629",
+        "salesId": "HDv4L16xQNMSgEmzhB1l11R9AMl1",
+        "telegram": "https://t.me/Ken_Tongg",
+        "whatsapp": "59934528"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": true
+      },
+      "title": "1000M寬頻",
+      "type": "sales",
+      "updatedAt": "2026-10-21T04:43:47.979Z"
+    },
+    {
+      "planId": "1701",
+      "category": "broadband",
+      "image": "https://images.findplanking.com/poster/sales_203-07.png",
+      "intros": [
+        "低至$108 光纖1000M（一年內生效✅）",
+        "公屋🈶私樓🈶唐樓🈶村屋🈶全覆蓋🉐",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "broadband": {
+          "planId": "1701"
+        },
+        "email": "cslzuewong@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1700"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "54721974",
+        "salesId": "Yhite6HSRDeuZc7dYsI4yq4CnO72",
+        "telegram": "https://t.me/findplanking",
+        "whatsapp": "54740440"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "❗️即日更新❗️網上行光纖入屋🛜最齊",
+      "type": "sales",
+      "updatedAt": "2026-08-27T14:45:26.251Z"
+    },
+    {
+      "planId": "1509",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "☎️$129/100Gb，送大陸數據",
+        "☎️$248/110Gb本地，20Gb大灣區數據",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1509"
+        },
+        "email": "g297103618@163.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1252"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "0pGRCqQ6SLXbJIDCp43yn1mjanS2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": false
+      },
+      "title": "☎️中國移動最新月費計劃☎️家居寬頻☎️🔥",
+      "type": "sales",
+      "updatedAt": "2026-06-17T07:46:33.894Z"
+    },
+    {
+      "planId": "1980",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "1年 ❤️$2800 包 mytvsuper",
+        "2年😊$98 3年😳$98 送Router",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 98
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "hkbn",
+      "sales": {
+        "salesId": "aM9mBraL2taPUOyJELP0oMEIe1Q2",
+        "broadband": {
+          "planId": "1980"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "angieau83@gmail.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "95522559",
+        "telegram": "https://t.me/@unclebencmhk",
+        "whatsapp": "95522559"
+      },
+      "tags": {
+        "freeInstallFee": false,
+        "transfer": false,
+        "renewContract": false
+      },
+      "title": "香港寛頻 7月 優惠",
+      "type": "sales",
+      "updatedAt": "2026-07-22T14:10:05.273Z"
+    },
+    {
+      "planId": "1506",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "$78/36個月，1000M寬頻",
+        "$108/30Gb，5G計劃，送大陸數據",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1506"
+        },
+        "email": "c297103618@163.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1196"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "V5DKnfB8mbOVnlJGlTkBoe4jrcF2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中國移動最新月費計劃🔥家居寬頻🔥",
+      "type": "sales",
+      "updatedAt": "2026-10-21T06:04:05.861Z"
+    },
+    {
+      "planId": "1507",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🔥$78/36個月，1000M家居寬頻",
+        "🔥5G最低，$108/30Gb",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1507"
+        },
+        "email": "e297103618@163.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1199"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "sKir0Eg0Z9VLadT5aGm4AMLCwdn1",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "168/200Gb香港+40Gb大陸澳門🔥中國移動家居寬頻",
+      "type": "sales",
+      "updatedAt": "2026-10-21T06:06:56.003Z"
+    },
+    {
+      "planId": "1525",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "送月費",
+        "送積分",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1525"
+        },
+        "email": "honestech_95559890@yahoo.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "-N6MRQBF5F314MNmYbQV"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "ithrhhlfwESpDo9wswAIqny16uE2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "51750688"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中移動家居寬頻低至$88/月🔥轉台最平🔥",
+      "type": "sales",
+      "updatedAt": "2026-08-13T03:04:42.856Z"
+    },
+    {
+      "planId": "1095",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "搬屋上網神器 免拉線 入伙插電即用，固網死角救星 隨時加 靈活擺",
+        "寬頻獨市救星，唔再捱貴Plan",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 104
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🕎SmarTone 5G寬頻優惠🕎",
+      "type": "sales",
+      "updatedAt": "2026-10-13T04:22:23.749Z",
+      "sales": {
+        "broadband": {
+          "planId": "1095"
+        },
+        "email": "hon0305hon@hotmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1093"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66566305",
+        "salesId": "YCcZ7XzKHvV6k9Y76sdN3juVoqz2",
+        "telegram": "https://t.me/Chan_Daniel",
+        "whatsapp": "66566305"
+      }
+    },
+    {
+      "planId": "-M5WemMtkBA3sd7bQLgr",
+      "image": "",
+      "intros": [
+        "🔴公居屋私樓低至$98/1000M",
+        "🟠送3個月 ",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 78
+        },
+        "mb100": {
+          "price": 98
+        },
+        "fiveG": {
+          "price": 148
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "👩🏻‍💻小師妹❤️中國移動 CMHK👏🏻1000M 特價",
+      "updatedAt": "2026-11-23T11:32:58.097Z",
+      "category": "broadband",
+      "type": "sales",
+      "sales": {
+        "salesId": "eq1NtFFLKShImm3DlnrlJyVG9c52",
+        "broadband": {
+          "planId": "-M5WemMtkBA3sd7bQLgr"
+        },
+        "mobile": {
+          "planId": "-M5Wg0oNly_qtXkrBdDi"
+        },
+        "paytv": {
+          "planId": "-MC8QD4p3iLUW89ofC8L"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "au_angie@yahoo.com.hk",
+        "isVerified": true,
+        "whatsapp": "66566133",
+        "telegram": "https://t.me/@benben33315",
+        "phone": "66566133"
+      }
+    },
+    {
+      "planId": "1018",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "$88 5G 寬頻任用🔥送5G路由器",
+        "獨家🔥$168 5G 真無限⚡️送wifi 7 路由器",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": 78
+        }
+      },
+      "pos": 0,
+      "provider": "3hk",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "‼️11月國慶優惠‼️3香港 5G 家居及商用寬頻",
+      "type": "sales",
+      "updatedAt": "2026-11-01T05:55:25.644Z",
+      "sales": {
+        "broadband": {
+          "planId": "1018"
+        },
+        "email": "sunnyetufo@yahoo.com.hk",
+        "isVerified": true,
+        "mobile": {
+          "planId": "-Mb5N9Gs2s50cwK6DnnB"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "59959989",
+        "salesId": "7hq5r1TvaeQhvYEbjkJ6UJHdhK53",
+        "telegram": "https://t.me/ThreeHK_HIM",
+        "whatsapp": "59959989"
+      }
+    },
+    {
+      "planId": "1502",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "🔥5G，$108/30Gb",
+        "❤️‍🔥送大陸號碼❤️‍🔥",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 68
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "sales": {
+        "broadband": {
+          "planId": "1502"
+        },
+        "email": "b297103618@163.com",
+        "isVerified": false,
+        "mobile": {
+          "planId": "1195"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "66568866",
+        "salesId": "nFUcmGgQ3YfCOJsVNrU8gySaqZB2",
+        "telegram": "https://t.me/WinMak",
+        "whatsapp": "66568866"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥中國移動🔥5G無限上網低至$108🔥🔥",
+      "type": "sales",
+      "updatedAt": "2026-10-21T05:53:23.419Z"
+    },
+    {
+      "planId": "-LoU1nYQJt0GjUp_j4YJ",
+      "image": "https://images.findplanking.com/poster/sales_178-01-a.jpeg",
+      "intros": [
+        "WiFi 7 網速更快，干擾更少月費低至平均$159",
+        "5G寬頻 低至$98, 光纖寬頻月費低$88",
         null
       ],
       "networks": {
@@ -2783,29 +4466,131 @@
         "transfer": true,
         "renewContract": true
       },
-      "title": "🌈SmarTone 5G寬頻計劃，村屋、唐樓首選👍🏻",
-      "updatedAt": "2026-11-04T11:43:13.858Z",
+      "title": "Tim Lee SmarTone 專員 5G寬頻 低至$98, 光纖寬頻月費低$88",
+      "updatedAt": "2026-10-13T04:58:41.524Z",
       "category": "broadband",
       "type": "sales",
       "sales": {
+        "salesId": "BUQU3vyJlfT619GuflUUlTHYPNR2",
         "broadband": {
-          "planId": "-M271yTrjOpLnUlJ-FUu"
+          "planId": "-LoU1nYQJt0GjUp_j4YJ"
         },
-        "email": "ngbenben89517@gmail.com",
-        "isVerified": true,
         "mobile": {
-          "planId": "-M1ARjCzXJWa_wcmaJOE"
-        },
-        "businessBroadband": {
-          "planId": null
+          "planId": "-LoZ1stpLq-yxWEQx32T"
         },
         "paytv": {
           "planId": null
         },
-        "phone": "90170159",
-        "salesId": "x88G3KTlKzMIqKnDaRz0W0qThdK2",
-        "telegram": "https://t.me/BenNg123",
-        "whatsapp": "90170159"
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "timtim19801108@gmail.com",
+        "isVerified": true,
+        "whatsapp": "93874471",
+        "telegram": "https://t.me/timlee0811",
+        "phone": "93874471"
+      }
+    },
+    {
+      "planId": "1841",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "5G WIFI無限上網低至$118 免拉線",
+        "💥7日試用,免費送機上門💥",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 118
+        },
+        "mb100": {
+          "price": 118
+        },
+        "fiveG": {
+          "price": 118
+        }
+      },
+      "pos": 0,
+      "provider": "3hk",
+      "sales": {
+        "salesId": "fTS3Oy7z6JOkUvJF3kSLXLo2kcg1",
+        "broadband": {
+          "planId": "1841"
+        },
+        "businessBroadband": {
+          "planId": "1842"
+        },
+        "email": "Netdc2025@yahoo.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1969"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "62647284",
+        "telegram": "https://t.me/Hgc3hk1",
+        "whatsapp": "62381524"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥3HK 5G WIFI 真無限上網🔥",
+      "type": "sales",
+      "updatedAt": "2026-10-15T12:31:45.009Z"
+    },
+    {
+      "planId": "1152",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "平中平最低優惠✨✨🌪️",
+        "快啲睇吓啦☁️🌈",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": null
+        },
+        "mb100": {
+          "price": null
+        },
+        "fiveG": {
+          "price": null
+        }
+      },
+      "pos": 0,
+      "provider": "cmhk",
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🌈🌈🌈☁️CMHK最新上台計劃",
+      "type": "sales",
+      "updatedAt": "2026-06-18T08:23:55.742Z",
+      "sales": {
+        "salesId": "0ieVnDv1RiMqlh9qj8RCp5zyshK2",
+        "broadband": {
+          "planId": "1152"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "colorho.samsung@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1151"
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "64205909",
+        "telegram": "https://t.me/Cmhktang218",
+        "whatsapp": "64205909"
       }
     },
     {
@@ -2860,414 +4645,6 @@
       }
     },
     {
-      "planId": "2012",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
-      "intros": [
-        "低至$98",
-        "即插即用，冇使用地址限制",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 88
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "sales": {
-        "broadband": {
-          "planId": "2012"
-        },
-        "email": "tomcat93682@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1997"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "97322959",
-        "salesId": "3gmBaRRQnoP8HUNBnBMPw8SbyuS2",
-        "telegram": "https://t.me/RoyFu",
-        "whatsapp": "97322959"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🚨最新數碼通📡無線寬頻優惠🈹",
-      "type": "sales",
-      "updatedAt": "2026-11-04T16:44:22.862Z"
-    },
-    {
-      "planId": "-LoU1nYQJt0GjUp_j4YJ",
-      "image": "https://images.findplanking.com/poster/sales_178-01-a.jpeg",
-      "intros": [
-        "WiFi 7 網速更快，干擾更少月費低至平均$159",
-        "5G寬頻 低至$98, 光纖寬頻月費低$88",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 118
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "Tim Lee SmarTone 專員 5G寬頻 低至$98, 光纖寬頻月費低$88",
-      "updatedAt": "2026-10-13T04:58:41.524Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "salesId": "BUQU3vyJlfT619GuflUUlTHYPNR2",
-        "broadband": {
-          "planId": "-LoU1nYQJt0GjUp_j4YJ"
-        },
-        "mobile": {
-          "planId": "-LoZ1stpLq-yxWEQx32T"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "timtim19801108@gmail.com",
-        "isVerified": true,
-        "whatsapp": "93874471",
-        "telegram": "https://t.me/timlee0811",
-        "phone": "93874471"
-      }
-    },
-    {
-      "planId": "-M5VFKIbcL1HVM_E73CV",
-      "image": "https://firebasestorage.googleapis.com/v0/b/findplanking3321.appspot.com/o/Posters%2Fphoto_2021-03-24%2011.18.18.jpeg?alt=media&token=3fd7a0e0-4687-4bab-9db1-147d74387f2e",
-      "intros": [
-        "✅ ❤️🧡wifi 6低至 $98🥕🥕🥕🥕",
-        "✅ 🥕送月費💙💚💛❤️🧡",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 118
-        },
-        "mb100": {
-          "price": 118
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🌈🥕smartone 5G $98村屋寬頻激低價🌈🌈",
-      "updatedAt": "2026-11-04T11:23:00.694Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "broadband": {
-          "planId": "-M5VFKIbcL1HVM_E73CV"
-        },
-        "email": "wingsiu0420@hotmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-M5-hsV0HhHvOCTokw02"
-        },
-        "businessBroadband": {
-          "planId": "1099"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "94339426",
-        "salesId": "pJt5Z62UolQC1M8PngXK06MnnUY2",
-        "telegram": "https://t.me/smartonewing",
-        "whatsapp": "94339426"
-      }
-    },
-    {
-      "planId": "1984",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan-1984-01.jpg",
-      "intros": [
-        "⚽英超西甲$228🏠5G家居寬頻 $108",
-        "💥網上行直屬認證員工 信心保証",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "GSJA0S20IrYWkgrTyvWyZ0PeaOi1",
-        "broadband": {
-          "planId": "1984"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "luckyad228@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "53209332",
-        "telegram": "https://t.me/Netvigator_csl",
-        "whatsapp": "53209332"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "🔥1000M公居屋私樓低過⬇️$108",
-      "type": "sales",
-      "updatedAt": "2026-11-02T08:52:13.224Z"
-    },
-    {
-      "planId": "1495",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "$78/月，家居1000M寬頻",
-        "$88/月，家居電話，WiFi",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 100
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1495"
-        },
-        "email": "297103618@qq.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1180"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "7MI5zP227BObl5D0VV8IklMw7l72",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "💥中國移動💥轉台續約💥揾我有優惠💥",
-      "type": "sales",
-      "updatedAt": "2026-10-19T14:07:52.519Z"
-    },
-    {
-      "planId": "1135",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "單棟式大廈、村屋、唐樓救星，從此擺脫龜速上網🎉",
-        "💥光纖寬頻月費低至$88⚡️",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 88
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🌈SmarTone 5G寬頻計劃，村屋、唐樓首選💯",
-      "type": "sales",
-      "updatedAt": "2026-11-04T11:42:10.138Z",
-      "sales": {
-        "broadband": {
-          "planId": "1135"
-        },
-        "email": "ngbenben88517@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1098"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "90170159",
-        "salesId": "Ay2JygrlhwOp6Jaoj1f2pWOirfW2",
-        "telegram": "https://t.me/BenNg123",
-        "whatsapp": "90170159"
-      }
-    },
-    {
-      "planId": "1499",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🔥5G最平$129/100Gb，$179/200Gb",
-        "🔥4G低至$38/6Gb，",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1499"
-        },
-        "email": "yong62717@gmail.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1132"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "XNtMsAiT1ReCSSiEWJB9Wl2y11F2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔥中移動最新月費計劃🔥全城熱賣🔥快啲入嚟睇下啦🔥",
-      "type": "sales",
-      "updatedAt": "2026-10-19T14:02:00.756Z"
-    },
-    {
-      "planId": "1574",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "❤️單棟、舊樓、村屋、唐樓首選❤️",
-        "💥光纖寬頻月費低至$88💥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "smartone",
-      "sales": {
-        "broadband": {
-          "planId": "1574"
-        },
-        "email": "mandychan69116@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1474"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "90170159",
-        "salesId": "vMq4xhxiybThw7MBSpOElIfM5rd2",
-        "telegram": "https://t.me/BenNg123",
-        "whatsapp": "90170159"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🌈數碼通全港No 1無線寬頻🌈",
-      "type": "sales",
-      "updatedAt": "2026-11-04T11:45:54.477Z"
-    },
-    {
       "planId": "1597",
       "category": "broadband",
       "image": "",
@@ -3319,165 +4696,12 @@
       "updatedAt": "2026-11-13T09:19:27.819Z"
     },
     {
-      "planId": "1841",
+      "planId": "1198",
       "category": "broadband",
       "image": "",
       "intros": [
-        "5G WIFI無限上網低至$118 免拉線",
-        "💥7日試用,免費送機上門💥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 118
-        },
-        "mb100": {
-          "price": 118
-        },
-        "fiveG": {
-          "price": 118
-        }
-      },
-      "pos": 0,
-      "provider": "3hk",
-      "sales": {
-        "salesId": "fTS3Oy7z6JOkUvJF3kSLXLo2kcg1",
-        "broadband": {
-          "planId": "1841"
-        },
-        "businessBroadband": {
-          "planId": "1842"
-        },
-        "email": "Netdc2025@yahoo.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1969"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "62647284",
-        "telegram": "https://t.me/Hgc3hk1",
-        "whatsapp": "62381524"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔥3HK 5G WIFI 真無限上網🔥",
-      "type": "sales",
-      "updatedAt": "2026-10-15T12:31:45.009Z"
-    },
-    {
-      "planId": "1525",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "送月費",
-        "送積分",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1525"
-        },
-        "email": "honestech_95559890@yahoo.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-N6MRQBF5F314MNmYbQV"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "ithrhhlfwESpDo9wswAIqny16uE2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "51750688"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔥中移動家居寬頻低至$88/月🔥轉台最平🔥",
-      "type": "sales",
-      "updatedAt": "2026-08-13T03:04:42.856Z"
-    },
-    {
-      "planId": "1510",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "$88/36個月，1000M家居寬頻",
-        "$129/50Gb，$179/200Gb",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1510"
-        },
-        "email": "h297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1253"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "8lWrGu1cQ4dB4qDBy9lozYAI2c72",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "💥中國移動💥獨家內部優惠💥轉台續約💥",
-      "type": "sales",
-      "updatedAt": "2026-06-17T07:52:28.746Z"
-    },
-    {
-      "planId": "1822",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "最快2000M極速光纖$118",
-        "限時新優惠新客戶成功登記送$150享用12個月任用5G 計劃🥰 ",
+        "☎️5G.$129/100G，$179/200G",
+        "☎️$78/月，家居1000M寬頻",
         null
       ],
       "networks": {
@@ -3488,108 +4712,7 @@
           "price": 88
         },
         "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "icable",
-      "sales": {
-        "broadband": {
-          "planId": "1822"
-        },
-        "email": "Awe123438@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1821"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "95604527",
-        "salesId": "lSyC18L9hXS42HaZ6YPPzJlPN1p2",
-        "telegram": "https://t.me/@maxpp88",
-        "whatsapp": "95614253"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "極速光纖上網@最平靓正1000M$68/月",
-      "type": "sales",
-      "updatedAt": "2026-11-02T15:48:40.782Z"
-    },
-    {
-      "planId": "1438",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "⏰限時快閃⚡1000M $98",
-        "⏰2500M 公屋$130💥私樓$130",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 109
-        },
-        "mb100": {
-          "price": 99
-        },
-        "fiveG": {
-          "price": 118
-        }
-      },
-      "pos": 0,
-      "provider": "hkbn",
-      "sales": {
-        "broadband": {
-          "planId": "1438"
-        },
-        "email": "Netdc999@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1439"
-        },
-        "businessBroadband": {
-          "planId": "1440"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "62647284",
-        "salesId": "AKtXOJXSYZfTwyJBRZFhiSokIhq2",
-        "telegram": "https://t.me/hkbn1",
-        "whatsapp": "62647284"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🌈香港寬頻☀️2G光纖限時優惠",
-      "type": "sales",
-      "updatedAt": "2026-10-15T12:31:13.464Z"
-    },
-    {
-      "planId": "-M5WemMtkBA3sd7bQLgr",
-      "image": "",
-      "intros": [
-        "🔴公居屋私樓低至$98/1000M",
-        "🟠送3個月 ",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 78
-        },
-        "mb100": {
-          "price": 98
-        },
-        "fiveG": {
-          "price": 148
+          "price": 104
         }
       },
       "pos": 0,
@@ -3597,63 +4720,19 @@
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
-        "renewContract": false
+        "renewContract": true
       },
-      "title": "👩🏻‍💻小師妹❤️中國移動 CMHK👏🏻1000M 特價",
-      "updatedAt": "2026-11-23T11:32:58.097Z",
-      "category": "broadband",
+      "title": "☎️中國移動☎️全港最平☎️轉台續約☎️☎️",
       "type": "sales",
-      "sales": {
-        "salesId": "eq1NtFFLKShImm3DlnrlJyVG9c52",
-        "broadband": {
-          "planId": "-M5WemMtkBA3sd7bQLgr"
-        },
-        "mobile": {
-          "planId": "-M5Wg0oNly_qtXkrBdDi"
-        },
-        "paytv": {
-          "planId": "-MC8QD4p3iLUW89ofC8L"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "au_angie@yahoo.com.hk",
-        "isVerified": true,
-        "whatsapp": "66566133",
-        "telegram": "https://t.me/@benben33315",
-        "phone": "66566133"
-      }
-    },
-    {
-      "planId": "1507",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🔥$78/36個月，1000M家居寬頻",
-        "🔥5G最低，$108/30Gb",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
+      "updatedAt": "2026-10-21T06:05:24.644Z",
       "sales": {
         "broadband": {
-          "planId": "1507"
+          "planId": "1198"
         },
-        "email": "e297103618@163.com",
+        "email": "d297103618@163.com",
         "isVerified": false,
         "mobile": {
-          "planId": "1199"
+          "planId": "1197"
         },
         "businessBroadband": {
           "planId": null
@@ -3662,1046 +4741,18 @@
           "planId": null
         },
         "phone": "66568866",
-        "salesId": "sKir0Eg0Z9VLadT5aGm4AMLCwdn1",
+        "salesId": "Xs5Bk54ZeHQaxe1dOZECYa2puDB2",
         "telegram": "https://t.me/WinMak",
         "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "168/200Gb香港+40Gb大陸澳門🔥中國移動家居寬頻",
-      "type": "sales",
-      "updatedAt": "2026-10-21T06:06:56.003Z"
-    },
-    {
-      "planId": "1508",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "💗$108/30Gb",
-        "💗$129/50Gb",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1508"
-        },
-        "email": "f297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1213"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "wOmTIuIwlFbf5fshgbslRyXlS1q2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": false
-      },
-      "title": "💗168/200Gb香港，40gb大陸澳門，❗️",
-      "type": "sales",
-      "updatedAt": "2026-10-21T06:08:43.167Z"
-    },
-    {
-      "planId": "1018",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "$88 5G 寬頻任用🔥送5G路由器",
-        "獨家🔥$168 5G 真無限⚡️送wifi 7 路由器",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 78
-        }
-      },
-      "pos": 0,
-      "provider": "3hk",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "‼️11月國慶優惠‼️3香港 5G 家居及商用寬頻",
-      "type": "sales",
-      "updatedAt": "2026-11-01T05:55:25.644Z",
-      "sales": {
-        "broadband": {
-          "planId": "1018"
-        },
-        "email": "sunnyetufo@yahoo.com.hk",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-Mb5N9Gs2s50cwK6DnnB"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "59959989",
-        "salesId": "7hq5r1TvaeQhvYEbjkJ6UJHdhK53",
-        "telegram": "https://t.me/ThreeHK_HIM",
-        "whatsapp": "59959989"
       }
     },
     {
-      "planId": "1501",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🔥5G企業，$129/50Gb，$179/150Gb",
-        "🔥北上首選$159/50Gb中港共用",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1501"
-        },
-        "email": "a297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1190"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "7tuwvpMKjxQzHdqdUekii7SRls32",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "❤️‍🔥最新月費計劃❤️‍🔥中國移動❤️‍🔥轉台續約❤️‍🔥",
-      "type": "sales",
-      "updatedAt": "2026-10-21T06:02:08.536Z"
-    },
-    {
-      "planId": "1050",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🌈💖村屋唐樓商鋪救星🌈💖",
-        "💥💥$88免安裝免拉線包router💥💥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 88
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": 88
-        }
-      },
-      "pos": 0,
-      "provider": "3hk",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "11月💖追數大優惠💝",
-      "type": "sales",
-      "updatedAt": "2026-11-19T15:51:22.928Z",
-      "sales": {
-        "broadband": {
-          "planId": "1050"
-        },
-        "email": "hk62748871@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-LKPkl2AfZ3RmU-vrezH"
-        },
-        "businessBroadband": {
-          "planId": "1051"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "62748871",
-        "salesId": "HG62cbEKtyLdFeKG81Y9UdxP7pO2",
-        "telegram": "https://t.me/at3hk",
-        "whatsapp": "62748871"
-      }
-    },
-    {
-      "planId": "2009",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "36個月合約送12mytv super 機頂盒",
-        "手機服務用緊再有每月$20折扣優惠",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 77
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "salesId": "P6MVfILZEAONkgRfkXX6zJEUWWy1",
-        "broadband": {
-          "planId": "2009"
-        },
-        "mobile": {
-          "planId": "1988"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "lodaledale25@gmail.com",
-        "isVerified": false,
-        "whatsapp": "70405850",
-        "telegram": "https://t.me/man",
-        "phone": "70405850"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "$77 1000m光纖入屋",
-      "type": "sales",
-      "updatedAt": "2026-10-15T08:13:31.662Z"
-    },
-    {
-      "planId": "1983",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/plan-1983-01.jpg",
-      "intros": [
-        "👉🏻HKT 官方認證直屬員工",
-        "🔥2500M 公居屋私樓$148 起",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "L3fXFEVeQqOS8BVmmbOxq7Sp0ci2",
-        "broadband": {
-          "planId": "1983"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "luckyad222@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "53209332",
-        "telegram": "https://t.me/Netvigator_csl",
-        "whatsapp": "53209332"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "1️⃣1️⃣月终極優惠1G寬频低過$108",
-      "type": "sales",
-      "updatedAt": "2026-11-02T08:52:54.856Z"
-    },
-    {
-      "planId": "1999",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "1000M唔洗$108",
-        "2500M限定地區優惠，歡迎查詢",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1999"
-        },
-        "email": "meimeileung826@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "2000"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "60399555",
-        "salesId": "QikdEN12fFhEheDBkpNK5za7pPH2",
-        "telegram": "https://t.me/Leung May",
-        "whatsapp": "60399555"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "網上行家居寬頻限時優惠",
-      "type": "sales",
-      "updatedAt": "2026-09-04T05:38:17.467Z"
-    },
-    {
-      "planId": "1701",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_203-07.png",
-      "intros": [
-        "低至$108 光纖1000M（一年內生效✅）",
-        "公屋🈶私樓🈶唐樓🈶村屋🈶全覆蓋🉐",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1701"
-        },
-        "email": "cslzuewong@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1700"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "54721974",
-        "salesId": "Yhite6HSRDeuZc7dYsI4yq4CnO72",
-        "telegram": "https://t.me/findplanking",
-        "whatsapp": "54740440"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "❗️即日更新❗️網上行光纖入屋🛜最齊",
-      "type": "sales",
-      "updatedAt": "2026-08-27T14:45:26.251Z"
-    },
-    {
-      "planId": "1498",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🔥家居寬頻現客低至$78/月",
-        "🔥最平月費低至$38",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1498"
-        },
-        "email": "yong62718@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1119"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "lFX6lAoePEVbseMcKlJZrQwsAZT2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🔥中國移動🔥轉台續約🔥全港最平🔥🇭🇰",
-      "type": "sales",
-      "updatedAt": "2026-10-19T14:09:26.405Z"
-    },
-    {
-      "planId": "1764",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🏆$88 / 1000MB 光纖入屋",
-        "💸$88 / 5G真無限＋350GB＋WiFi 7👍",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 88
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "salesId": "uN7uRp8ifORVu7NPQFufsKhDyvv2",
-        "broadband": {
-          "planId": "1764"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "aesopm110@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1763"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "67797884",
-        "telegram": "https://t.me/keslyestgswghwa",
-        "whatsapp": "67797884"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "中國移動CMHK🙋🏻‍♂️🙋🏻‍♂️寬頻,額外送電子劵",
-      "type": "sales",
-      "updatedAt": "2026-11-06T06:39:12.654Z"
-    },
-    {
-      "planId": "1602",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "💥2500m 寬頻 激抵價$149起💥- 💥另有精選娛樂組合選擇💥Disney+ 💥",
-        "💥iQIYI💥Wifi 7 Router💥",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": 99
-        },
-        "fiveG": {
-          "price": 168
-        }
-      },
-      "pos": 0,
-      "provider": "hkbn",
-      "sales": {
-        "salesId": "V1EbsucAUrToBaMrBTirQugn4ag2",
-        "broadband": {
-          "planId": "1602"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "Niclovewho@gmail.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "98210711",
-        "telegram": "https://t.me/",
-        "whatsapp": "98210711"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "‼️香港寬頻推廣優惠 ‼️",
-      "type": "sales",
-      "updatedAt": "2026-08-07T02:48:33.564Z"
-    },
-    {
-      "planId": "1509",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "☎️$129/100Gb，送大陸數據",
-        "☎️$248/110Gb本地，20Gb大灣區數據",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1509"
-        },
-        "email": "g297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1252"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "0pGRCqQ6SLXbJIDCp43yn1mjanS2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": false
-      },
-      "title": "☎️中國移動最新月費計劃☎️家居寬頻☎️🔥",
-      "type": "sales",
-      "updatedAt": "2026-06-17T07:46:33.894Z"
-    },
-    {
-      "planId": "-M6nVdXtSwYqkmRz3nfb",
-      "image": "https://firebasestorage.googleapis.com/v0/b/findplanking3321.appspot.com/o/Posters%2Fphoto_2020-05-25%2012.30.33.jpeg?alt=media&token=b2e2fe9f-53ef-46aa-84d7-9941f2f55944",
-      "intros": [
-        "商業寬頻$138 商業電話$40 電話系統 $99",
-        "商業WI-FI方案 ",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 228
-        },
-        "mb100": {
-          "price": 99
-        },
-        "fiveG": {
-          "price": 98
-        }
-      },
-      "pos": 0,
-      "provider": "hkbn",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "商業寬頻🔥商業電話🌟500M $138",
-      "updatedAt": "2026-11-17T09:40:19.704Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "broadband": {
-          "planId": "-M6nVdXtSwYqkmRz3nfb"
-        },
-        "email": "donald_or@hotmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1494"
-        },
-        "businessBroadband": {
-          "planId": "1045"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "61192215",
-        "salesId": "JAhTKVzo67Oxfdz1vBv31GXKqbR2",
-        "telegram": "https://t.me/HKBNES",
-        "whatsapp": "61192215"
-      }
-    },
-    {
-      "planId": "1636",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_186-03.png",
-      "intros": [
-        "✨最新三合一 組合優惠 $89/1000m  ",
-        "✨1000m低至$75起",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 75
-        },
-        "mb100": {
-          "price": 69
-        },
-        "fiveG": {
-          "price": 0
-        }
-      },
-      "pos": 0,
-      "provider": "hgc",
-      "sales": {
-        "salesId": "LsU8kzW03UZd4lSPFgZPyBQYtcK2",
-        "broadband": {
-          "planId": "1636"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "mowaskits@owleyes.ch",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": "1637"
-        },
-        "phone": "55969753",
-        "telegram": "https://t.me/@hgcmomoko",
-        "whatsapp": "55969753"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "🌟公居屋/私樓同價 光纖寬頻優惠計劃📡",
-      "type": "sales",
-      "updatedAt": "2026-11-21T13:50:39.651Z"
-    },
-    {
-      "planId": "1843",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "🤩送漫遊數據年卡連12個月旅保！🤩",
-        "🫡免安裝、搬遷費！24小時技術支援",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1843"
-        },
-        "email": "jim.ht.jim@pccw.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "2007"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "92533913",
-        "salesId": "GBiyz79SrjcPFvReq8GnjskkkPG2",
-        "telegram": "https://t.me/jimhoitung",
-        "whatsapp": "59214161"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "🚩獨立光纖入屋1000M服務🚩",
-      "type": "sales",
-      "updatedAt": "2026-09-26T05:26:49.062Z"
-    },
-    {
-      "planId": "1152",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "平中平最低優惠✨✨🌪️",
-        "快啲睇吓啦☁️🌈",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "🌈🌈🌈☁️CMHK最新上台計劃",
-      "type": "sales",
-      "updatedAt": "2026-06-18T08:23:55.742Z",
-      "sales": {
-        "salesId": "0ieVnDv1RiMqlh9qj8RCp5zyshK2",
-        "broadband": {
-          "planId": "1152"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "colorho.samsung@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1151"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "64205909",
-        "telegram": "https://t.me/Cmhktang218",
-        "whatsapp": "64205909"
-      }
-    },
-    {
-      "planId": "1968",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_203-09-a.jpeg",
-      "intros": [
-        "「快閃」公屋/私樓/唐樓/舊樓/村屋",
-        "快啲入嚟查詢🤗🤝歡迎🤝",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "mTU1iAq0qKOitc0ibu7MaFwf4Hk1",
-        "broadband": {
-          "planId": "1968"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "cslzuewong3@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "54721974",
-        "telegram": "https://t.me/csl_netvigator",
-        "whatsapp": "54470440"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "網上行❗️本週限時❗️最抵優惠❗️",
-      "type": "sales",
-      "updatedAt": "2026-08-27T13:45:44.053Z"
-    },
-    {
-      "planId": "2013",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "公認至強F5G-A 2500M光纖到戶 月費低至$148",
-        "。",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": 108
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "salesId": "yv7WRZ5Fo6NnSuf6EZwJEJyHT7I2",
-        "broadband": {
-          "planId": "2013"
-        },
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "ken60333827@gmail.com",
-        "isVerified": true,
-        "whatsapp": "53209271",
-        "telegram": "https://t.me/@00000000",
-        "phone": "53209271"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "「今日」網上行✨最新優惠一覽⭕️月費$108 1000M轉台優惠",
-      "type": "sales",
-      "updatedAt": "2026-10-26T13:12:13.940Z"
-    },
-    {
-      "planId": "-MJQRHXmck0saIaGsaFv",
-      "image": "https://images.findplanking.com/poster/sales_109-03-h.jpeg",
-      "intros": [
-        "✨🌟官方🪪直銷團隊🌟✨",
-        "🥇至强海外頻寬🏆全港第一🏅",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 108
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 108
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "🌈11月🆕網上行🛜netvigator 特價站🌟",
-      "updatedAt": "2026-11-01T16:06:40.525Z",
-      "category": "broadband",
-      "type": "sales",
-      "sales": {
-        "broadband": {
-          "planId": "-MJQRHXmck0saIaGsaFv"
-        },
-        "email": "bill2004bill2005@yahoo.com.hk",
-        "isVerified": true,
-        "mobile": {
-          "planId": "-N6qQUgZQ1q4aF2819Wr"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": "1005"
-        },
-        "phone": "60551460",
-        "salesId": "MsGFjxmxBvUwi38WWmkGiJD2InB3",
-        "telegram": "https://t.me/HKTBILL",
-        "whatsapp": "60551460"
-      }
-    },
-    {
-      "planId": "1768",
-      "category": "broadband",
-      "image": "https://images.findplanking.com/poster/sales_203-07.png",
-      "intros": [
-        "光纖入屋1000M低至$108💢",
-        "公居屋✅私樓✅唐樓✅村屋✅",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "netvigator",
-      "sales": {
-        "broadband": {
-          "planId": "1768"
-        },
-        "email": "cslzuewong2@gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1704"
-        },
-        "businessBroadband": {
-          "planId": "1705"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "54721974",
-        "salesId": "e3GeSOaW8pRXPUhi7bYjsR35arG3",
-        "telegram": "https://t.me/findplanking",
-        "whatsapp": "54740440"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": false
-      },
-      "title": "網上行‼️新客最新優惠‼️快啲查詢吓",
-      "type": "sales",
-      "updatedAt": "2026-08-27T14:45:26.251Z"
-    },
-    {
-      "planId": "1549",
+      "planId": "1571",
       "category": "broadband",
       "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
       "intros": [
-        "周圍用都得，冇限地址使用",
-        "💥💥💥低至$98🔥🔥🔥",
+        "月費低至$98",
+        "95%以上覆蓋，冇使用地址限制",
         null
       ],
       "networks": {
@@ -4718,22 +4769,22 @@
       "pos": 0,
       "provider": "smartone",
       "sales": {
+        "salesId": "Nfh08Xw1VUUhq8uuqS0pWU7lXkw1",
         "broadband": {
-          "planId": "1549"
-        },
-        "email": "fuwailap520@Gmail.com",
-        "isVerified": true,
-        "mobile": {
-          "planId": "1073"
+          "planId": "1571"
         },
         "businessBroadband": {
           "planId": null
+        },
+        "email": "fuwailap716@gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1442"
         },
         "paytv": {
           "planId": null
         },
         "phone": "97322959",
-        "salesId": "3hhrxU8icANgRRpZwsvIV1odbtI2",
         "telegram": "https://t.me/RoyFu",
         "whatsapp": "97322959"
       },
@@ -4742,60 +4793,9 @@
         "transfer": true,
         "renewContract": true
       },
-      "title": "🔥數碼通 5G無線寬頻震撼⚡️優惠🚨",
+      "title": "🚨數碼通 5G無線寬頻📡快閃⚡️優惠🈹",
       "type": "sales",
-      "updatedAt": "2026-11-04T16:45:42.430Z"
-    },
-    {
-      "planId": "1980",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "1年 ❤️$2800 包 mytvsuper",
-        "2年😊$98 3年😳$98 送Router",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 98
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": null
-        }
-      },
-      "pos": 0,
-      "provider": "hkbn",
-      "sales": {
-        "salesId": "aM9mBraL2taPUOyJELP0oMEIe1Q2",
-        "broadband": {
-          "planId": "1980"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "email": "angieau83@gmail.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "95522559",
-        "telegram": "https://t.me/@unclebencmhk",
-        "whatsapp": "95522559"
-      },
-      "tags": {
-        "freeInstallFee": false,
-        "transfer": false,
-        "renewContract": false
-      },
-      "title": "香港寛頻 7月 優惠",
-      "type": "sales",
-      "updatedAt": "2026-07-22T14:10:05.273Z"
+      "updatedAt": "2026-11-04T16:46:44.623Z"
     },
     {
       "planId": "1865",
@@ -4849,17 +4849,118 @@
       "updatedAt": "2026-09-23T01:13:01.564Z"
     },
     {
-      "planId": "1502",
+      "planId": "1549",
       "category": "broadband",
-      "image": "",
+      "image": "https://images.findplanking.com/poster/post_1073-07.jpeg",
       "intros": [
-        "🔥5G，$108/30Gb",
-        "❤️‍🔥送大陸號碼❤️‍🔥",
+        "周圍用都得，冇限地址使用",
+        "💥💥💥低至$98🔥🔥🔥",
         null
       ],
       "networks": {
         "mb1000": {
-          "price": 68
+          "price": 88
+        },
+        "mb100": {
+          "price": 78
+        },
+        "fiveG": {
+          "price": 98
+        }
+      },
+      "pos": 0,
+      "provider": "smartone",
+      "sales": {
+        "broadband": {
+          "planId": "1549"
+        },
+        "email": "fuwailap520@Gmail.com",
+        "isVerified": true,
+        "mobile": {
+          "planId": "1073"
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "phone": "97322959",
+        "salesId": "3hhrxU8icANgRRpZwsvIV1odbtI2",
+        "telegram": "https://t.me/RoyFu",
+        "whatsapp": "97322959"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": true
+      },
+      "title": "🔥數碼通 5G無線寬頻震撼⚡️優惠🚨",
+      "type": "sales",
+      "updatedAt": "2026-11-04T16:45:42.430Z"
+    },
+    {
+      "planId": "2013",
+      "category": "broadband",
+      "image": "",
+      "intros": [
+        "公認至強F5G-A 2500M光纖到戶 月費低至$148",
+        "。",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 108
+        },
+        "mb100": {
+          "price": 108
+        },
+        "fiveG": {
+          "price": 108
+        }
+      },
+      "pos": 0,
+      "provider": "netvigator",
+      "sales": {
+        "salesId": "yv7WRZ5Fo6NnSuf6EZwJEJyHT7I2",
+        "broadband": {
+          "planId": "2013"
+        },
+        "mobile": {
+          "planId": null
+        },
+        "paytv": {
+          "planId": null
+        },
+        "businessBroadband": {
+          "planId": null
+        },
+        "email": "ken60333827@gmail.com",
+        "isVerified": true,
+        "whatsapp": "53209271",
+        "telegram": "https://t.me/@00000000",
+        "phone": "53209271"
+      },
+      "tags": {
+        "freeInstallFee": true,
+        "transfer": true,
+        "renewContract": false
+      },
+      "title": "「今日」網上行✨最新優惠一覽⭕️月費$108 1000M轉台優惠",
+      "type": "sales",
+      "updatedAt": "2026-10-26T13:12:13.940Z"
+    },
+    {
+      "planId": "-M3BJAOM3LuMM4S3PYwu",
+      "image": "",
+      "intros": [
+        "$78/1000MB",
+        "$98/1000MB 連家居電話",
+        null
+      ],
+      "networks": {
+        "mb1000": {
+          "price": 78
         },
         "mb100": {
           "price": null
@@ -4870,124 +4971,23 @@
       },
       "pos": 0,
       "provider": "cmhk",
-      "sales": {
-        "broadband": {
-          "planId": "1502"
-        },
-        "email": "b297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1195"
-        },
-        "businessBroadband": {
-          "planId": null
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "66568866",
-        "salesId": "nFUcmGgQ3YfCOJsVNrU8gySaqZB2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
-      },
       "tags": {
         "freeInstallFee": true,
         "transfer": true,
         "renewContract": true
       },
-      "title": "🔥中國移動🔥5G無限上網低至$108🔥🔥",
-      "type": "sales",
-      "updatedAt": "2026-10-21T05:53:23.419Z"
-    },
-    {
-      "planId": "1639",
+      "title": "🟡🔴🟢cmhk 中國移動 🔵🟣🟠🎉 超筍優惠計劃😍",
+      "updatedAt": "2026-11-24T07:56:51.806Z",
       "category": "broadband",
-      "image": "",
-      "intros": [
-        "💲88 ➡️無限任用",
-        "免租機費及7日試用",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": null
-        },
-        "mb100": {
-          "price": null
-        },
-        "fiveG": {
-          "price": 88
-        }
-      },
-      "pos": 0,
-      "provider": "3hk",
+      "type": "sales",
       "sales": {
         "broadband": {
-          "planId": "1639"
+          "planId": "-M3BJAOM3LuMM4S3PYwu"
         },
-        "email": "galaxy999hk@gmail.com",
-        "isVerified": false,
+        "email": "mosses228@gmail.com",
+        "isVerified": true,
         "mobile": {
-          "planId": "-MZ1kKifRiAcHDdAFCWG"
-        },
-        "businessBroadband": {
-          "planId": "1640"
-        },
-        "paytv": {
-          "planId": null
-        },
-        "phone": "91387234",
-        "salesId": "1uPHxGpRA3gQUNJJ924lE9AZW7I2",
-        "telegram": "https://t.me/threehongkong",
-        "whatsapp": "91387234"
-      },
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "5G 寬頻WiFi",
-      "type": "sales",
-      "updatedAt": "2026-11-20T05:48:21.807Z"
-    },
-    {
-      "planId": "1198",
-      "category": "broadband",
-      "image": "",
-      "intros": [
-        "☎️5G.$129/100G，$179/200G",
-        "☎️$78/月，家居1000M寬頻",
-        null
-      ],
-      "networks": {
-        "mb1000": {
-          "price": 68
-        },
-        "mb100": {
-          "price": 88
-        },
-        "fiveG": {
-          "price": 104
-        }
-      },
-      "pos": 0,
-      "provider": "cmhk",
-      "tags": {
-        "freeInstallFee": true,
-        "transfer": true,
-        "renewContract": true
-      },
-      "title": "☎️中國移動☎️全港最平☎️轉台續約☎️☎️",
-      "type": "sales",
-      "updatedAt": "2026-10-21T06:05:24.644Z",
-      "sales": {
-        "broadband": {
-          "planId": "1198"
-        },
-        "email": "d297103618@163.com",
-        "isVerified": false,
-        "mobile": {
-          "planId": "1197"
+          "planId": "-M3BLEyOZEsbEATbUIKW"
         },
         "businessBroadband": {
           "planId": null
@@ -4995,10 +4995,10 @@
         "paytv": {
           "planId": null
         },
-        "phone": "66568866",
-        "salesId": "Xs5Bk54ZeHQaxe1dOZECYa2puDB2",
-        "telegram": "https://t.me/WinMak",
-        "whatsapp": "66568866"
+        "phone": "54399163",
+        "salesId": "605h4X5iZNTZREagArmCISTFLQs2",
+        "telegram": "https://t.me/~sam",
+        "whatsapp": "54399163"
       }
     }
   ]

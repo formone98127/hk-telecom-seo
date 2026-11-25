@@ -1,160 +1,313 @@
 ---
-import { MessageCircle, ListOrdered } from '@lucide/astro';
+import {
+  CheckCircle2,
+  AlertTriangle,
+  Calculator,
+  ArrowRight,
+  MessageCircle,
+  ShieldCheck,
+  Clock,
+  HelpCircle,
+} from '@lucide/astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import CtaBanner from '../../components/CtaBanner.astro';
-import FaqSection from '../../components/FaqSection.astro';
-import { getCurrentMonthLabel, withBase } from '../../lib/utils';
-import { breadcrumbSchema, faqSchema } from '../../lib/schema';
+import { withBase } from '../../lib/paths';
+import { breadcrumbSchema } from '../../lib/schema';
 
-const monthLabel = getCurrentMonthLabel();
-const site = Astro.site?.toString();
+const currentMonth = new Intl.DateTimeFormat('zh-HK', {
+  year: 'numeric',
+  month: 'long',
+}).format(new Date());
 
-const faqs = [
+const pageTitle = `【${currentMonth}更新】香港 5G 攜號轉台（MNP）全攻略：過冷河定義、違約金計算及隱藏優惠`;
+const pageDescription =
+  '想轉台減月費又怕斷線或畀天價罰款？一文睇清香港手提電話攜號轉台（MNP）程序、提早幾多日申請最著數、合約未完違約金計法及「過冷河」轉台優惠規則。';
+
+const faqList = [
   {
-    question: '過冷河係咩意思？',
-    answer:
-      '「過冷河」一般指舊合約完結後，需要等一段時間先可以再享受新客戶優惠；亦有人用嚟形容轉台空窗期。實際規則因電訊商而異。',
+    q: '手提電話合約仲有幾個月先到期，最快可以提早幾多日辦理攜號轉台？',
+    a: '一般情況下，你可以於現有合約到期日前 90 日至 180 日（視乎目標電訊商系統設定，例如 CMHK 部分轉台優惠容許預先登記並鎖定長達 180 日後生效）預先鎖定新台月費優惠。新台合約會喺你舊合約正式完結翌日先至啟動，完全唔會出現「雙重交月費」嘅情況。',
   },
   {
-    question: '提早轉台一定要罰錢？',
-    answer:
-      '如果仲喺合約期內，多數要付提早終止費用。不過新電訊商有時會提供回贈或代支優惠，可以互相抵銷一部分。',
+    q: '咩係「過冷河」？一定要轉去儲值卡先再轉返嚟？',
+    a: '「過冷河」係指客戶由現有電訊商轉走，經過指定冷靜期後再以「新客／攜號轉台」身份回歸。香港各大電訊商一般定義 90 日至 180 日內未曾使用該台服務先算全新轉台客（可享最高轉台回贈及免行政費）。如果距離舊約完結仲有幾個月，通常會先轉去無合約嘅平價儲值卡（俗稱養號碼）過冷河，再申請心水 5G 月費。',
+  },
+  {
+    q: '轉台當日會唔會斷線、收唔到銀行 SMS 驗證碼？',
+    a: '正式割接（Cut-over）只會喺你揀選嘅生效日凌晨 1:00 至 4:00 進行。你只需要喺睡前將新台 SIM 卡放入手機（如用 eSIM 則按指示啟動），第二朝起身重開手機就能無縫接軌，所有銀行 SMS、WhatsApp 記錄同通話完全唔受影響。',
+  },
+  {
+    q: '點樣查自己份合約幾時到期同埋剩餘違約金？',
+    a: '最準確方法係登入現有電訊商嘅手機 App（如 MyLink、My3、My HKT、SmarTone CARE）查閱「合約到期日」，或者直接致電客戶服務熱線查詢「提早終止合約費用（Early Termination Charge）」。只要將違約金除返剩餘月數，就可以計出提早轉台係咪更划算。',
+  },
+  {
+    q: '點解經網上銷售員登記，會比門市或官網直接申請更平？',
+    a: '門市需要承擔高昂租金與人手成本，官網則受限於公開標價；網上直銷團隊（Online Sales）擁有額外推廣配額，通常可以為客戶申請「豁免每月 $18–$28 行政費」、額外超市禮券或更多本地／大灣區數據，所有合約條款同樣經電訊商官方系統正式批核，安全可靠。',
+  },
+  {
+    q: '儲值卡（太空卡）號碼可唔可以攜號轉台上台？',
+    a: '可以。自從香港實施電話卡實名制後，只要該儲值卡已完成實名登記，且登記人姓名及身份證號碼與新台上台申請人完全一致，就可以直接辦理攜號轉台並享受轉台優惠。',
   },
 ];
 
-const schema = [
+const site = Astro.site?.toString();
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqList.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.a,
+    },
+  })),
+};
+
+const schemas = [
   breadcrumbSchema(
     [
       { name: '首頁', path: '/' },
-      { name: '攜號轉台教學', path: '/guides/mnp-transfer/' },
+      { name: '攜號轉台（MNP）全攻略', path: '/guides/mnp-transfer/' },
     ],
     site,
   ),
-  faqSchema(faqs),
+  faqSchema,
 ];
 
-const steps = [
-  {
-    title: '第一步：確認舊約狀態',
-    body: '睇清楚合約到期日、提早終止費用、仲有冇分期機款。可以登入電訊商 App 或打熱線問「MNP／攜號轉台結算金額」。',
-  },
-  {
-    title: '第二步：揀新 Plan 同申請轉台',
-    body: '比較月費、數據、大灣區同隱藏優惠後，向新電訊商提交攜號轉台申請（需要身份證同現有電話號碼）。',
-  },
-  {
-    title: '第三步：等待批核同轉台日',
-    body: '一般 1–2 個工作天。轉台當日保持舊 SIM 可用，直至收到成功短訊或新 SIM 啟用指示。',
-  },
-  {
-    title: '第四步：啟用新 SIM／eSIM',
-    body: '跟指示啟動新卡，測試通話、數據同 SMS。如有問題即時聯絡新商客服或經本站 WhatsApp 跟進。',
-  },
-];
+const homeHref = withBase('/');
+const mobileHref = withBase('/mobile-plan/');
 ---
 
 <BaseLayout
-  title={`香港攜號轉台教學｜程序、過冷河同提早轉台計算`}
-  description={`${monthLabel}詳解香港攜號轉台步驟、合約未完計費方法同過冷河注意事項，文中附免費 WhatsApp 諮詢。`}
+  title={pageTitle}
+  description={pageDescription}
   canonical="/guides/mnp-transfer/"
-  schema={schema}
+  schema={schemas}
   ogType="article"
 >
-  <article>
-    <header class="site-container pt-10 pb-8">
-      <nav class="text-xs text-slate-500" aria-label="麵包屑">
-        <a href={withBase('/')} class="hover:text-blue-600">首頁</a>
-        <span class="mx-1.5">/</span>
-        <span>攜號轉台教學</span>
-      </nav>
-      <p class="mt-4 text-sm font-semibold text-blue-600">{monthLabel}實用指南</p>
-      <h1 class="mt-2 font-display text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-        香港攜號轉台完整教學
+  <article class="mx-auto max-w-3xl px-4 py-8 sm:py-12">
+    <!-- 麵包屑導航 -->
+    <nav class="mb-4 flex items-center gap-1.5 text-xs text-slate-500" aria-label="麵包屑">
+      <a href={homeHref} class="transition-colors hover:text-blue-600">首頁</a>
+      <span>/</span>
+      <span class="font-medium text-slate-700">攜號轉台（MNP）全攻略</span>
+    </nav>
+
+    <!-- 文章標題區 -->
+    <header class="mb-8">
+      <div
+        class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700"
+      >
+        <Clock class="h-3.5 w-3.5" stroke-width={2} />
+        <span>{currentMonth}最新電訊實務指南</span>
+      </div>
+      <h1 class="text-2xl font-extrabold leading-snug tracking-tight text-slate-900 sm:text-4xl">
+        {pageTitle}
       </h1>
-      <p class="mt-4 max-w-2xl text-slate-600">
-        想轉去更抵嘅月費又唔想轉號碼？呢篇拆解攜號轉台程序、提早轉台點計錢，以及過冷河要注意咩。
+      <p class="mt-4 text-base leading-relaxed text-slate-600 sm:text-lg">
+        每次合約就快到期，續約價永遠貴過新客轉台價？其實只要掌握正確嘅<strong
+          >攜號轉台（MNP）時間表</strong
+        >，唔單止可以食盡新客豁免行政費同回贈優惠，仲可以做到零斷線無縫過渡。以下為你詳細拆解香港各大電訊商轉台實戰細節。
       </p>
     </header>
 
-    <div class="site-container max-w-3xl pb-8">
-      <div class="prose-guide prose prose-slate">
-        <section>
-          <h2>攜號轉台係咩？</h2>
-          <p>
-            攜號轉台（Mobile Number Portability，MNP）即係保留你現有電話號碼，轉去另一間電訊商。香港四大手機商（CMHK、3HK、csl.、SmarTone）都支援。
-          </p>
-        </section>
-
-        <section class="not-prose mt-10 space-y-4">
-          <div class="mb-2 flex items-center gap-2">
-            <ListOrdered class="h-5 w-5 text-blue-600" stroke-width={2} />
-            <h2 class="font-display text-xl font-bold tracking-tight text-slate-900">圖文步驟</h2>
-          </div>
-          {
-            steps.map((step, i) => (
-              <div class="bento-card">
-                <p class="text-xs font-bold tracking-wider text-blue-600 uppercase">
-                  Step {i + 1}
-                </p>
-                <h3 class="mt-1 font-semibold text-slate-900">{step.title}</h3>
-                <p class="mt-2 text-sm leading-relaxed text-slate-600">{step.body}</p>
-              </div>
-            ))
-          }
-        </section>
-
-        <aside class="not-prose mt-10 rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm sm:p-6">
-          <p class="font-display text-lg font-bold text-slate-900">計唔清舊約費用？</p>
-          <p class="mt-2 text-sm text-slate-600">
-            傳張舊合約截圖或者到期日，我哋幫你估提早轉台划唔划算，同有冇新商回贈可以對沖。
-          </p>
-          <a
-            href="#"
-            class="btn-wa mt-4 wa-link"
-            data-wa-message="你好，我想了解攜號轉台同舊約費用點計，請幫我睇下，謝謝！"
+    <!-- 快速重點摘要框 (Bento Summary) -->
+    <div class="mb-10 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+      <h2 class="mb-3 text-xs font-bold tracking-wider text-slate-400 uppercase">
+        30 秒掌握轉台核心規則
+      </h2>
+      <ul class="space-y-3 text-sm text-slate-700 sm:text-base">
+        <li class="flex items-start gap-2.5">
+          <CheckCircle2 class="mt-0.5 h-5 w-5 shrink-0 text-emerald-600" stroke-width={2} />
+          <span
+            ><strong>最佳申請時機：</strong>合約到期前 <strong>90 至 180 日</strong> 即可預先鎖定優惠，舊約完先開始計新約錢，絕無重疊收費。</span
           >
-            <MessageCircle class="h-4 w-4" stroke-width={2} />
-            WhatsApp 問攜號轉台
-          </a>
-        </aside>
-
-        <section class="mt-10">
-          <h2>合約未完提早轉台點計？</h2>
-          <p>
-            粗略公式：<strong>餘下合約月數 × 每月最低消費</strong>，再加埋未付機款／行政費（如有）。不同電訊商條款唔一樣，以書面報價為準。
-          </p>
-          <p>
-            如果新 Plan 月費平好多，或者新商提供「幫你清舊約／回贈」，有時提早轉仍然更著數。
-          </p>
-        </section>
-
-        <section>
-          <h2>過冷河注意事項</h2>
-          <ul>
-            <li>確認新約生效日，避免舊新服務重疊收費。</li>
-            <li>轉台前後備份重要 SMS（銀行 OTP 等）。</li>
-            <li>如果用 eSIM，確保手機已解鎖同支援該商 eSIM。</li>
-            <li>公司機／附屬號碼可能有額外限制，要先問清楚。</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>點樣揀更抵嘅新 Plan？</h2>
-          <p>
-            可以先睇本站
-            <a href={withBase('/mobile-plan/')}>5G 月費總比較</a>
-            ，特別係標記「編輯首選」嘅中國移動香港計劃，多數喺月費同大灣區數據之間較平衡。
-          </p>
-        </section>
-      </div>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <CheckCircle2 class="mt-0.5 h-5 w-5 shrink-0 text-emerald-600" stroke-width={2} />
+          <span
+            ><strong>切勿自行去舊台 Cut 線：</strong>只要新台成功批核轉台，舊台合約會喺生效日自動終止（自行取消號碼會導致號碼被回收！）。</span
+          >
+        </li>
+        <li class="flex items-start gap-2.5">
+          <CheckCircle2 class="mt-0.5 h-5 w-5 shrink-0 text-emerald-600" stroke-width={2} />
+          <span
+            ><strong>同台續約太貴點算：</strong>若想留喺同一電訊商又想食新客價，需先轉出至無合約儲值卡「過冷河」<strong
+              >90 至 180 日</strong
+            >。</span
+          >
+        </li>
+      </ul>
     </div>
 
-    <CtaBanner
-      title="準備好轉台？我哋幫你一條龍"
-      description="由計舊約、遞交申請到啟用新卡，WhatsApp 跟進就得。"
-      message="你好，我想辦理香港攜號轉台，請指引我下一步，謝謝！"
-    />
+    <!-- 正文排版區 -->
+    <div
+      class="prose prose-slate max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-p:leading-relaxed prose-a:text-blue-600"
+    >
+      <h2>一、 香港攜號轉台（MNP）4 個標準步驟</h2>
+      <p>
+        香港通訊事務管理局（OFCA）規定所有流動網絡營辦商必須支援「流動電話號碼可攜服務（MNP）」。整個過程只需 3
+        個工作天即可完成批核：
+      </p>
 
-    <FaqSection title="攜號轉台 FAQ" items={faqs} />
+      <ol>
+        <li>
+          <strong>核對號碼登記人資料：</strong>轉台時，新台填寫嘅<strong
+            >「登記人姓名」及「香港身份證號碼」</strong
+          >必須與舊台完全一致（如舊號碼由家人代為登記，需先辦理轉名手續或由原登記人申請；儲值卡則需已完成實名登記）。
+        </li>
+        <li>
+          <strong>揀選心水 5G Plan 並鎖定生效日：</strong>比較各台月費後，選定比舊合約到期日<strong
+            >遲 1 日</strong
+          >作為新台生效日（例如舊約 11 月 30 日到期，新台便揀 12 月 1 日生效）。
+        </li>
+        <li>
+          <strong>收取新 SIM 卡／啟動 eSIM：</strong>批核完成後，電訊商會透過順豐速遞免費寄出新 SIM
+          卡（或直接發送 eSIM 二維碼）。
+        </li>
+        <li>
+          <strong>凌晨自動割接（零斷線）：</strong>生效日當日凌晨 1:00 至 4:00
+          系統會自動完成過台。朝早起身換上新 SIM 卡並重開電話，即刻用得 5G 網絡。
+        </li>
+      </ol>
+
+      <!-- 中段高轉換 CTA 卡片 -->
+      <div
+        class="not-prose my-8 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 p-6 text-white shadow-md sm:p-8"
+      >
+        <div class="flex flex-col justify-between gap-6 sm:flex-row sm:items-center">
+          <div>
+            <span
+              class="mb-2 inline-block rounded bg-blue-500/20 px-2.5 py-0.5 text-xs font-semibold text-blue-300"
+            >
+              免費一對一格價服務
+            </span>
+            <h3 class="text-xl font-bold text-white">唔肯定自己份約幾時轉台最著數？</h3>
+            <p class="mt-1.5 text-sm leading-relaxed text-slate-300">
+              話我知你現時用緊邊間台、大概到期月份同每月數據用量，幫你直接對比 <strong
+                >CMHK、3HK、csl. 及 SmarTone</strong
+              > 網上隱藏優惠（免行政費／額外禮券）。
+            </p>
+          </div>
+          <a
+            href="#"
+            class="wa-btn wa-link inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3.5 font-bold text-white shadow-sm transition-colors hover:bg-emerald-600"
+            data-plan="MNP轉台諮詢及隱藏優惠格價"
+            data-wa-message="你好，我想查詢攜號轉台（MNP）隱藏優惠同最佳轉台時間，請幫我一對一格價，謝謝！"
+          >
+            <MessageCircle class="h-5 w-5" stroke-width={2} />
+            <span>WhatsApp 免費查詢</span>
+          </a>
+        </div>
+      </div>
+
+      <h2>二、 合約未完想提早轉台？違約金抵唔抵畀計法</h2>
+      <p>
+        好多客戶問：「我仲有 4 個月先完約，但舊台月費要 $298，新台轉台價只需
+        $118，應唔應該硬食違約金提早轉？」你可以用以下簡單公式計算：
+      </p>
+
+      <div class="not-prose my-6 rounded-xl border border-blue-200 bg-blue-50/70 p-5">
+        <div class="mb-2 flex items-center gap-2 font-bold text-blue-900">
+          <Calculator class="h-5 w-5 text-blue-600" stroke-width={2} />
+          <span>提早轉台回本公式</span>
+        </div>
+        <p
+          class="rounded-lg border border-blue-100 bg-white p-3 font-mono text-sm text-slate-700 tabular-nums"
+        >
+          總節省金額 ＝（舊台月費 － 新台月費）× 剩餘月數 － 舊台違約金
+        </p>
+        <p class="mt-2.5 text-xs leading-relaxed text-slate-600">
+          <strong>實例參考：</strong>假設舊台月費 $280（剩餘 3 個月），總開支為 $840。若轉用 CMHK 5G
+          網上優惠 Plan（平均月費 $128），3 個月只需 $384。只要舊台違約金少於 <strong>$456</strong
+          >，提早轉台反而仲有錢賺！
+        </p>
+      </div>
+
+      <div class="not-prose my-6 flex items-start gap-3 rounded-xl border border-amber-200 bg-amber-50 p-4">
+        <AlertTriangle class="mt-0.5 h-5 w-5 shrink-0 text-amber-600" stroke-width={2} />
+        <div class="text-sm leading-relaxed text-amber-900">
+          <strong>注意「原價計算」陷阱：</strong>部分電訊商合約條款列明，提早終止合約需按「正價月費（非優惠價）」乘以剩餘月數賠償。申請前務必先致電舊台熱線確認實質賠償金額，或者等進入到期前
+          90–180 日預登記期再轉。
+        </div>
+      </div>
+
+      <h2>三、 咩情況需要「過冷河」？低成本過冷河全攻略</h2>
+      <p>
+        如果你對現有電訊商嘅網絡覆蓋好滿意（例如經常北上需要用 <strong
+          >CMHK 中國移動香港</strong
+        > 嘅大灣區一卡兩號網絡），但偏偏現有客戶續約價比新客貴一截，就可以考慮「過冷河」策略：
+      </p>
+      <ul>
+        <li>
+          <strong>冷靜期要求：</strong>香港主要電訊商一般將「離台超過 <strong>90 日至 180 日</strong
+          >」界定為全新轉台客戶（各台條款偶有調整，建議先向我們查詢最新定義）。
+        </li>
+        <li>
+          <strong>低成本過冷河做法：</strong>喺舊約到期前，先將號碼攜號轉台至一張無合約、月費低至
+          $30–$48 嘅本地儲值卡（俗稱「養號碼卡」），保持號碼正常收發 SMS 及通話。
+        </li>
+        <li>
+          <strong>強勢回歸食盡回贈：</strong>滿 90–180
+          日後，再以「攜號轉台新客」身份重新登記心水電訊商嘅 5G 月費 Plan，即可享受全套新客回贈、豁免行政費及禮券優惠。
+        </li>
+      </ul>
+
+      <h2>四、 攜號轉台常見問題（FAQ）</h2>
+    </div>
+
+    <!-- FAQ 摺疊互動區 -->
+    <div class="mt-6 space-y-3">
+      {
+        faqList.map((item) => (
+          <details class="group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-4 font-bold text-slate-900 transition-colors hover:bg-slate-50 sm:p-5">
+              <span class="flex items-center gap-2.5">
+                <HelpCircle class="h-4 w-4 shrink-0 text-blue-600" stroke-width={2} />
+                <span>{item.q}</span>
+              </span>
+              <span class="text-xl font-normal text-blue-600 transition-transform group-open:rotate-45"
+                >+</span
+              >
+            </summary>
+            <div class="border-t border-slate-100 px-4 pt-3 pb-5 text-sm leading-relaxed text-slate-600 sm:px-5 sm:text-base">
+              {item.a}
+            </div>
+          </details>
+        ))
+      }
+    </div>
+
+    <!-- 頁尾轉換引導區 -->
+    <div class="mt-12 rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm sm:p-8">
+      <div
+        class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-emerald-50 text-emerald-600"
+      >
+        <ShieldCheck class="h-6 w-6" stroke-width={2} />
+      </div>
+      <h2 class="text-xl font-bold text-slate-900 sm:text-2xl">準備好比較最新 5G 轉台月費？</h2>
+      <p class="mx-auto mt-2 max-w-xl text-sm text-slate-600 sm:text-base">
+        即時瀏覽全港各大電訊商最新月費比較表，或直接 WhatsApp 查詢屬於你嘅個人化轉台方案。
+      </p>
+      <div class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <a
+          href={mobileHref}
+          class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 font-bold text-white transition-colors hover:bg-blue-700 sm:w-auto"
+        >
+          <span>查看 5G 月費比較表</span>
+          <ArrowRight class="h-4 w-4" stroke-width={2} />
+        </a>
+        <a
+          href="#"
+          class="wa-btn wa-link inline-flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-600 px-6 py-3.5 font-bold text-white transition-colors hover:bg-emerald-700 sm:w-auto"
+          data-plan="5G 攜號轉台優惠查詢"
+          data-wa-message="你好，我想查詢 5G 攜號轉台優惠，請幫我個人化報價，謝謝！"
+        >
+          <MessageCircle class="h-4 w-4" stroke-width={2} />
+          <span>WhatsApp 專人報價</span>
+        </a>
+      </div>
+    </div>
   </article>
 </BaseLayout>

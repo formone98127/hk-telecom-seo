@@ -84,10 +84,13 @@ import { MessageCircle } from '@lucide/astro';
   }
 
   function bindLinks(agent: Agent) {
-    document.querySelectorAll<HTMLAnchorElement>('a.wa-link').forEach((a) => {
+    document.querySelectorAll<HTMLAnchorElement>('a.wa-link, a.wa-btn').forEach((a) => {
+      const plan = a.getAttribute('data-plan');
       const msg =
         a.getAttribute('data-wa-message') ||
-        '你好，我想查詢香港電訊月費／寬頻最新優惠，謝謝！';
+        (plan
+          ? `你好，我想查詢「${plan}」，請幫我介紹最新優惠，謝謝！`
+          : '你好，我想查詢香港電訊月費／寬頻最新優惠，謝謝！');
       a.href = buildWaUrl(agent.whatsapp, msg);
       a.setAttribute('target', '_blank');
       a.setAttribute('rel', 'noopener noreferrer');
