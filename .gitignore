@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# dated findplanking snapshots (keep latest mobile.json / broadband.json)
+data/findplanking/*-20*.json

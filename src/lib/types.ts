@@ -5,7 +5,12 @@ export type CarrierId =
   | 'smartone'
   | 'hkbn'
   | 'netvigator'
-  | 'hgc';
+  | 'hgc'
+  | 'gba'
+  | 'cuniq'
+  | 'imobile'
+  | 'icable'
+  | 'other';
 
 export type NetworkType = '5G' | '4.5G' | '4G';
 
@@ -29,6 +34,14 @@ export interface MobilePlan {
   isCheap4g: boolean;
   hiddenPerk: string;
   sortOrder: number;
+  /** 求Plan王刊登 ID */
+  sourceId?: string;
+  /** 刊登更新日期 */
+  sourceUpdatedAt?: string;
+  /** 是否已認證銷售 */
+  isVerified?: boolean;
+  /** 同一刊登嘅其他網絡價，方便對比 */
+  siblingPrices?: string;
 }
 
 export interface BroadbandPlan {
@@ -44,6 +57,10 @@ export interface BroadbandPlan {
   isRecommended: boolean;
   installNote: string;
   sortOrder: number;
+  sourceId?: string;
+  sourceUpdatedAt?: string;
+  isVerified?: boolean;
+  siblingPrices?: string;
 }
 
 export interface Estate {

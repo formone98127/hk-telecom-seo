@@ -5,7 +5,7 @@ export const mobileCarriers: CarrierMeta[] = [
   { id: '3hk', name: '3HK', shortName: '3HK', slug: '3hk' },
   { id: 'csl', name: 'csl.', shortName: 'csl.', slug: 'csl' },
   { id: 'smartone', name: 'SmarTone', shortName: 'SmarTone', slug: 'smartone' },
-  { id: 'hkbn', name: '香港寬頻 N-Mobile', shortName: 'HKBN', slug: 'hkbn' },
+  { id: 'hkbn', name: '香港寬頻', shortName: 'HKBN', slug: 'hkbn' },
 ];
 
 export const broadbandCarriers: CarrierMeta[] = [
@@ -53,4 +53,9 @@ export const carrierBadgeClass: Record<string, string> = {
   hkbn: 'badge-hkbn',
   netvigator: 'badge-netvigator',
   hgc: 'badge-hgc',
+  gba: 'badge-cmhk',
+  cuniq: 'badge-csl',
+  imobile: 'badge-3hk',
+  icable: 'badge-hkbn',
+  other: 'bg-foam text-sea',
 };

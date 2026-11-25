@@ -2,9 +2,11 @@
 
 Plan fees are based on https://findplanking.com/ (求Plan王) at **build time** via `src/lib/findplanking.ts`.
 
+**Every listing is downloaded** and expanded into compare rows (each valid 5G / 4.5G / 4G or 1000M / 100M / 5G家居 / 2500M price). Snapshots write to `data/findplanking/mobile.json` and `broadband.json`.
+
 Priority:
 1. Google Sheets CSV env vars (manual override)
-2. Live findplanking aggregation (default foundation)
+2. Live findplanking listings (default foundation — all items)
 3. Tiny local fallback
 
 ### Monthly auto-update
