@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", "Segoe UI", sans-serif;
+  --font-display: "Sora", "Noto Sans TC", sans-serif;
+
+  --color-ink: #071926;
+  --color-ink-soft: #1a3344;
+  --color-sea: #0a4d68;
+  --color-sea-bright: #0e7490;
+  --color-foam: #e8f4f8;
+  --color-mist: #f3f8fa;
+  --color-sand: #f7fafc;
+  --color-coral: #e85d04;
+  --color-coral-dark: #c44d03;
+  --color-wa: #1fa855;
+  --color-wa-dark: #18964a;
+  --color-line: #d5e3ea;
+  --color-muted: #5a7383;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-mist text-ink font-sans antialiased;
+    background-image:
+      radial-gradient(ellipse 120% 80% at 10% -10%, rgba(14, 116, 144, 0.12), transparent 50%),
+      radial-gradient(ellipse 80% 60% at 100% 0%, rgba(232, 93, 4, 0.06), transparent 45%),
+      linear-gradient(180deg, #f3f8fa 0%, #eef5f8 40%, #f7fafc 100%);
+    background-attachment: fixed;
+    min-height: 100dvh;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-sea-bright;
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+
+  .section-pad {
+    @apply py-12 sm:py-16;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-coral px-5 py-3 text-sm font-semibold text-white transition hover:bg-coral-dark active:scale-[0.98];
+  }
+
+  .btn-wa {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-wa px-5 py-3 text-sm font-semibold text-white transition hover:bg-wa-dark active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-white/70 px-5 py-3 text-sm font-semibold text-sea transition hover:border-sea-bright hover:bg-white;
+  }
+
+  .badge-cmhk {
+    @apply bg-[#e6f7ef] text-[#0b6b45];
+  }
+  .badge-3hk {
+    @apply bg-[#fce8e6] text-[#b42318];
+  }
+  .badge-csl {
+    @apply bg-[#eef0ff] text-[#3b3fc4];
+  }
+  .badge-smartone {
+    @apply bg-[#fff3e0] text-[#b54708];
+  }
+  .badge-hkbn {
+    @apply bg-[#e8f1ff] text-[#175cd3];
+  }
+  .badge-netvigator {
+    @apply bg-[#f3e8ff] text-[#6941c6];
+  }
+
+  .plan-card {
+    @apply relative flex flex-col rounded-2xl border border-line bg-white/90 p-4 shadow-[0_8px_30px_rgba(7,25,38,0.04)] backdrop-blur-sm transition hover:-translate-y-0.5 hover:shadow-[0_12px_36px_rgba(7,25,38,0.08)] sm:p-5;
+  }
+
+  .plan-card.is-recommended {
+    @apply border-sea-bright/40 ring-1 ring-sea-bright/20;
+  }
+
+  .sticky-col {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: white;
+    box-shadow: 4px 0 12px -8px rgba(7, 25, 38, 0.35);
+  }
+
+  .compare-scroll {
+    @apply overflow-x-auto overscroll-x-contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .fade-up {
+    animation: fadeUp 0.6s ease both;
+  }
+
+  .fade-up-delay-1 {
+    animation: fadeUp 0.6s ease 0.1s both;
+  }
+
+  .fade-up-delay-2 {
+    animation: fadeUp 0.6s ease 0.2s both;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up,
+  .fade-up-delay-1,
+  .fade-up-delay-2 {
+    animation: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}

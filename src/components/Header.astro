@@ -1,0 +1,44 @@
+---
+interface Props {
+  monthLabel: string;
+}
+
+const { monthLabel } = Astro.props;
+const path = Astro.url.pathname;
+
+const links = [
+  { href: '/mobile-plan/', label: '手機月費' },
+  { href: '/broadband/', label: '家居寬頻' },
+  { href: '/guides/mnp-transfer/', label: '攜號轉台' },
+  { href: '/share/', label: '推廣連結' },
+];
+---
+
+<header class="sticky top-0 z-40 border-b border-line/80 bg-white/85 backdrop-blur-md">
+  <div class="site-container flex h-14 items-center justify-between gap-4 sm:h-16">
+    <a href="/" class="group flex items-baseline gap-2 no-underline">
+      <span class="font-display text-lg font-bold tracking-tight text-sea sm:text-xl">
+        電訊格價通
+      </span>
+      <span class="hidden text-xs text-muted sm:inline">{monthLabel}更新</span>
+    </a>
+    <nav class="flex items-center gap-1 text-sm sm:gap-2" aria-label="主選單">
+      {
+        links.map((link) => {
+          const active = path === link.href || path.startsWith(link.href.replace(/\/$/, ''));
+          return (
+            <a
+              href={link.href}
+              class:list={[
+                'rounded-md px-2.5 py-1.5 font-medium transition sm:px-3',
+                active ? 'bg-foam text-sea' : 'text-ink-soft hover:bg-foam/70 hover:text-sea',
+              ]}
+            >
+              {link.label}
+            </a>
+          );
+        })
+      }
+    </nav>
+  </div>
+</header>

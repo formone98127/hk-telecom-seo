@@ -1,0 +1,135 @@
+---
+/**
+ * 統一動態路由：電訊商專頁（cmhk / 3hk / csl / smartone）
+ * 與場景專頁（gba-roaming / student / cheap-4g）
+ * Astro 同一層級只能有一個 [slug]，故合併處理。
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PlanFilter from '../../components/PlanFilter.astro';
+import ComparisonTable from '../../components/ComparisonTable.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import { getMobilePlans } from '../../lib/sheets';
+import { mobileCarriers, scenarios } from '../../lib/carriers';
+import { getCurrentMonthLabel } from '../../lib/utils';
+import { breadcrumbSchema, offerSchema } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const carrierPaths = mobileCarriers.map((c) => ({
+    params: { slug: c.slug },
+    props: { kind: 'carrier' as const, carrier: c, scenario: null },
+  }));
+  const scenarioPaths = scenarios.map((s) => ({
+    params: { slug: s.slug },
+    props: { kind: 'scenario' as const, carrier: null, scenario: s },
+  }));
+  return [...carrierPaths, ...scenarioPaths];
+}
+
+interface Props {
+  kind: 'carrier' | 'scenario';
+  carrier: (typeof mobileCarriers)[number] | null;
+  scenario: (typeof scenarios)[number] | null;
+}
+
+const { kind, carrier, scenario } = Astro.props;
+const monthLabel = getCurrentMonthLabel();
+const allPlans = await getMobilePlans();
+const site = Astro.site?.toString();
+
+const plans =
+  kind === 'carrier' && carrier
+    ? allPlans.filter((p) => p.carrier === carrier.id)
+    : scenario
+      ? allPlans.filter(scenario.filter)
+      : [];
+
+const title =
+  kind === 'carrier' && carrier
+    ? `${carrier.name} 手機月費比較`
+    : scenario?.title || '場景月費比較';
+
+const description =
+  kind === 'carrier' && carrier
+    ? `${monthLabel}${carrier.name}（${carrier.shortName}）最新 5G／4.5G 月費、數據同大灣區優惠比較。`
+    : `${monthLabel}${scenario?.description || ''}`;
+
+const h1 =
+  kind === 'carrier' && carrier
+    ? `${carrier.name} 月費計劃`
+    : scenario?.name || '場景比較';
+
+const intro =
+  kind === 'carrier' && carrier
+    ? carrier.id === 'cmhk'
+      ? `中國移動香港（CMHK）多數計劃以高性價比見稱，適合攜號轉台同大灣區用戶。以下為 ${monthLabel} 可比較計劃。`
+      : `以下為 ${carrier.name} 於 ${monthLabel} 可比較嘅手機月費計劃，方便你同其他電訊商對比。`
+    : scenario?.description || '';
+
+const top = plans.find((p) => p.isRecommended) ?? plans[0];
+
+const schema = [
+  breadcrumbSchema(
+    [
+      { name: '首頁', path: '/' },
+      { name: '手機月費', path: '/mobile-plan/' },
+      { name: h1, path: `/mobile-plan/${Astro.params.slug}/` },
+    ],
+    site,
+  ),
+  ...(top
+    ? [
+        offerSchema({
+          name: top.planName,
+          description: top.highlights,
+          price: top.monthlyFee,
+          seller: top.carrierName,
+          url: `/mobile-plan/${Astro.params.slug}/`,
+          site,
+        }),
+      ]
+    : []),
+];
+---
+
+<BaseLayout title={title} description={description} canonical={`/mobile-plan/${Astro.params.slug}/`} schema={schema}>
+  <section class="site-container pt-10 pb-6">
+    <nav class="text-xs text-muted" aria-label="麵包屑">
+      <a href="/" class="hover:text-sea">首頁</a>
+      <span class="mx-1.5">/</span>
+      <a href="/mobile-plan/" class="hover:text-sea">手機月費</a>
+      <span class="mx-1.5">/</span>
+      <span>{h1}</span>
+    </nav>
+    <h1 class="mt-3 font-display text-3xl font-bold sm:text-4xl">{h1}</h1>
+    <p class="mt-3 max-w-2xl text-ink-soft">{intro}</p>
+  </section>
+
+  <section class="site-container pb-4">
+    <PlanFilter
+      mode="mobile"
+      carriers={
+        kind === 'carrier' && carrier
+          ? [{ id: carrier.id, name: carrier.name }]
+          : mobileCarriers
+      }
+    />
+  </section>
+
+  <section class="site-container section-pad pt-6">
+    {
+      plans.length ? (
+        <ComparisonTable plans={plans} kind="mobile" />
+      ) : (
+        <p class="rounded-xl border border-line bg-white p-6 text-sm text-muted">
+          暫時未有符合條件嘅計劃，請稍後再睇或 WhatsApp 查詢。
+        </p>
+      )
+    }
+  </section>
+
+  <CtaBanner
+    title={`想知 ${h1} 最新台底價？`}
+    description="經本站查詢可了解隱藏回贈同攜號轉台安排。"
+    message={`你好，我想查詢${h1}相關優惠，請幫我介紹，謝謝！`}
+  />
+</BaseLayout>

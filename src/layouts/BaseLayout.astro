@@ -1,0 +1,83 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppBar from '../components/WhatsAppBar.astro';
+import { getCurrentMonthLabel, absoluteUrl } from '../lib/utils';
+import { agents } from '../config/agents';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  schema?: Record<string, unknown> | Record<string, unknown>[];
+  ogType?: string;
+}
+
+const {
+  title,
+  description,
+  canonical = Astro.url.pathname,
+  schema,
+  ogType = 'website',
+} = Astro.props;
+
+const monthLabel = getCurrentMonthLabel();
+const site = Astro.site?.toString() || 'https://example.com';
+const canonicalUrl = absoluteUrl(canonical, site);
+const fullTitle = title.includes(monthLabel) ? title : `${title}｜${monthLabel}`;
+const schemas = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
+const agentsJson = JSON.stringify(
+  agents.map(({ id, name, whatsapp, weight }) => ({ id, name, whatsapp, weight })),
+);
+---
+
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:locale" content="zh_HK" />
+    <meta property="og:site_name" content="電訊格價通" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    {
+      schemas.map((s) => (
+        <script type="application/ld+json" set:html={JSON.stringify(s)} />
+      ))
+    }
+  </head>
+  <body class="pb-24 md:pb-0">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2"
+    >
+      跳至主要内容
+    </a>
+    <Header monthLabel={monthLabel} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <WhatsAppBar />
+    <script id="agents-data" type="application/json" set:html={agentsJson} />
+  </body>
+</html>

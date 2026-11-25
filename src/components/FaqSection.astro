@@ -1,0 +1,36 @@
+---
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  title?: string;
+  items: FaqItem[];
+}
+
+const { title = '常見問題', items } = Astro.props;
+---
+
+<section class="section-pad" aria-labelledby="faq-heading">
+  <div class="site-container max-w-3xl">
+    <h2 id="faq-heading" class="font-display text-2xl font-bold text-ink sm:text-3xl">
+      {title}
+    </h2>
+    <div class="mt-6 divide-y divide-line rounded-2xl border border-line bg-white/90">
+      {
+        items.map((item) => (
+          <details class="group px-4 py-3 sm:px-5">
+            <summary class="cursor-pointer list-none font-semibold text-ink marker:content-none">
+              <span class="flex items-center justify-between gap-3">
+                {item.question}
+                <span class="text-sea transition group-open:rotate-45" aria-hidden="true">+</span>
+              </span>
+            </summary>
+            <p class="mt-2 pb-2 text-sm leading-relaxed text-ink-soft">{item.answer}</p>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>

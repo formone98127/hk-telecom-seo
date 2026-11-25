@@ -1,0 +1,205 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PlanCard from '../components/PlanCard.astro';
+import FaqSection from '../components/FaqSection.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import { getMobilePlans, getBroadbandPlans } from '../lib/sheets';
+import { getCurrentMonthLabel } from '../lib/utils';
+import { breadcrumbSchema, faqSchema, webSiteSchema } from '../lib/schema';
+
+const monthLabel = getCurrentMonthLabel();
+const mobilePlans = await getMobilePlans();
+const broadbandPlans = await getBroadbandPlans();
+
+const featuredMobile = mobilePlans.filter((p) => p.isRecommended).slice(0, 3);
+const featuredBroadband = broadbandPlans.filter((p) => p.isRecommended).slice(0, 2);
+
+const faqs = [
+  {
+    question: '攜號轉台會唔會斷線？要幾耐？',
+    answer:
+      '一般申請成功後約 1–2 個工作天完成攜號轉台，轉台當日可能有短暫服務中斷（通常幾分鐘至半小時內）。建議揀非繁忙時段啟動。',
+  },
+  {
+    question: '合約未完可以轉台嗎？',
+    answer:
+      '可以，但可能要支付提早終止合約費用（過冷河／餘期費用）。部分新電訊商會提供「幫你墊支／回贈」優惠，實際要以書面報價為準。',
+  },
+  {
+    question: '點解推介中國移動香港（CMHK）？',
+    answer:
+      '以同期月費、數據量同大灣區配套比較，CMHK 多數計劃性價比較突出，而且免行政費、攜號轉台優惠穩定。本站仍會並列其他電訊商，方便你自行對比。',
+  },
+  {
+    question: '公屋／居屋裝寬頻有冇限制？',
+    answer:
+      '有。公屋／居屋通常只有合資格電訊商可入邨拉線，亦要配合屋邨辦事處檔期。你可以先喺本站公屋專頁睇邊間有覆蓋，再 WhatsApp 查詢你嘅屋邨。',
+  },
+];
+
+const schema = [
+  webSiteSchema(Astro.site?.toString()),
+  breadcrumbSchema([{ name: '首頁', path: '/' }], Astro.site?.toString()),
+  faqSchema(faqs),
+];
+---
+
+<BaseLayout
+  title={`香港手機月費及寬頻格價比較｜電訊格價通`}
+  description={`中立比較 CMHK、3HK、csl.、SmarTone、HKBN、網上行最新${monthLabel}月費同家居寬頻優惠，支援攜號轉台諮詢。`}
+  canonical="/"
+  schema={schema}
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div
+      class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_70%_20%,rgba(14,116,144,0.18),transparent_55%)]"
+      aria-hidden="true"
+    >
+    </div>
+    <div class="site-container grid items-center gap-10 pb-14 pt-10 sm:pb-20 sm:pt-16 lg:grid-cols-2">
+      <div class="fade-up">
+        <p class="font-display text-sm font-semibold uppercase tracking-[0.2em] text-sea-bright">
+          電訊格價通
+        </p>
+        <h1 class="mt-3 font-display text-3xl font-bold leading-tight text-ink sm:text-5xl">
+          香港月費同寬頻<br />一站式格價比較
+        </h1>
+        <p class="mt-4 max-w-lg text-base text-ink-soft sm:text-lg">
+          {monthLabel}最新優惠：中立對比各大電訊商，精選高性價比 Plan，WhatsApp
+          一分鐘問價。
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/mobile-plan/" class="btn-primary">比較 5G 月費</a>
+          <a href="/broadband/" class="btn-ghost">比較家居寬頻</a>
+        </div>
+      </div>
+      <div class="fade-up-delay-1 relative min-h-[220px] sm:min-h-[320px]" aria-hidden="true">
+        <svg
+          class="h-full w-full"
+          viewBox="0 0 520 360"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop stop-color="#0A4D68"></stop>
+              <stop offset="1" stop-color="#0E7490"></stop>
+            </linearGradient>
+            <linearGradient id="g2" x1="1" y1="0" x2="0" y2="1">
+              <stop stop-color="#E85D04" stop-opacity="0.9"></stop>
+              <stop offset="1" stop-color="#0A4D68" stop-opacity="0.3"></stop>
+            </linearGradient>
+          </defs>
+          <rect x="40" y="40" width="440" height="280" rx="28" fill="url(#g1)" opacity="0.92"
+          ></rect>
+          <circle cx="420" cy="70" r="70" fill="url(#g2)" opacity="0.55"></circle>
+          <rect x="80" y="100" width="200" height="18" rx="9" fill="white" opacity="0.9"></rect>
+          <rect x="80" y="140" width="140" height="14" rx="7" fill="white" opacity="0.55"></rect>
+          <rect x="80" y="190" width="160" height="70" rx="14" fill="white" opacity="0.15"></rect>
+          <rect x="260" y="190" width="160" height="70" rx="14" fill="white" opacity="0.22"></rect>
+          <text
+            x="90"
+            y="235"
+            fill="white"
+            font-family="Sora, sans-serif"
+            font-size="22"
+            font-weight="700">$138</text
+          >
+          <text
+            x="270"
+            y="235"
+            fill="white"
+            font-family="Sora, sans-serif"
+            font-size="22"
+            font-weight="700">1000M</text
+          >
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured mobile -->
+  <section class="section-pad pt-0" aria-labelledby="mobile-feat">
+    <div class="site-container">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 id="mobile-feat" class="font-display text-2xl font-bold sm:text-3xl">
+            5G 月費精選
+          </h2>
+          <p class="mt-2 text-sm text-muted">編輯推介高性價比計劃，CMHK 多數位列首選。</p>
+        </div>
+        <a href="/mobile-plan/" class="text-sm font-semibold text-sea hover:underline"
+          >睇晒全部比較 →</a
+        >
+      </div>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {featuredMobile.map((plan) => <PlanCard plan={plan} kind="mobile" />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Broadband -->
+  <section class="section-pad bg-white/40" aria-labelledby="bb-feat">
+    <div class="site-container">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 id="bb-feat" class="font-display text-2xl font-bold sm:text-3xl">
+            家居寬頻熱選
+          </h2>
+          <p class="mt-2 text-sm text-muted">1000M／2500M 格價，公屋居屋私樓都啱用。</p>
+        </div>
+        <a href="/broadband/" class="text-sm font-semibold text-sea hover:underline"
+          >寬頻總比較 →</a
+        >
+      </div>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {featuredBroadband.map((plan) => <PlanCard plan={plan} kind="broadband" />)}
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3 text-sm">
+        <a class="btn-ghost !py-2" href="/broadband/estate/lohas-park/">日出康城</a>
+        <a class="btn-ghost !py-2" href="/broadband/estate/taikoo-shing/">太古城</a>
+        <a class="btn-ghost !py-2" href="/broadband/estate/south-horizons/">海怡半島</a>
+        <a class="btn-ghost !py-2" href="/broadband/estate/public-housing/">公屋寬頻</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MNP highlight -->
+  <section class="section-pad" aria-labelledby="mnp">
+    <div class="site-container grid items-center gap-8 lg:grid-cols-2">
+      <div>
+        <h2 id="mnp" class="font-display text-2xl font-bold sm:text-3xl">
+          攜號轉台，慳到盡
+        </h2>
+        <p class="mt-3 text-ink-soft">
+          唔想轉號碼？攜號轉台可以保留原有電話號碼，同時轉去更抵用嘅電訊商。我哋有圖文教學拆解程序、提早轉台計費同過冷河注意事項。
+        </p>
+        <a href="/guides/mnp-transfer/" class="btn-primary mt-6">睇攜號轉台教學</a>
+      </div>
+      <ul class="space-y-3">
+        {
+          [
+            '免行政費上台機會高',
+            '新商可能回贈／墊支舊約費用',
+            '轉台前後 WhatsApp 一對一跟進',
+          ].map((t) => (
+            <li class="flex items-start gap-3 rounded-xl border border-line bg-white/80 px-4 py-3 text-sm">
+              <span class="mt-0.5 text-sea" aria-hidden="true">
+                ✓
+              </span>
+              <span>{t}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <CtaBanner
+    title="唔肯定邊個 Plan 啱？"
+    description="傳張舊合約或者講下你嘅用量，我哋幫你計邊個最抵。"
+  />
+
+  <FaqSection items={faqs} />
+</BaseLayout>

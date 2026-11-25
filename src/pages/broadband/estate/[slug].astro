@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PlanCard from '../../../components/PlanCard.astro';
+import CtaBanner from '../../../components/CtaBanner.astro';
+import { getBroadbandPlans, getEstates } from '../../../lib/sheets';
+import { getCurrentMonthLabel, splitList } from '../../../lib/utils';
+import { breadcrumbSchema, offerSchema } from '../../../lib/schema';
+
+export async function getStaticPaths() {
+  const estates = await getEstates();
+  return estates.map((estate) => ({
+    params: { slug: estate.slug },
+    props: { estate },
+  }));
+}
+
+const { estate } = Astro.props;
+const monthLabel = getCurrentMonthLabel();
+const allPlans = await getBroadbandPlans();
+const site = Astro.site?.toString();
+
+const recommendedIds = splitList(estate.recommendedPlanIds);
+const plans = allPlans.filter((p) => recommendedIds.includes(p.id));
+const displayPlans = plans.length ? plans : allPlans.slice(0, 3);
+const speeds = splitList(estate.supportedSpeeds);
+const top = displayPlans[0];
+
+const schema = [
+  breadcrumbSchema(
+    [
+      { name: '首頁', path: '/' },
+      { name: '家居寬頻', path: '/broadband/' },
+      { name: estate.name, path: `/broadband/estate/${estate.slug}/` },
+    ],
+    site,
+  ),
+  ...(top
+    ? [
+        offerSchema({
+          name: `${estate.name}｜${top.planName}`,
+          description: top.highlights,
+          price: top.monthlyFee,
+          seller: top.carrierName,
+          url: `/broadband/estate/${estate.slug}/`,
+          site,
+        }),
+      ]
+    : []),
+];
+
+const title = estate.seoTitle || `${estate.name}寬頻比較`;
+const description =
+  estate.seoDescription ||
+  `${monthLabel}${estate.name}家居寬頻月費、網速同拉線攻略。`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={`/broadband/estate/${estate.slug}/`}
+  schema={schema}
+>
+  <section class="site-container pt-10 pb-8">
+    <nav class="text-xs text-muted" aria-label="麵包屑">
+      <a href="/" class="hover:text-sea">首頁</a>
+      <span class="mx-1.5">/</span>
+      <a href="/broadband/" class="hover:text-sea">家居寬頻</a>
+      <span class="mx-1.5">/</span>
+      <span>{estate.name}</span>
+    </nav>
+    <h1 class="mt-3 font-display text-3xl font-bold sm:text-4xl">
+      {estate.name}寬頻比較
+    </h1>
+    <p class="mt-3 max-w-2xl text-ink-soft">
+      {monthLabel}更新｜地區：{estate.district}｜物業類型：{estate.housingType}
+    </p>
+  </section>
+
+  <section class="site-container grid gap-6 pb-10 lg:grid-cols-3">
+    <div class="rounded-2xl border border-line bg-white/90 p-5 lg:col-span-1">
+      <h2 class="font-display text-lg font-bold">屋苑資料</h2>
+      <dl class="mt-4 space-y-3 text-sm">
+        <div>
+          <dt class="text-xs text-muted">地區</dt>
+          <dd class="font-medium">{estate.district}</dd>
+        </div>
+        <div>
+          <dt class="text-xs text-muted">物業類型</dt>
+          <dd class="font-medium">{estate.housingType}</dd>
+        </div>
+        <div>
+          <dt class="text-xs text-muted">支援網速</dt>
+          <dd class="font-medium">{speeds.map((s) => `${s}`).join('／') || '待查詢'}</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="rounded-2xl border border-line bg-white/90 p-5 lg:col-span-2">
+      <h2 class="font-display text-lg font-bold">拉線注意事項</h2>
+      <p class="mt-3 text-sm leading-relaxed text-ink-soft">{estate.installNotes}</p>
+    </div>
+  </section>
+
+  <section class="site-container section-pad pt-0">
+    <h2 class="font-display text-2xl font-bold">建議寬頻計劃</h2>
+    <p class="mt-2 text-sm text-muted">以下為適合 {estate.name} 嘅比較選項。</p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {displayPlans.map((plan) => <PlanCard plan={plan} kind="broadband" />)}
+    </div>
+  </section>
+
+  <CtaBanner
+    title={`查詢 ${estate.name} 可唔可以裝`}
+    description="話我知座數／樓層，我哋幫你確認覆蓋同預約拉線。"
+    message={`你好，我想查詢「${estate.name}」家居寬頻覆蓋同月費，請幫我介紹，謝謝！`}
+  />
+</BaseLayout>

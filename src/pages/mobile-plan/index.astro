@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PlanFilter from '../../components/PlanFilter.astro';
+import ComparisonTable from '../../components/ComparisonTable.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import { getMobilePlans } from '../../lib/sheets';
+import { mobileCarriers, scenarios } from '../../lib/carriers';
+import { getCurrentMonthLabel } from '../../lib/utils';
+import { breadcrumbSchema, faqSchema, offerSchema } from '../../lib/schema';
+
+const monthLabel = getCurrentMonthLabel();
+const plans = await getMobilePlans();
+const site = Astro.site?.toString();
+
+const faqs = [
+  {
+    question: '5G 同 4.5G 點揀？',
+    answer:
+      '如果你成日串流、雲端會議或者去人多地方，5G 較穩陣。用量少、想慳錢可以揀平價 4.5G。',
+  },
+  {
+    question: '大灣區數據夠唔夠用？',
+    answer:
+      '短期出差通常 5–10GB 夠用；經常跨境建議揀一卡兩號／較多 GBA 數據嘅計劃，不足時可加購日費包。',
+  },
+];
+
+const topOffer = plans.find((p) => p.isRecommended) ?? plans[0];
+
+const schema = [
+  breadcrumbSchema(
+    [
+      { name: '首頁', path: '/' },
+      { name: '手機月費', path: '/mobile-plan/' },
+    ],
+    site,
+  ),
+  faqSchema(faqs),
+  offerSchema({
+    name: topOffer.planName,
+    description: topOffer.highlights,
+    price: topOffer.monthlyFee,
+    seller: topOffer.carrierName,
+    url: '/mobile-plan/',
+    site,
+  }),
+];
+---
+
+<BaseLayout
+  title={`香港 5G 月費比較｜CMHK／3HK／csl.／SmarTone`}
+  description={`${monthLabel}香港手機月費總比較，涵蓋 5G、大灣區、學生 Plan 同平價 4.5G，支援篩選同橫向對比。`}
+  canonical="/mobile-plan/"
+  schema={schema}
+>
+  <section class="site-container pt-10 pb-6">
+    <nav class="text-xs text-muted" aria-label="麵包屑">
+      <a href="/" class="hover:text-sea">首頁</a>
+      <span class="mx-1.5">/</span>
+      <span>手機月費</span>
+    </nav>
+    <h1 class="mt-3 font-display text-3xl font-bold text-ink sm:text-4xl">
+      香港 5G 月費總比較
+    </h1>
+    <p class="mt-3 max-w-2xl text-ink-soft">
+      {monthLabel}最新手機計劃一覽。可按電訊商、預算同場景即時篩選，亦可切換橫向對比表。
+    </p>
+    <div class="mt-5 flex flex-wrap gap-2">
+      {
+        mobileCarriers.map((c) => (
+          <a href={`/mobile-plan/${c.slug}/`} class="btn-ghost !py-2 text-sm">
+            {c.shortName}
+          </a>
+        ))
+      }
+      {
+        scenarios.map((s) => (
+          <a href={`/mobile-plan/${s.slug}/`} class="btn-ghost !py-2 text-sm">
+            {s.name}
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="site-container pb-4">
+    <PlanFilter mode="mobile" carriers={mobileCarriers} />
+  </section>
+
+  <section class="site-container section-pad pt-6">
+    <ComparisonTable plans={plans} kind="mobile" />
+  </section>
+
+  <CtaBanner
+    title="想確認隱藏優惠？"
+    description="不少 Plan 有台底回贈、超市禮券或者首幾個月減免，WhatsApp 問一句就知。"
+    message="你好，我想比較香港 5G 月費，請根據我嘅用量推薦最抵嘅計劃，謝謝！"
+  />
+
+  <FaqSection items={faqs} />
+</BaseLayout>

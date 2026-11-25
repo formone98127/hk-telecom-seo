@@ -1,0 +1,168 @@
+---
+import type { BroadbandPlan, MobilePlan } from '../lib/types';
+import PlanCard from './PlanCard.astro';
+
+interface Props {
+  plans: (MobilePlan | BroadbandPlan)[];
+  kind?: 'mobile' | 'broadband';
+}
+
+const { plans, kind = 'mobile' } = Astro.props;
+const isMobile = kind === 'mobile';
+---
+
+<div data-comparison-view>
+  <div class="mb-4 flex flex-wrap items-center gap-2" role="group" aria-label="檢視模式">
+    <button
+      type="button"
+      class="btn-ghost !px-3 !py-2 text-sm is-active"
+      data-view-btn="cards"
+      aria-pressed="true"
+    >
+      卡片檢視
+    </button>
+    <button
+      type="button"
+      class="btn-ghost !px-3 !py-2 text-sm"
+      data-view-btn="table"
+      aria-pressed="false"
+    >
+      橫向對比表
+    </button>
+  </div>
+
+  <div data-view-panel="cards" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {plans.map((plan) => <PlanCard plan={plan} kind={kind} />)}
+  </div>
+
+  <div data-view-panel="table" class="hidden">
+    <p class="mb-2 text-xs text-muted sm:hidden">提示：可左右滑動比較，首欄已固定。</p>
+    <div class="compare-scroll rounded-2xl border border-line bg-white">
+      <table class="w-full min-w-[720px] border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-line bg-foam/60 text-left">
+            <th class="sticky-col px-3 py-3 font-semibold">計劃</th>
+            <th class="px-3 py-3 font-semibold">電訊商</th>
+            <th class="px-3 py-3 font-semibold">月費</th>
+            {
+              isMobile ? (
+                <>
+                  <th class="px-3 py-3 font-semibold">網絡</th>
+                  <th class="px-3 py-3 font-semibold">本地數據</th>
+                  <th class="px-3 py-3 font-semibold">大灣區</th>
+                  <th class="px-3 py-3 font-semibold">合約</th>
+                </>
+              ) : (
+                <>
+                  <th class="px-3 py-3 font-semibold">網速</th>
+                  <th class="px-3 py-3 font-semibold">物業</th>
+                  <th class="px-3 py-3 font-semibold">合約</th>
+                  <th class="px-3 py-3 font-semibold">拉線</th>
+                </>
+              )
+            }
+            <th class="px-3 py-3 font-semibold">查詢</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            plans.map((plan) => {
+              const mobile = plan as MobilePlan;
+              const broadband = plan as BroadbandPlan;
+              const msg = `你好，我想查詢「${plan.carrierName} ${plan.planName}」（月費 $${plan.monthlyFee}），請幫我介紹最新優惠，謝謝！`;
+              const payload = JSON.stringify({
+                id: plan.id,
+                carrier: plan.carrierName,
+                name: plan.planName,
+                fee: plan.monthlyFee,
+                kind,
+              });
+              return (
+                <tr
+                  class="border-b border-line/80"
+                  data-carrier={plan.carrier}
+                  data-fee={plan.monthlyFee}
+                  data-gba={isMobile ? String(mobile.isGba) : undefined}
+                  data-student={isMobile ? String(mobile.isStudent) : undefined}
+                  data-cheap4g={isMobile ? String(mobile.isCheap4g) : undefined}
+                  data-housing={isMobile ? undefined : broadband.housingTypes}
+                  data-speed={isMobile ? undefined : broadband.speedMbps}
+                >
+                  <th class="sticky-col px-3 py-3 text-left font-semibold">
+                    {plan.isRecommended && (
+                      <span class="mb-1 block text-[10px] font-bold text-sea">★ 推介</span>
+                    )}
+                    {plan.planName}
+                  </th>
+                  <td class="px-3 py-3">{plan.carrierName}</td>
+                  <td class="px-3 py-3 font-bold text-sea">${plan.monthlyFee}</td>
+                  {isMobile ? (
+                    <>
+                      <td class="px-3 py-3">{mobile.network}</td>
+                      <td class="px-3 py-3">{mobile.dataLocal}</td>
+                      <td class="px-3 py-3">{mobile.dataGba}</td>
+                      <td class="px-3 py-3">{mobile.contractMonths} 個月</td>
+                    </>
+                  ) : (
+                    <>
+                      <td class="px-3 py-3">{broadband.speedMbps}M</td>
+                      <td class="px-3 py-3">{broadband.housingTypes}</td>
+                      <td class="px-3 py-3">{broadband.contractMonths} 個月</td>
+                      <td class="px-3 py-3 max-w-[180px]">{broadband.installNote}</td>
+                    </>
+                  )}
+                  <td class="px-3 py-3">
+                    <a
+                      href="#"
+                      class="btn-wa !px-3 !py-2 text-xs wa-link whitespace-nowrap"
+                      data-plan={payload}
+                      data-wa-message={msg}
+                    >
+                      WhatsApp
+                    </a>
+                  </td>
+                </tr>
+              );
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<style>
+  [data-view-btn].is-active {
+    border-color: var(--color-sea-bright);
+    background: var(--color-foam);
+    color: var(--color-sea);
+  }
+</style>
+
+<script>
+  function initComparisonViews() {
+    document.querySelectorAll('[data-comparison-view]').forEach((root) => {
+      const buttons = root.querySelectorAll<HTMLButtonElement>('[data-view-btn]');
+      const panels = {
+        cards: root.querySelector<HTMLElement>('[data-view-panel="cards"]'),
+        table: root.querySelector<HTMLElement>('[data-view-panel="table"]'),
+      };
+
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const view = btn.dataset.viewBtn as 'cards' | 'table';
+          buttons.forEach((b) => {
+            const on = b === btn;
+            b.classList.toggle('is-active', on);
+            b.setAttribute('aria-pressed', String(on));
+          });
+          if (panels.cards) panels.cards.classList.toggle('hidden', view !== 'cards');
+          if (panels.table) panels.table.classList.toggle('hidden', view !== 'table');
+        });
+      });
+    });
+  }
+
+  initComparisonViews();
+  document.addEventListener('astro:page-load', initComparisonViews);
+</script>
